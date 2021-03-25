@@ -1,0 +1,5 @@
+file_count: 2600
+EMI_count: 1588
+total_real_time: 717.8399999999991
+total_user_time: 544.0600000000012
+total_sys_time: 177.12000000000018
