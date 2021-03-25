@@ -89,7 +89,7 @@ We use commit 06ab29b93cb0168a8ec1cb39f860c6b990678838 when writing this README.
 To further install the Ghidra decompiler plugin (named r2ghidra):
 
     r2pm update
-    r2pm -i r2ghidra-dec
+    r2pm -gi r2ghidra
 
 Then we need to install r2pipe to use our decompiler script *R2_decompile.py*:
 
