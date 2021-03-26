@@ -1,0 +1,245 @@
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/109     outputs [b'']
+./seed_for_r2/109_new outputs [b'checksum = ACE1A2A3\n']
+./seed_for_r2/109     errors [b'']
+./seed_for_r2/109_new errors [b'']
+Found discrepancy:
+./seed_for_r2/116     outputs [b'']
+./seed_for_r2/116_new outputs [b'checksum = 2C7310D4\n']
+./seed_for_r2/116     errors [b'']
+./seed_for_r2/116_new errors [b'']
+Found discrepancy:
+./seed_for_r2/131     outputs [b'checksum = B61C0CC2\n']
+./seed_for_r2/131_new outputs [b'']
+./seed_for_r2/131     errors [b'']
+./seed_for_r2/131_new errors [b'']
+Found discrepancy:
+./seed_for_r2/132     outputs [b'']
+./seed_for_r2/132_new outputs [b'checksum = 615FE6C1\n']
+./seed_for_r2/132     errors [b'']
+./seed_for_r2/132_new errors [b'']
+Found discrepancy:
+./seed_for_r2/145     outputs [b'checksum = F0C38461\n']
+./seed_for_r2/145_new outputs [b'']
+./seed_for_r2/145     errors [b'']
+./seed_for_r2/145_new errors [b'']
+Found discrepancy:
+./seed_for_r2/147     outputs [b'']
+./seed_for_r2/147_new outputs [b'checksum = 33284D09\n']
+./seed_for_r2/147     errors [b'']
+./seed_for_r2/147_new errors [b'']
+Found discrepancy:
+./seed_for_r2/150     outputs [b'']
+./seed_for_r2/150_new outputs [b'checksum = 2973D15B\n']
+./seed_for_r2/150     errors [b'']
+./seed_for_r2/150_new errors [b'']
+Found discrepancy:
+./seed_for_r2/168     outputs [b'']
+./seed_for_r2/168_new outputs [b'checksum = C3374FAF\n']
+./seed_for_r2/168     errors [b'']
+./seed_for_r2/168_new errors [b'']
+Found discrepancy:
+./seed_for_r2/172     outputs [b'']
+./seed_for_r2/172_new outputs [b'checksum = D16A26F3\n']
+./seed_for_r2/172     errors [b'']
+./seed_for_r2/172_new errors [b'']
+Found discrepancy:
+./seed_for_r2/178     outputs [b'']
+./seed_for_r2/178_new outputs [b'checksum = EA1467A6\n']
+./seed_for_r2/178     errors [b'']
+./seed_for_r2/178_new errors [b'']
+Found discrepancy:
+./seed_for_r2/206     outputs [b'']
+./seed_for_r2/206_new outputs [b'checksum = E928C05C\n']
+./seed_for_r2/206     errors [b'']
+./seed_for_r2/206_new errors [b'']
+Found discrepancy:
+./seed_for_r2/21     outputs [b'']
+./seed_for_r2/21_new outputs [b'checksum = E364A5A9\n']
+./seed_for_r2/21     errors [b'']
+./seed_for_r2/21_new errors [b'']
+Found discrepancy:
+./seed_for_r2/210     outputs [b'']
+./seed_for_r2/210_new outputs [b'checksum = 17CD259F\n']
+./seed_for_r2/210     errors [b'']
+./seed_for_r2/210_new errors [b'']
+Found discrepancy:
+./seed_for_r2/220     outputs [b'checksum = 48E8285F\n']
+./seed_for_r2/220_new outputs [b'checksum = D70C8692\n']
+./seed_for_r2/220     errors [b'']
+./seed_for_r2/220_new errors [b'']
+Found discrepancy:
+./seed_for_r2/221     outputs [b'checksum = 8E4093B4\n']
+./seed_for_r2/221_new outputs [b'']
+./seed_for_r2/221     errors [b'']
+./seed_for_r2/221_new errors [b'']
+Found discrepancy:
+./seed_for_r2/222     outputs [b'']
+./seed_for_r2/222_new outputs [b'checksum = 8ACD5894\n']
+./seed_for_r2/222     errors [b'']
+./seed_for_r2/222_new errors [b'']
+Found discrepancy:
+./seed_for_r2/23     outputs [b'']
+./seed_for_r2/23_new outputs [b'checksum = C4413526\n']
+./seed_for_r2/23     errors [b'']
+./seed_for_r2/23_new errors [b'']
+Found discrepancy:
+./seed_for_r2/230     outputs [b'']
+./seed_for_r2/230_new outputs [b'checksum = 2C29D002\n']
+./seed_for_r2/230     errors [b'']
+./seed_for_r2/230_new errors [b'']
+Found discrepancy:
+./seed_for_r2/233     outputs [b'']
+./seed_for_r2/233_new outputs [b'checksum = AE58170B\n']
+./seed_for_r2/233     errors [b'']
+./seed_for_r2/233_new errors [b'']
+Found discrepancy:
+./seed_for_r2/234     outputs [b'']
+./seed_for_r2/234_new outputs [b'checksum = 33A430E\n']
+./seed_for_r2/234     errors [b'']
+./seed_for_r2/234_new errors [b'']
+Found discrepancy:
+./seed_for_r2/254     outputs [b'']
+./seed_for_r2/254_new outputs [b'checksum = 7773F8B4\n']
+./seed_for_r2/254     errors [b'']
+./seed_for_r2/254_new errors [b'']
+Found discrepancy:
+./seed_for_r2/262     outputs [b'']
+./seed_for_r2/262_new outputs [b'checksum = 70E55A1E\n']
+./seed_for_r2/262     errors [b'']
+./seed_for_r2/262_new errors [b'']
+Found discrepancy:
+./seed_for_r2/269     outputs [b'']
+./seed_for_r2/269_new outputs [b'checksum = F2CED19\n']
+./seed_for_r2/269     errors [b'']
+./seed_for_r2/269_new errors [b'']
+Found discrepancy:
+./seed_for_r2/280     outputs [b'checksum = A0021B31\n']
+./seed_for_r2/280_new outputs [b'']
+./seed_for_r2/280     errors [b'']
+./seed_for_r2/280_new errors [b'']
+Found discrepancy:
+./seed_for_r2/284     outputs [b'checksum = 36E08C\n']
+./seed_for_r2/284_new outputs [b'']
+./seed_for_r2/284     errors [b'']
+./seed_for_r2/284_new errors [b'']
+Found discrepancy:
+./seed_for_r2/300     outputs [b'checksum = BD0DE751\n']
+./seed_for_r2/300_new outputs [b'']
+./seed_for_r2/300     errors [b'']
+./seed_for_r2/300_new errors [b'']
+Found discrepancy:
+./seed_for_r2/302     outputs [b'']
+./seed_for_r2/302_new outputs [b'checksum = 7F2B1C70\n']
+./seed_for_r2/302     errors [b'']
+./seed_for_r2/302_new errors [b'']
+Found discrepancy:
+./seed_for_r2/307     outputs [b'']
+./seed_for_r2/307_new outputs [b'checksum = D99047AE\n']
+./seed_for_r2/307     errors [b'']
+./seed_for_r2/307_new errors [b'']
+Found discrepancy:
+./seed_for_r2/309     outputs [b'']
+./seed_for_r2/309_new outputs [b'checksum = F0AE8B87\n']
+./seed_for_r2/309     errors [b'']
+./seed_for_r2/309_new errors [b'']
+Found discrepancy:
+./seed_for_r2/313     outputs [b'']
+./seed_for_r2/313_new outputs [b'checksum = DF124A85\n']
+./seed_for_r2/313     errors [b'']
+./seed_for_r2/313_new errors [b'']
+Found discrepancy:
+./seed_for_r2/315     outputs [b'checksum = A7FADCB\n']
+./seed_for_r2/315_new outputs [b'checksum = 3C66DCAE\n']
+./seed_for_r2/315     errors [b'']
+./seed_for_r2/315_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/109     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/109_new outputs [b'checksum = ACE1A2A3\n']
+/home/hz/DecFuzzer/seed_for_r2/109     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/109_new errors [b'']

@@ -1,0 +1,2600 @@
+seed_for_retdec/10_new.c: In function ‘func_1’:
+seed_for_retdec/10_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffb, 0x66f6, -1, 0, 0, 0, 0xfffb);
+     ^~~~~~~
+seed_for_retdec/10_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/100_new.c: In function ‘func_1’:
+seed_for_retdec/100_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0xae8c, 0x3a3dbc56, 0x2e64, 1, -0xe78e2f4, 1, 0, -1, 0, 1, 0x2e64, -0x5174);
+     ^~~~~~~
+seed_for_retdec/100_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+            ^~~~~~~
+
+seed_for_retdec/106_new.c: In function ‘func_1’:
+seed_for_retdec/106_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x3371247a, 0, 0x40ed, 0, 0, 0x3371247a, -1);
+     ^~~~~~~
+seed_for_retdec/106_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint8_t g_8_l){
+            ^~~~~~~
+
+seed_for_retdec/108_new.c: In function ‘func_1’:
+seed_for_retdec/108_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0xea75c96, -1, -0x20d0b574);
+     ^~~~~~~
+seed_for_retdec/108_new.c:29:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/119_new.c: In function ‘func_1’:
+seed_for_retdec/119_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(2, 0, 1, 0x2910a83a, 0x21e0bec0, -3, 0, 0, 0x46710139, 4);
+     ^~~~~~~
+seed_for_retdec/119_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_23_l, uint16_t g_26_l, int32_t g_27_l){
+            ^~~~~~~
+
+seed_for_retdec/125_new.c: In function ‘func_1’:
+seed_for_retdec/125_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0x128f, 11, 0, 1, -0x7d7bae29, 74, 74, 1, 0, 11);
+     ^~~~~~~
+seed_for_retdec/125_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_19_l, int32_t g_21_l, uint16_t g_22_l, int32_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/128_new.c: In function ‘func_1’:
+seed_for_retdec/128_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(628, -32, 66, 0, -0x1e84, 66, -32, 5, 628);
+     ^~~~~~~
+seed_for_retdec/128_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_15_l, int8_t g_16_l, uint8_t g_18_l){
+            ^~~~~~~
+
+seed_for_retdec/137_new.c: In function ‘func_1’:
+seed_for_retdec/137_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, -3, 0);
+     ^~~~~~~
+seed_for_retdec/137_new.c:28:12: note: declared here
+ static int set_var(int8_t g_4_l){
+            ^~~~~~~
+
+seed_for_retdec/143_new.c: In function ‘func_1’:
+seed_for_retdec/143_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-21, 0x65ab3e90, -7);
+     ^~~~~~~
+seed_for_retdec/143_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/148_new.c: In function ‘func_1’:
+seed_for_retdec/148_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(4, -0x639c3bf9, 0x3988, 0x311e2db8, 96, -9, 0x74579933, 1, 55, -2, 0x3988);
+     ^~~~~~~
+seed_for_retdec/148_new.c:30:12: note: declared here
+ static int set_var(int32_t g_13_l, int32_t g_14_l, uint16_t g_21_l){
+            ^~~~~~~
+
+seed_for_retdec/149_new.c: In function ‘func_1’:
+seed_for_retdec/149_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 72, 5, 0, 0x25bb0866, 0, 1, 72, 5, 72);
+     ^~~~~~~
+seed_for_retdec/149_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_2_l, int8_t g_6_l, uint8_t g_16_l, uint32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/158_new.c: In function ‘func_1’:
+seed_for_retdec/158_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x73e9, 0, 0xffff, -0x73e9, 0);
+     ^~~~~~~
+seed_for_retdec/158_new.c:29:12: note: declared here
+ static int set_var(int32_t g_7_l, uint8_t g_8_l){
+            ^~~~~~~
+
+seed_for_retdec/159_new.c: In function ‘func_1’:
+seed_for_retdec/159_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x4a0426a7, 0x278fa8f9, 0x4a0426a7, 0);
+     ^~~~~~~
+seed_for_retdec/159_new.c:29:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/165_new.c: In function ‘func_1’:
+seed_for_retdec/165_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x29000d4e, -1, 0, 0x215e1abe, 0, -1);
+     ^~~~~~~
+seed_for_retdec/165_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_3_l, uint8_t g_9_l){
+            ^~~~~~~
+
+seed_for_retdec/170_new.c: In function ‘func_1’:
+seed_for_retdec/170_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0xfa4b, 1, 3, 3, 193, -63, -0x10562e66, 0x4d2edc75, -0x4a81748e, -63, 3, 3, 1, -1461, 1);
+     ^~~~~~~
+seed_for_retdec/170_new.c:33:12: note: declared here
+ static int set_var(int16_t g_6_l, uint16_t g_7_l, uint16_t g_10_l, uint16_t g_16_l, int32_t g_19_l, uint8_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/173_new.c: In function ‘func_1’:
+seed_for_retdec/173_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4a71e83f, 0x245c, 0x4308, -23, 1, -0x245c);
+     ^~~~~~~
+seed_for_retdec/173_new.c:32:12: note: declared here
+ static int set_var(int32_t g_17_l, int16_t g_18_l, uint16_t g_19_l, int8_t g_32_l, uint32_t g_33_l){
+            ^~~~~~~
+
+seed_for_retdec/175_new.c: In function ‘func_1’:
+seed_for_retdec/175_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-2, -0x5795, 0, 0, -0x6e090b64, -2, 0, 0, 0, -33, -37, -2, -0x6e090b64, 0, 0, -0x5795, -2);
+     ^~~~~~~
+seed_for_retdec/175_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_2_l, int16_t g_15_l, uint8_t g_17_l, int32_t g_22_l, uint32_t g_23_l, uint32_t g_27_l){
+            ^~~~~~~
+
+seed_for_retdec/178_new.c: In function ‘func_1’:
+seed_for_retdec/178_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-8, -1, 0, 0x3b10, 0, 0, 0, -0x752c7a1e, -9);
+     ^~~~~~~
+seed_for_retdec/178_new.c:35:12: note: declared here
+ static int set_var(int8_t g_4_l, int16_t g_20_l, uint32_t g_21_l, uint16_t g_23_l, uint32_t g_35_l, uint32_t g_41_l, uint8_t g_42_l, uint32_t g_45_l){
+            ^~~~~~~
+
+seed_for_retdec/186_new.c: In function ‘func_1’:
+seed_for_retdec/186_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, -0x133dbbc6, -0x4aa44d3e, -0x3205, -0x3205, 2, 1);
+     ^~~~~~~
+seed_for_retdec/186_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint32_t g_10_l, int16_t g_11_l){
+            ^~~~~~~
+
+seed_for_retdec/19_new.c: In function ‘func_1’:
+seed_for_retdec/19_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 33, 113, 113, 33, 33, -1);
+     ^~~~~~~
+seed_for_retdec/19_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_11_l, uint16_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/190_new.c: In function ‘func_1’:
+seed_for_retdec/190_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4293c10, -0x537c, -0x10ae5165, 0xc3f0, -1, 1, 0x753f3ac9, 0, -0x3c10, -0x5d8976cb, 1, -1, -0x3c10, -0x10ae5165, -0x537c);
+     ^~~~~~~
+seed_for_retdec/190_new.c:33:12: note: declared here
+ static int set_var(int32_t g_10_l, int16_t g_16_l, uint32_t g_18_l, uint16_t g_27_l, uint32_t g_32_l, uint8_t g_33_l){
+            ^~~~~~~
+
+seed_for_retdec/197_new.c: In function ‘func_1’:
+seed_for_retdec/197_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x5d39, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/197_new.c:28:12: note: declared here
+ static int set_var(int16_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/199_new.c: In function ‘func_1’:
+seed_for_retdec/199_new.c:58:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4539b598, 0, 0, -10, -1, 3, -80, 0x4f79, -1, 229, 3, 137, -0x698fc47a, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/199_new.c:40:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, uint32_t g_6_l, int8_t g_7_l, uint32_t g_28_l, uint32_t g_30_l, int8_t g_42_l, int16_t g_68_l, uint32_t g_78_l, uint8_t g_83_l, uint8_t g_84_l, uint8_t g_101_l, uint32_t g_108_l){
+            ^~~~~~~
+
+seed_for_retdec/203_new.c: In function ‘func_1’:
+seed_for_retdec/203_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 0, -1, 0);
+     ^~~~~~~
+seed_for_retdec/203_new.c:31:12: note: declared here
+ static int set_var(int32_t g_5_l, int32_t g_13_l, uint32_t g_15_l, uint32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/215_new.c: In function ‘func_1’:
+seed_for_retdec/215_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3824, 8, 1);
+     ^~~~~~~
+seed_for_retdec/215_new.c:29:12: note: declared here
+ static int set_var(int16_t g_11_l, uint8_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/216_new.c: In function ‘func_1’:
+seed_for_retdec/216_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(247, 254, 0, 1, 0, 0, 0, 0, 5);
+     ^~~~~~~
+seed_for_retdec/216_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_13_l, uint8_t g_16_l, uint8_t g_18_l, int32_t g_19_l, uint16_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/217_new.c: In function ‘func_1’:
+seed_for_retdec/217_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, -4, 1, 0, 0, 1, -4, 0, -1778, 0, 0, 1, -4, -1);
+     ^~~~~~~
+seed_for_retdec/217_new.c:32:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_11_l, uint32_t g_12_l, int16_t g_13_l, uint16_t g_24_l){
+            ^~~~~~~
+
+seed_for_retdec/230_new.c: In function ‘func_1’:
+seed_for_retdec/230_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(2, -0x3acd, 0, 0, -1, 5, 1, 0, -0x3acd, 2);
+     ^~~~~~~
+seed_for_retdec/230_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, int16_t g_18_l, uint16_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/232_new.c: In function ‘func_1’:
+seed_for_retdec/232_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffe, -14, 0, 111, 0, -1, -48, 0x9e820f8, -0x6175d728, -1, -1, 0, 0, 0x9e820f8, -48, -1, 0, 111, 0, -14, -2);
+     ^~~~~~~
+seed_for_retdec/232_new.c:35:12: note: declared here
+ static int set_var(uint16_t g_4_l, int16_t g_17_l, uint8_t g_31_l, int32_t g_32_l, uint16_t g_34_l, int16_t g_37_l, int8_t g_41_l, uint32_t g_42_l){
+            ^~~~~~~
+
+seed_for_retdec/242_new.c: In function ‘func_1’:
+seed_for_retdec/242_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(6, -2, 0x6951ad38);
+     ^~~~~~~
+seed_for_retdec/242_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, int32_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/243_new.c: In function ‘func_1’:
+seed_for_retdec/243_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x5e08cccd, 1);
+     ^~~~~~~
+seed_for_retdec/243_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/246_new.c: In function ‘func_1’:
+seed_for_retdec/246_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 1, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/246_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint32_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/249_new.c: In function ‘func_1’:
+seed_for_retdec/249_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(248, 0, -1, -0x76f3abbf, 92, 1, -1, 0, -8);
+     ^~~~~~~
+seed_for_retdec/249_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_4_l, uint8_t g_8_l, int16_t g_9_l, uint32_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/254_new.c: In function ‘func_1’:
+seed_for_retdec/254_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x714a, 0, 0x52f0, -1, 3, 0x298c, 0, -0x40499015, -10, 0x714a, 0x52f0, 0);
+     ^~~~~~~
+seed_for_retdec/254_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_18_l, uint8_t g_21_l, int16_t g_29_l){
+            ^~~~~~~
+
+seed_for_retdec/258_new.c: In function ‘func_1’:
+seed_for_retdec/258_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3162fa46, -4, 0x6f084217, 1, -3, 1, 0x56160cbd);
+     ^~~~~~~
+seed_for_retdec/258_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, int16_t g_7_l, int32_t g_8_l, int8_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/27_new.c: In function ‘func_1’:
+seed_for_retdec/27_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0xc2de, 1, 122, 1, -0x5a3e4f65, 0, 1, -0x3736, 6, 0, 1, 0, 0x151c3c39, 0, -0x5a3e4f65, 1, 122, 1, -0x3d22);
+     ^~~~~~~
+seed_for_retdec/27_new.c:33:12: note: declared here
+ static int set_var(uint16_t g_18_l, int8_t g_23_l, int8_t g_36_l, int32_t g_37_l, uint32_t g_38_l, int8_t g_49_l){
+            ^~~~~~~
+
+seed_for_retdec/272_new.c: In function ‘func_1’:
+seed_for_retdec/272_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 1, 1);
+     ^~~~~~~
+seed_for_retdec/272_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint16_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/285_new.c: In function ‘func_1’:
+seed_for_retdec/285_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x7f62fef9, 1, -0x117c5215, 119, 0xfffe, 0, 1, 1, 1, -2, 119, -0x117c5215, -0x7f62fef9);
+     ^~~~~~~
+seed_for_retdec/285_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_11_l, int32_t g_12_l, uint32_t g_34_l, uint8_t g_35_l, uint16_t g_83_l){
+            ^~~~~~~
+
+seed_for_retdec/289_new.c: In function ‘func_1’:
+seed_for_retdec/289_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(193, -0x2076, 4, 1, 1, 191, -0x62f7, 1, 0, -65, 1, 1, 4, -0x2076, -63);
+     ^~~~~~~
+seed_for_retdec/289_new.c:33:12: note: declared here
+ static int set_var(uint8_t g_2_l, int32_t g_16_l, uint16_t g_19_l, uint16_t g_23_l, uint32_t g_29_l, uint8_t g_30_l){
+            ^~~~~~~
+
+seed_for_retdec/314_new.c: In function ‘func_1’:
+seed_for_retdec/314_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0x121ac488, 104, 104, 7, -1, 245, 104, 1, -2);
+     ^~~~~~~
+seed_for_retdec/314_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_4_l, int8_t g_10_l, int32_t g_27_l, uint16_t g_39_l, uint32_t g_63_l, uint8_t g_65_l){
+            ^~~~~~~
+
+seed_for_retdec/347_new.c: In function ‘func_1’:
+seed_for_retdec/347_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x7c1d6b3b, -1, 1, 0, 7, 0xffff, -1, 1, 84, -0xb02e598, -0x2743f2ed, 8, 7, -1, 0x7c1d6b3b, 0, 0, 1);
+     ^~~~~~~
+seed_for_retdec/347_new.c:32:12: note: declared here
+ static int set_var(int32_t g_22_l, int16_t g_25_l, uint16_t g_27_l, uint32_t g_48_l, uint8_t g_63_l){
+            ^~~~~~~
+
+seed_for_retdec/35_new.c: In function ‘func_1’:
+seed_for_retdec/35_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-3, -0x17120e02, -20, -3, 0x37ad4351);
+     ^~~~~~~
+seed_for_retdec/35_new.c:29:12: note: declared here
+ static int set_var(int8_t g_7_l){
+            ^~~~~~~
+
+seed_for_retdec/352_new.c: In function ‘func_1’:
+seed_for_retdec/352_new.c:57:5: error: too many arguments to function ‘set_var’
+     set_var(0, -5, 0x4a04, 1, 0x4c9c, 0x3836, 0x1eaa473e, -1, -0x5291c067, 31, -3, 3, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/352_new.c:39:12: note: declared here
+ static int set_var(int32_t g_2_l, int8_t g_10_l, int16_t g_21_l, uint32_t g_34_l, int16_t g_40_l, uint16_t g_43_l, uint32_t g_47_l, int32_t g_79_l, uint32_t g_80_l, uint8_t g_82_l, int32_t g_83_l, uint32_t g_92_l){
+            ^~~~~~~
+
+seed_for_retdec/363_new.c: In function ‘func_1’:
+seed_for_retdec/363_new.c:56:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x8dc4, 0, 0, 9, 1, 0x48bb, 0, -1, 9, 0xdae5, (int16_t)&g1, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/363_new.c:38:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint16_t g_11_l, uint32_t g_18_l, uint32_t g_19_l, int32_t g_20_l, uint32_t g_22_l, int32_t g_23_l, int16_t g_39_l, int32_t g_40_l, int32_t g_52_l, uint16_t g_73_l){
+            ^~~~~~~
+
+seed_for_retdec/369_new.c: In function ‘func_1’:
+seed_for_retdec/369_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x76820624, -28, -1, 0, 0x5f4b3f4b, 1, -2, 6, 7, 1, 9, -98, 0x5f4b3f4b, 0, -1, 0x76820624);
+     ^~~~~~~
+seed_for_retdec/369_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_6_l, int32_t g_7_l, uint32_t g_22_l){
+            ^~~~~~~
+
+seed_for_retdec/388_new.c: In function ‘func_1’:
+seed_for_retdec/388_new.c:57:5: error: too many arguments to function ‘set_var’
+     set_var(-8, 0xbb1a, 20, -0x653b1966, -0x420a, 0x538fd232, -8, 4, 0x5ccbd95d, -0x3749b1c4, -7, 0x31193f73, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/388_new.c:39:12: note: declared here
+ static int set_var(int8_t g_2_l, uint16_t g_22_l, uint8_t g_35_l, uint32_t g_37_l, int32_t g_38_l, int32_t g_39_l, int8_t g_52_l, int32_t g_55_l, uint32_t g_59_l, int32_t g_98_l, uint32_t g_99_l, int32_t g_111_l){
+            ^~~~~~~
+
+seed_for_retdec/41_new.c: In function ‘func_1’:
+seed_for_retdec/41_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0xcd40, 0x218e9934, -0x6f25eeae);
+     ^~~~~~~
+seed_for_retdec/41_new.c:29:12: note: declared here
+ static int set_var(uint16_t g_3_l, int32_t g_8_l){
+            ^~~~~~~
+
+seed_for_retdec/411_new.c: In function ‘func_1’:
+seed_for_retdec/411_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0, 252, 0x649bc00d, 1, 1, 0, 0, 0x649bc00d, -4);
+     ^~~~~~~
+seed_for_retdec/411_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, uint8_t g_3_l, uint32_t g_29_l){
+            ^~~~~~~
+
+seed_for_retdec/420_new.c: In function ‘func_1’:
+seed_for_retdec/420_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x72f2c085, 0x45625131, 0x756b, 0, -1, 0x45625131);
+     ^~~~~~~
+seed_for_retdec/420_new.c:31:12: note: declared here
+ static int set_var(int32_t g_11_l, uint32_t g_13_l, uint16_t g_22_l, int32_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/433_new.c: In function ‘func_1’:
+seed_for_retdec/433_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x40d4d66c, 21, -0x7f84, 0x1b16, -0xa06690d, 0x5fef9d78, 7, 21, 0x1b16, -0x7f84, 21, -0x40d4d66c);
+     ^~~~~~~
+seed_for_retdec/433_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, int32_t g_8_l, int16_t g_10_l, uint32_t g_26_l){
+            ^~~~~~~
+
+seed_for_retdec/439_new.c: In function ‘func_1’:
+seed_for_retdec/439_new.c:54:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0, 1, 1, 0, 9, 2, -0x480e, -0x504f6dcc, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/439_new.c:36:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_19_l, int32_t g_20_l, uint32_t g_21_l, uint16_t g_41_l, int8_t g_50_l, uint32_t g_51_l, int16_t g_67_l, uint32_t g_68_l){
+            ^~~~~~~
+
+seed_for_retdec/442_new.c: In function ‘func_1’:
+seed_for_retdec/442_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(0x7dfe4d9, 1, -1, -1, 1, 1, 0, -29);
+     ^~~~~~~
+seed_for_retdec/442_new.c:35:12: note: declared here
+ static int set_var(uint32_t g_7_l, int32_t g_17_l, uint32_t g_27_l, uint32_t g_31_l, uint16_t g_36_l, int32_t g_46_l, int16_t g_65_l){
+            ^~~~~~~
+
+seed_for_retdec/477_new.c: In function ‘func_1’:
+seed_for_retdec/477_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x1e54170e, 0, 0x51162f63, 0, -1);
+     ^~~~~~~
+seed_for_retdec/477_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_11_l, int32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/480_new.c: In function ‘func_1’:
+seed_for_retdec/480_new.c:60:5: error: too many arguments to function ‘set_var’
+     set_var(3, -96, 1, -1, 0x9cd4, 45, -0x19cc8da8, -0x2973d502, -0x57700899, 0, 5, -0xba492b1, 1, -6, 0x4d85d5fc, (int32_t)&g1, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/480_new.c:42:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_3_l, int16_t g_12_l, int32_t g_15_l, uint16_t g_16_l, int8_t g_27_l, uint32_t g_28_l, int32_t g_31_l, int32_t g_33_l, int16_t g_35_l, int32_t g_36_l, int32_t g_38_l, uint8_t g_39_l, uint32_t g_42_l, uint32_t g_54_l){
+            ^~~~~~~
+
+seed_for_retdec/484_new.c: In function ‘func_1’:
+seed_for_retdec/484_new.c:48:5: error: too many arguments to function ‘set_var’
+     set_var(202, 0, 0, -0x5dc9, 0xc8e4, 0, -5, 0x4cff15cc, 0x44455595);
+     ^~~~~~~
+seed_for_retdec/484_new.c:34:12: note: declared here
+ static int set_var(uint8_t g_2_l, int16_t g_13_l, uint32_t g_36_l, int16_t g_49_l, uint16_t g_51_l, int32_t g_52_l, int32_t g_58_l){
+            ^~~~~~~
+
+seed_for_retdec/487_new.c: In function ‘func_1’:
+seed_for_retdec/487_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-0x67f9, 0, -4, -7, 0xda84, -8, -1, 1, 0x4d2c298c);
+     ^~~~~~~
+seed_for_retdec/487_new.c:35:12: note: declared here
+ static int set_var(int16_t g_4_l, int32_t g_8_l, int16_t g_32_l, int8_t g_43_l, uint16_t g_44_l, int8_t g_56_l, uint32_t g_57_l, int8_t g_60_l){
+            ^~~~~~~
+
+seed_for_retdec/512_new.c: In function ‘func_1’:
+seed_for_retdec/512_new.c:66:5: error: too many arguments to function ‘set_var’
+     set_var(51, 1, 0, -0x57b5, -0xb259, -1, -0x4d8f982b, 0x460deea3, 0, 68, -1, -0x460deea6, 58, -0x7309ce4b, -33, -1, 0x6e93423a, 3, -5, 0x1e1ea803, 0, -1, 0x2324a69d, 0, 1, 61);
+     ^~~~~~~
+seed_for_retdec/512_new.c:52:12: note: declared here
+ static int set_var(uint8_t g_11_l, int16_t g_18_l, uint32_t g_31_l, uint32_t g_32_l, int32_t g_33_l, int32_t g_34_l, int32_t g_35_l, int32_t g_38_l, uint16_t g_42_l, int8_t g_49_l, uint32_t g_50_l, uint32_t g_87_l, int8_t g_88_l, int32_t g_116_l, uint32_t g_117_l, int32_t g_124_l, int32_t g_145_l, uint32_t g_157_l, int32_t g_160_l, uint32_t g_163_l, uint32_t g_168_l, int32_t g_169_l, int32_t g_252_l, uint8_t g_260_l, uint32_t g_271_l){
+            ^~~~~~~
+
+seed_for_retdec/517_new.c: In function ‘func_1’:
+seed_for_retdec/517_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x14173bf3, 1, 0, 0, 0x14173bf3);
+     ^~~~~~~
+seed_for_retdec/517_new.c:28:12: note: declared here
+ static int set_var(int32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/527_new.c: In function ‘func_1’:
+seed_for_retdec/527_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(37, 1, 1, 0xcc66, 102, 0, 0x7cd14257, -0x44ab5fc9, 1, 3, 0, 6, 102, -0x339a, 1, 1, 37);
+     ^~~~~~~
+seed_for_retdec/527_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_9_l, int16_t g_12_l, int32_t g_28_l, uint16_t g_30_l, int32_t g_56_l){
+            ^~~~~~~
+
+seed_for_retdec/539_new.c: In function ‘func_1’:
+seed_for_retdec/539_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-3, 254, 254, 0, 1, 32, 0, 0, 1, -1695);
+     ^~~~~~~
+seed_for_retdec/539_new.c:35:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_5_l, uint8_t g_14_l, uint32_t g_17_l, int32_t g_18_l, uint8_t g_19_l, int8_t g_26_l, int32_t g_33_l){
+            ^~~~~~~
+
+seed_for_retdec/575_new.c: In function ‘func_1’:
+seed_for_retdec/575_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(2, -0x7fdc, 0x8025, 1, -0x5476303e, 1, -0x6dbfb1ac, 1, 1, -0x7fdb, -0x7fdc);
+     ^~~~~~~
+seed_for_retdec/575_new.c:32:12: note: declared here
+ static int set_var(int32_t g_17_l, int16_t g_18_l, uint16_t g_35_l, uint8_t g_36_l){
+            ^~~~~~~
+
+seed_for_retdec/578_new.c: In function ‘func_1’:
+seed_for_retdec/578_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(14, -5, -0x4d304eeb, 0x647dc4b);
+     ^~~~~~~
+seed_for_retdec/578_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_30_l, int32_t g_51_l){
+            ^~~~~~~
+
+seed_for_retdec/61_new.c: In function ‘func_1’:
+seed_for_retdec/61_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x72031aa2, 0, 8, 0, 1, -1);
+     ^~~~~~~
+seed_for_retdec/61_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_15_l, uint32_t g_19_l, uint8_t g_20_l, int32_t g_21_l, uint8_t g_25_l, uint32_t g_28_l){
+            ^~~~~~~
+
+seed_for_retdec/610_new.c: In function ‘func_1’:
+seed_for_retdec/610_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x700d62e6, 0x246c3825, 0, 0, 0xb8c0, 0, 0, 0, 0, 0x246c3825, 0x700d62e6);
+     ^~~~~~~
+seed_for_retdec/610_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_17_l, uint32_t g_18_l, int32_t g_24_l, int8_t g_25_l){
+            ^~~~~~~
+
+seed_for_retdec/619_new.c: In function ‘func_1’:
+seed_for_retdec/619_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-8, 2, 8);
+     ^~~~~~~
+seed_for_retdec/619_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/624_new.c: In function ‘func_1’:
+seed_for_retdec/624_new.c:48:5: error: too many arguments to function ‘set_var’
+     set_var(-6, 0x288586fd, 1, -0x5e83, 1, 125, -9, 1, -0x6dbbcdb1, 125, 1, -0x5e83, 1, -6, -0x5e83, 0x288586fd);
+     ^~~~~~~
+seed_for_retdec/624_new.c:34:12: note: declared here
+ static int set_var(int16_t g_18_l, uint32_t g_19_l, int16_t g_33_l, uint32_t g_34_l, int8_t g_35_l, uint8_t g_44_l){
+            ^~~~~~~
+
+seed_for_retdec/625_new.c: In function ‘func_1’:
+seed_for_retdec/625_new.c:60:5: error: too many arguments to function ‘set_var’
+     set_var(123, 3, 0, 5, -0x75089601, 0, 0x61ffe8b4, -1, 1, 5, 75, -0x1cfb013b, 4093, 3, 1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/625_new.c:42:12: note: declared here
+ static int set_var(int32_t g_4_l, uint32_t g_15_l, int16_t g_16_l, int32_t g_25_l, int32_t g_51_l, uint32_t g_86_l, int32_t g_87_l, int32_t g_89_l, int8_t g_90_l, uint32_t g_175_l, int8_t g_176_l, uint32_t g_183_l, int16_t g_194_l, uint8_t g_195_l, uint8_t g_216_l){
+            ^~~~~~~
+
+seed_for_retdec/627_new.c: In function ‘func_1’:
+seed_for_retdec/627_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(1, -0x76af, -0x3ff5001, -55, -103, -44, -0x76af);
+     ^~~~~~~
+seed_for_retdec/627_new.c:29:12: note: declared here
+ static int set_var(int32_t g_6_l, int16_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/646_new.c: In function ‘func_1’:
+seed_for_retdec/646_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, 77, 0xfffe, 1, -2, 77, 1);
+     ^~~~~~~
+seed_for_retdec/646_new.c:31:12: note: declared here
+ static int set_var(int32_t g_4_l, uint32_t g_8_l, int32_t g_9_l, uint16_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/650_new.c: In function ‘func_1’:
+seed_for_retdec/650_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(7, -0xa3e7b3b, -3);
+     ^~~~~~~
+seed_for_retdec/650_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_4_l){
+            ^~~~~~~
+
+seed_for_retdec/668_new.c: In function ‘func_1’:
+seed_for_retdec/668_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0, 0, 0x11fc80ae, -0x1c1ba445, 0, 0x5fdc8dfb, 0, 0, 1);
+     ^~~~~~~
+seed_for_retdec/668_new.c:30:12: note: declared here
+ static int set_var(int8_t g_8_l, int8_t g_15_l, int16_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/673_new.c: In function ‘func_1’:
+seed_for_retdec/673_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, 0xdf7c, -0x2084, 0x7950, -0x2084, 1, 1);
+     ^~~~~~~
+seed_for_retdec/673_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_13_l, uint32_t g_14_l, uint16_t g_15_l){
+            ^~~~~~~
+
+seed_for_retdec/682_new.c: In function ‘func_1’:
+seed_for_retdec/682_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3ea8b87f, -1, 1, 0, -1, 1, -1);
+     ^~~~~~~
+seed_for_retdec/682_new.c:30:12: note: declared here
+ static int set_var(int32_t g_8_l, int8_t g_13_l, int32_t g_14_l){
+            ^~~~~~~
+
+seed_for_retdec/685_new.c: In function ‘func_1’:
+seed_for_retdec/685_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 128, -0x4ddedb08, -1, -128);
+     ^~~~~~~
+seed_for_retdec/685_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/686_new.c: In function ‘func_1’:
+seed_for_retdec/686_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0x3948, 0, 0);
+     ^~~~~~~
+seed_for_retdec/686_new.c:29:12: note: declared here
+ static int set_var(int16_t g_14_l, int32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/701_new.c: In function ‘func_1’:
+seed_for_retdec/701_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0, -2, 0, 2, 0, -101, 0, -0x5290d118, 2, 0, -2, 0, -1);
+     ^~~~~~~
+seed_for_retdec/701_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_9_l, int8_t g_10_l, int8_t g_11_l, int32_t g_13_l, uint16_t g_14_l){
+            ^~~~~~~
+
+seed_for_retdec/705_new.c: In function ‘func_1’:
+seed_for_retdec/705_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-2, -2, -2);
+     ^~~~~~~
+seed_for_retdec/705_new.c:28:12: note: declared here
+ static int set_var(int32_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/706_new.c: In function ‘func_1’:
+seed_for_retdec/706_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(254, 0, -0x47f8306, 28, 0, -2);
+     ^~~~~~~
+seed_for_retdec/706_new.c:29:12: note: declared here
+ static int set_var(uint8_t g_6_l, int32_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/718_new.c: In function ‘func_1’:
+seed_for_retdec/718_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(3680, 1, 0x1a21c000);
+     ^~~~~~~
+seed_for_retdec/718_new.c:29:12: note: declared here
+ static int set_var(int16_t g_2_l, int32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/726_new.c: In function ‘func_1’:
+seed_for_retdec/726_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, 8, 1, 9, 1, -0x4a2e34a, 0x4c56, 0x8664a11, 5, -0x2bc2235e, 9, 8, -0x76a6cef4, 1, 0x4c56, -0x4a2e34a, 1, 9, 1, 8, 1, -0x2c85a483);
+     ^~~~~~~
+seed_for_retdec/726_new.c:36:12: note: declared here
+ static int set_var(int32_t g_6_l, uint16_t g_11_l, int32_t g_13_l, int8_t g_15_l, int32_t g_20_l, int32_t g_21_l, int32_t g_22_l, uint16_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/742_new.c: In function ‘func_1’:
+seed_for_retdec/742_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x1748d02c, 0, -0x12088021, -7);
+     ^~~~~~~
+seed_for_retdec/742_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_4_l, uint32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/745_new.c: In function ‘func_1’:
+seed_for_retdec/745_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0, -18, 0, 1, 1, 0x654fddd4, 0, 0, 1, 1, 0);
+     ^~~~~~~
+seed_for_retdec/745_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, uint32_t g_10_l, int32_t g_14_l, uint32_t g_15_l){
+            ^~~~~~~
+
+seed_for_retdec/761_new.c: In function ‘func_1’:
+seed_for_retdec/761_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3d65c20a, 73, 0x3989226c, 3, 0x3989226c, 73, -0x3d65c20a);
+     ^~~~~~~
+seed_for_retdec/761_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_8_l, uint32_t g_9_l){
+            ^~~~~~~
+
+seed_for_retdec/771_new.c: In function ‘func_1’:
+seed_for_retdec/771_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(9, 0, 0x1c48);
+     ^~~~~~~
+seed_for_retdec/771_new.c:29:12: note: declared here
+ static int set_var(int32_t g_10_l, int16_t g_14_l){
+            ^~~~~~~
+
+seed_for_retdec/774_new.c: In function ‘func_1’:
+seed_for_retdec/774_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-10, 5, -10, -6, -1, 1, -5, -1, -6, -10);
+     ^~~~~~~
+seed_for_retdec/774_new.c:32:12: note: declared here
+ static int set_var(int32_t g_9_l, int32_t g_12_l, int8_t g_14_l, int8_t g_15_l, uint32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/785_new.c: In function ‘func_1’:
+seed_for_retdec/785_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x2e653e6a, 0xbb8bffb, 1, 5, 0, 1);
+     ^~~~~~~
+seed_for_retdec/785_new.c:31:12: note: declared here
+ static int set_var(int32_t g_7_l, uint32_t g_17_l, uint32_t g_18_l, uint8_t g_19_l){
+            ^~~~~~~
+
+seed_for_retdec/787_new.c: In function ‘func_1’:
+seed_for_retdec/787_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-10, 0, -14, -10);
+     ^~~~~~~
+seed_for_retdec/787_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/798_new.c: In function ‘func_1’:
+seed_for_retdec/798_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(255, 0x733147f5, 9, 0x733147f5, 0, 7, -0x37858adb, -0x6c4b1e5e, 0x733147f5, -1);
+     ^~~~~~~
+seed_for_retdec/798_new.c:29:12: note: declared here
+ static int set_var(uint8_t g_7_l, uint32_t g_24_l){
+            ^~~~~~~
+
+seed_for_retdec/801_new.c: In function ‘func_1’:
+seed_for_retdec/801_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(-0x24c51cab, 0x4504cd45, -1, 0, 0xd29a, (int32_t)&g1, (int16_t)&g1, (char)&g1, (int16_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/801_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_4_l, int32_t g_5_l, uint16_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/804_new.c: In function ‘func_1’:
+seed_for_retdec/804_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(107, 9, 107, 0, 0, 0);
+     ^~~~~~~
+seed_for_retdec/804_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_4_l, uint32_t g_9_l, uint32_t g_11_l, int8_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/809_new.c: In function ‘func_1’:
+seed_for_retdec/809_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 9, 9, -0x761fdd5b, 0, 0, 1, -0x16a5527b, 0, -0x761fdd5b, 9);
+     ^~~~~~~
+seed_for_retdec/809_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_12_l, int8_t g_13_l, uint32_t g_15_l, uint32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/815_new.c: In function ‘func_1’:
+seed_for_retdec/815_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x2eac4531, -9, 1, 1);
+     ^~~~~~~
+seed_for_retdec/815_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/821_new.c: In function ‘func_1’:
+seed_for_retdec/821_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0x20002526, 0x7b7d, 7, 0, 5, -1, 0x20002526);
+     ^~~~~~~
+seed_for_retdec/821_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_4_l, int16_t g_16_l, int16_t g_23_l, uint16_t g_25_l){
+            ^~~~~~~
+
+seed_for_retdec/823_new.c: In function ‘func_1’:
+seed_for_retdec/823_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0, 199, -0x634f4104, 0, 0x6a53, 0);
+     ^~~~~~~
+seed_for_retdec/823_new.c:30:12: note: declared here
+ static int set_var(int32_t g_11_l, uint8_t g_13_l, int32_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/825_new.c: In function ‘func_1’:
+seed_for_retdec/825_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(2, 0, 0, 0, 2);
+     ^~~~~~~
+seed_for_retdec/825_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_4_l, int32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/836_new.c: In function ‘func_1’:
+seed_for_retdec/836_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x329ef4a0, 0);
+     ^~~~~~~
+seed_for_retdec/836_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/838_new.c: In function ‘func_1’:
+seed_for_retdec/838_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x791ad274, -0x2bee, 1, 1, 0, 1, 4);
+     ^~~~~~~
+seed_for_retdec/838_new.c:31:12: note: declared here
+ static int set_var(int32_t g_5_l, int16_t g_8_l, uint32_t g_10_l, int32_t g_11_l){
+            ^~~~~~~
+
+seed_for_retdec/841_new.c: In function ‘func_1’:
+seed_for_retdec/841_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4ce7, 975, 0x28df, 0, 1, -93, -5, 0, 0x28df, -0x4ce7, 975);
+     ^~~~~~~
+seed_for_retdec/841_new.c:31:12: note: declared here
+ static int set_var(int16_t g_2_l, uint32_t g_12_l, uint16_t g_13_l, int32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/85_new.c: In function ‘func_1’:
+seed_for_retdec/85_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0, 0, -0x46cc777a, -4, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/85_new.c:32:12: note: declared here
+ static int set_var(int32_t g_9_l, int8_t g_10_l, int32_t g_11_l, uint32_t g_27_l, uint32_t g_50_l){
+            ^~~~~~~
+
+seed_for_retdec/852_new.c: In function ‘func_1’:
+seed_for_retdec/852_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-106, 1, 0xfffc, -4, -0x66ccc383, 0x5c96, -4, 1, -106);
+     ^~~~~~~
+seed_for_retdec/852_new.c:30:12: note: declared here
+ static int set_var(int8_t g_3_l, int16_t g_16_l, uint16_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/853_new.c: In function ‘func_1’:
+seed_for_retdec/853_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffe, 0xffff, 1, 510, -1, 0x13251f81, -70, -1, -63, -24, 1, 1, 1, 0x13251f81, -1, 510);
+     ^~~~~~~
+seed_for_retdec/853_new.c:33:12: note: declared here
+ static int set_var(uint16_t g_6_l, uint32_t g_13_l, int8_t g_44_l, uint32_t g_45_l, int8_t g_47_l, uint32_t g_48_l){
+            ^~~~~~~
+
+seed_for_retdec/870_new.c: In function ‘func_1’:
+seed_for_retdec/870_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 84, 0x925e, -3, 0);
+     ^~~~~~~
+seed_for_retdec/870_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_9_l){
+            ^~~~~~~
+
+seed_for_retdec/871_new.c: In function ‘func_1’:
+seed_for_retdec/871_new.c:53:5: error: too many arguments to function ‘set_var’
+     set_var(-0x28f0, 0x44ad, -73, 0, (int16_t)&g1, (int32_t)&g1, (int16_t)&g1, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/871_new.c:35:12: note: declared here
+ static int set_var(int16_t g_7_l, int32_t g_9_l, int8_t g_18_l, uint32_t g_22_l){
+            ^~~~~~~
+
+seed_for_retdec/879_new.c: In function ‘func_1’:
+seed_for_retdec/879_new.c:48:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, 0x62d7bc3, 0, -0x19adae3a, -0x5df42fcb, 0);
+     ^~~~~~~
+seed_for_retdec/879_new.c:34:12: note: declared here
+ static int set_var(int8_t g_4_l, int16_t g_13_l){
+            ^~~~~~~
+
+seed_for_retdec/890_new.c: In function ‘func_1’:
+seed_for_retdec/890_new.c:61:5: error: too many arguments to function ‘set_var’
+     set_var(-0x179ab00d, 0, -1, 1, 0x36b80555, 1, -1, 0, 95, 5, 110, -6, -1, 7, 0xfff9, 7);
+     ^~~~~~~
+seed_for_retdec/890_new.c:47:12: note: declared here
+ static int set_var(uint32_t g_37_l, int32_t g_48_l, int32_t g_49_l, uint8_t g_50_l, int32_t g_62_l, int32_t g_71_l, int8_t g_72_l, int32_t g_73_l, int8_t g_101_l, uint16_t g_115_l, uint8_t g_130_l, uint16_t g_166_l, int32_t g_170_l, int16_t g_174_l, uint16_t g_175_l){
+            ^~~~~~~
+
+seed_for_retdec/892_new.c: In function ‘func_1’:
+seed_for_retdec/892_new.c:51:5: error: too many arguments to function ‘set_var’
+     set_var(6, 0xffff, 1, 1, 1, 1, 96, 1, 0, 1, 1, 1, 1, -1, 6);
+     ^~~~~~~
+seed_for_retdec/892_new.c:37:12: note: declared here
+ static int set_var(int16_t g_15_l, uint16_t g_16_l, uint16_t g_18_l, int8_t g_19_l, int16_t g_46_l, uint32_t g_47_l){
+            ^~~~~~~
+
+seed_for_retdec/918_new.c: In function ‘func_1’:
+seed_for_retdec/918_new.c:60:18: error: too many arguments to function ‘set_var’
+     int32_t v2 = set_var(-8, 250, 0, 0x502e46a6, 0, 0xbc9f, 250, 0, 0x5ddb3f0f, 97, 121, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1); // 0x8049b0b
+                  ^~~~~~~
+seed_for_retdec/918_new.c:42:12: note: declared here
+ static int set_var(int8_t g_12_l, uint8_t g_13_l, uint32_t g_23_l, uint32_t g_41_l, uint16_t g_42_l, uint16_t g_44_l, int32_t g_55_l, int8_t g_56_l, uint32_t g_57_l, uint8_t g_101_l, int8_t g_161_l){
+            ^~~~~~~
+
+seed_for_retdec/92_new.c: In function ‘func_1’:
+seed_for_retdec/92_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(186, 0x7c9d, 0, 0, 1, -0x45d8bc72, 29, -70, 1, 0, 0, 0x7c9d, -70);
+     ^~~~~~~
+seed_for_retdec/92_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_11_l, uint16_t g_12_l, uint16_t g_24_l, int32_t g_35_l, int32_t g_37_l){
+            ^~~~~~~
+
+seed_for_retdec/928_new.c: In function ‘func_1’:
+seed_for_retdec/928_new.c:52:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, -3, 251, 0x4489be66, -1, 29, -0xb7b91e3, 0, 0x78cca699);
+     ^~~~~~~
+seed_for_retdec/928_new.c:38:12: note: declared here
+ static int set_var(int16_t g_14_l, uint32_t g_17_l, int32_t g_19_l, uint8_t g_35_l, uint32_t g_43_l, int32_t g_44_l, uint8_t g_47_l){
+            ^~~~~~~
+
+seed_for_retdec/93_new.c: In function ‘func_1’:
+seed_for_retdec/93_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, -1, -87, 0);
+     ^~~~~~~
+seed_for_retdec/93_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, int32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/934_new.c: In function ‘func_1’:
+seed_for_retdec/934_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(0, 16, 0, 0, 0, 1, 16, 45, 0, 9, 0, 0);
+     ^~~~~~~
+seed_for_retdec/934_new.c:36:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_16_l, int8_t g_22_l, uint16_t g_41_l, uint32_t g_42_l){
+            ^~~~~~~
+
+seed_for_retdec/96_new.c: In function ‘func_1’:
+seed_for_retdec/96_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(18, 0x74da8628, 0x525d2d91, -0x201fed2e, 18);
+     ^~~~~~~
+seed_for_retdec/96_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/98_new.c: In function ‘func_1’:
+seed_for_retdec/98_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0, 1, 0, 0, -114, 1, 0, -1);
+     ^~~~~~~
+seed_for_retdec/98_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_6_l, uint8_t g_7_l, int8_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/986_new.c: In function ‘func_1’:
+seed_for_retdec/986_new.c:65:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, -4, 0xfff6, 1, 0x5935, -1, 0xfd71, -0x2361212a, 7, 0x8a47727, 0x1c3d1073, 0, 0xa9f5600, 1, 1, (int32_t)&g1, (char)&g1, (int32_t)&g1, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/986_new.c:47:12: note: declared here
+ static int set_var(int16_t g_4_l, uint16_t g_21_l, int32_t g_32_l, uint16_t g_38_l, int32_t g_40_l, uint32_t g_46_l, int32_t g_85_l, uint16_t g_102_l, uint32_t g_134_l, int8_t g_180_l, uint32_t g_190_l, uint32_t g_194_l, uint32_t g_219_l, uint32_t g_220_l, int32_t g_225_l, uint32_t g_226_l){
+            ^~~~~~~
+
+seed_for_retdec/988_new.c: In function ‘func_1’:
+seed_for_retdec/988_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x17120e02, 254, 0, -2);
+     ^~~~~~~
+seed_for_retdec/988_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/99_new.c: In function ‘func_1’:
+seed_for_retdec/99_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0x15a1, -95, 0x15a1, 0x15a1, -95);
+     ^~~~~~~
+seed_for_retdec/99_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_10_l, int8_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/994_new.c: In function ‘func_1’:
+seed_for_retdec/994_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x652a61a9, -82, -0x527acf22, 0x66bafcb1, 1, -82);
+     ^~~~~~~
+seed_for_retdec/994_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_4_l, int8_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/999_new.c: In function ‘func_1’:
+seed_for_retdec/999_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-8, 0, 0, 8, -1);
+     ^~~~~~~
+seed_for_retdec/999_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_8_l, uint32_t g_29_l, uint16_t g_31_l){
+            ^~~~~~~
+
+seed_for_retdec/10_new.c: In function ‘func_1’:
+seed_for_retdec/10_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffb, 0x66f6, -1, 0, 0, 0, 0xfffb);
+     ^~~~~~~
+seed_for_retdec/10_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/100_new.c: In function ‘func_1’:
+seed_for_retdec/100_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0xae8c, 0x3a3dbc56, 0x2e64, 1, -0xe78e2f4, 1, 0, -1, 0, 1, 0x2e64, -0x5174);
+     ^~~~~~~
+seed_for_retdec/100_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+            ^~~~~~~
+
+seed_for_retdec/106_new.c: In function ‘func_1’:
+seed_for_retdec/106_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x3371247a, 0, 0x40ed, 0, 0, 0x3371247a, -1);
+     ^~~~~~~
+seed_for_retdec/106_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint8_t g_8_l){
+            ^~~~~~~
+
+seed_for_retdec/108_new.c: In function ‘func_1’:
+seed_for_retdec/108_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0xea75c96, -1, -0x20d0b574);
+     ^~~~~~~
+seed_for_retdec/108_new.c:29:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/119_new.c: In function ‘func_1’:
+seed_for_retdec/119_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(2, 0, 1, 0x2910a83a, 0x21e0bec0, -3, 0, 0, 0x46710139, 4);
+     ^~~~~~~
+seed_for_retdec/119_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_23_l, uint16_t g_26_l, int32_t g_27_l){
+            ^~~~~~~
+
+seed_for_retdec/125_new.c: In function ‘func_1’:
+seed_for_retdec/125_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0x128f, 11, 0, 1, -0x7d7bae29, 74, 74, 1, 0, 11);
+     ^~~~~~~
+seed_for_retdec/125_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_19_l, int32_t g_21_l, uint16_t g_22_l, int32_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/128_new.c: In function ‘func_1’:
+seed_for_retdec/128_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(628, -32, 66, 0, -0x1e84, 66, -32, 5, 628);
+     ^~~~~~~
+seed_for_retdec/128_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_15_l, int8_t g_16_l, uint8_t g_18_l){
+            ^~~~~~~
+
+seed_for_retdec/137_new.c: In function ‘func_1’:
+seed_for_retdec/137_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, -3, 0);
+     ^~~~~~~
+seed_for_retdec/137_new.c:28:12: note: declared here
+ static int set_var(int8_t g_4_l){
+            ^~~~~~~
+
+seed_for_retdec/143_new.c: In function ‘func_1’:
+seed_for_retdec/143_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-21, 0x65ab3e90, -7);
+     ^~~~~~~
+seed_for_retdec/143_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/148_new.c: In function ‘func_1’:
+seed_for_retdec/148_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(4, -0x639c3bf9, 0x3988, 0x311e2db8, 96, -9, 0x74579933, 1, 55, -2, 0x3988);
+     ^~~~~~~
+seed_for_retdec/148_new.c:30:12: note: declared here
+ static int set_var(int32_t g_13_l, int32_t g_14_l, uint16_t g_21_l){
+            ^~~~~~~
+
+seed_for_retdec/149_new.c: In function ‘func_1’:
+seed_for_retdec/149_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 72, 5, 0, 0x25bb0866, 0, 1, 72, 5, 72);
+     ^~~~~~~
+seed_for_retdec/149_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_2_l, int8_t g_6_l, uint8_t g_16_l, uint32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/158_new.c: In function ‘func_1’:
+seed_for_retdec/158_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x73e9, 0, 0xffff, -0x73e9, 0);
+     ^~~~~~~
+seed_for_retdec/158_new.c:29:12: note: declared here
+ static int set_var(int32_t g_7_l, uint8_t g_8_l){
+            ^~~~~~~
+
+seed_for_retdec/159_new.c: In function ‘func_1’:
+seed_for_retdec/159_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x4a0426a7, 0x278fa8f9, 0x4a0426a7, 0);
+     ^~~~~~~
+seed_for_retdec/159_new.c:29:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/165_new.c: In function ‘func_1’:
+seed_for_retdec/165_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x29000d4e, -1, 0, 0x215e1abe, 0, -1);
+     ^~~~~~~
+seed_for_retdec/165_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_3_l, uint8_t g_9_l){
+            ^~~~~~~
+
+seed_for_retdec/170_new.c: In function ‘func_1’:
+seed_for_retdec/170_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0xfa4b, 1, 3, 3, 193, -63, -0x10562e66, 0x4d2edc75, -0x4a81748e, -63, 3, 3, 1, -1461, 1);
+     ^~~~~~~
+seed_for_retdec/170_new.c:33:12: note: declared here
+ static int set_var(int16_t g_6_l, uint16_t g_7_l, uint16_t g_10_l, uint16_t g_16_l, int32_t g_19_l, uint8_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/173_new.c: In function ‘func_1’:
+seed_for_retdec/173_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4a71e83f, 0x245c, 0x4308, -23, 1, -0x245c);
+     ^~~~~~~
+seed_for_retdec/173_new.c:32:12: note: declared here
+ static int set_var(int32_t g_17_l, int16_t g_18_l, uint16_t g_19_l, int8_t g_32_l, uint32_t g_33_l){
+            ^~~~~~~
+
+seed_for_retdec/175_new.c: In function ‘func_1’:
+seed_for_retdec/175_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-2, -0x5795, 0, 0, -0x6e090b64, -2, 0, 0, 0, -33, -37, -2, -0x6e090b64, 0, 0, -0x5795, -2);
+     ^~~~~~~
+seed_for_retdec/175_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_2_l, int16_t g_15_l, uint8_t g_17_l, int32_t g_22_l, uint32_t g_23_l, uint32_t g_27_l){
+            ^~~~~~~
+
+seed_for_retdec/178_new.c: In function ‘func_1’:
+seed_for_retdec/178_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-8, -1, 0, 0x3b10, 0, 0, 0, -0x752c7a1e, -9);
+     ^~~~~~~
+seed_for_retdec/178_new.c:35:12: note: declared here
+ static int set_var(int8_t g_4_l, int16_t g_20_l, uint32_t g_21_l, uint16_t g_23_l, uint32_t g_35_l, uint32_t g_41_l, uint8_t g_42_l, uint32_t g_45_l){
+            ^~~~~~~
+
+seed_for_retdec/186_new.c: In function ‘func_1’:
+seed_for_retdec/186_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, -0x133dbbc6, -0x4aa44d3e, -0x3205, -0x3205, 2, 1);
+     ^~~~~~~
+seed_for_retdec/186_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint32_t g_10_l, int16_t g_11_l){
+            ^~~~~~~
+
+seed_for_retdec/19_new.c: In function ‘func_1’:
+seed_for_retdec/19_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 33, 113, 113, 33, 33, -1);
+     ^~~~~~~
+seed_for_retdec/19_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_11_l, uint16_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/190_new.c: In function ‘func_1’:
+seed_for_retdec/190_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4293c10, -0x537c, -0x10ae5165, 0xc3f0, -1, 1, 0x753f3ac9, 0, -0x3c10, -0x5d8976cb, 1, -1, -0x3c10, -0x10ae5165, -0x537c);
+     ^~~~~~~
+seed_for_retdec/190_new.c:33:12: note: declared here
+ static int set_var(int32_t g_10_l, int16_t g_16_l, uint32_t g_18_l, uint16_t g_27_l, uint32_t g_32_l, uint8_t g_33_l){
+            ^~~~~~~
+
+seed_for_retdec/197_new.c: In function ‘func_1’:
+seed_for_retdec/197_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x5d39, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/197_new.c:28:12: note: declared here
+ static int set_var(int16_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/199_new.c: In function ‘func_1’:
+seed_for_retdec/199_new.c:58:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4539b598, 0, 0, -10, -1, 3, -80, 0x4f79, -1, 229, 3, 137, -0x698fc47a, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/199_new.c:40:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, uint32_t g_6_l, int8_t g_7_l, uint32_t g_28_l, uint32_t g_30_l, int8_t g_42_l, int16_t g_68_l, uint32_t g_78_l, uint8_t g_83_l, uint8_t g_84_l, uint8_t g_101_l, uint32_t g_108_l){
+            ^~~~~~~
+
+seed_for_retdec/203_new.c: In function ‘func_1’:
+seed_for_retdec/203_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 0, -1, 0);
+     ^~~~~~~
+seed_for_retdec/203_new.c:31:12: note: declared here
+ static int set_var(int32_t g_5_l, int32_t g_13_l, uint32_t g_15_l, uint32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/215_new.c: In function ‘func_1’:
+seed_for_retdec/215_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3824, 8, 1);
+     ^~~~~~~
+seed_for_retdec/215_new.c:29:12: note: declared here
+ static int set_var(int16_t g_11_l, uint8_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/216_new.c: In function ‘func_1’:
+seed_for_retdec/216_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(247, 254, 0, 1, 0, 0, 0, 0, 5);
+     ^~~~~~~
+seed_for_retdec/216_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_13_l, uint8_t g_16_l, uint8_t g_18_l, int32_t g_19_l, uint16_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/217_new.c: In function ‘func_1’:
+seed_for_retdec/217_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, -4, 1, 0, 0, 1, -4, 0, -1778, 0, 0, 1, -4, -1);
+     ^~~~~~~
+seed_for_retdec/217_new.c:32:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_11_l, uint32_t g_12_l, int16_t g_13_l, uint16_t g_24_l){
+            ^~~~~~~
+
+seed_for_retdec/230_new.c: In function ‘func_1’:
+seed_for_retdec/230_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(2, -0x3acd, 0, 0, -1, 5, 1, 0, -0x3acd, 2);
+     ^~~~~~~
+seed_for_retdec/230_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, int16_t g_18_l, uint16_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/232_new.c: In function ‘func_1’:
+seed_for_retdec/232_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffe, -14, 0, 111, 0, -1, -48, 0x9e820f8, -0x6175d728, -1, -1, 0, 0, 0x9e820f8, -48, -1, 0, 111, 0, -14, -2);
+     ^~~~~~~
+seed_for_retdec/232_new.c:35:12: note: declared here
+ static int set_var(uint16_t g_4_l, int16_t g_17_l, uint8_t g_31_l, int32_t g_32_l, uint16_t g_34_l, int16_t g_37_l, int8_t g_41_l, uint32_t g_42_l){
+            ^~~~~~~
+
+seed_for_retdec/242_new.c: In function ‘func_1’:
+seed_for_retdec/242_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(6, -2, 0x6951ad38);
+     ^~~~~~~
+seed_for_retdec/242_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, int32_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/243_new.c: In function ‘func_1’:
+seed_for_retdec/243_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x5e08cccd, 1);
+     ^~~~~~~
+seed_for_retdec/243_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/246_new.c: In function ‘func_1’:
+seed_for_retdec/246_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 1, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/246_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint32_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/249_new.c: In function ‘func_1’:
+seed_for_retdec/249_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(248, 0, -1, -0x76f3abbf, 92, 1, -1, 0, -8);
+     ^~~~~~~
+seed_for_retdec/249_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_4_l, uint8_t g_8_l, int16_t g_9_l, uint32_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/254_new.c: In function ‘func_1’:
+seed_for_retdec/254_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x714a, 0, 0x52f0, -1, 3, 0x298c, 0, -0x40499015, -10, 0x714a, 0x52f0, 0);
+     ^~~~~~~
+seed_for_retdec/254_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_18_l, uint8_t g_21_l, int16_t g_29_l){
+            ^~~~~~~
+
+seed_for_retdec/258_new.c: In function ‘func_1’:
+seed_for_retdec/258_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3162fa46, -4, 0x6f084217, 1, -3, 1, 0x56160cbd);
+     ^~~~~~~
+seed_for_retdec/258_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, int16_t g_7_l, int32_t g_8_l, int8_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/27_new.c: In function ‘func_1’:
+seed_for_retdec/27_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0xc2de, 1, 122, 1, -0x5a3e4f65, 0, 1, -0x3736, 6, 0, 1, 0, 0x151c3c39, 0, -0x5a3e4f65, 1, 122, 1, -0x3d22);
+     ^~~~~~~
+seed_for_retdec/27_new.c:33:12: note: declared here
+ static int set_var(uint16_t g_18_l, int8_t g_23_l, int8_t g_36_l, int32_t g_37_l, uint32_t g_38_l, int8_t g_49_l){
+            ^~~~~~~
+
+seed_for_retdec/272_new.c: In function ‘func_1’:
+seed_for_retdec/272_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 1, 1);
+     ^~~~~~~
+seed_for_retdec/272_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint16_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/285_new.c: In function ‘func_1’:
+seed_for_retdec/285_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x7f62fef9, 1, -0x117c5215, 119, 0xfffe, 0, 1, 1, 1, -2, 119, -0x117c5215, -0x7f62fef9);
+     ^~~~~~~
+seed_for_retdec/285_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_11_l, int32_t g_12_l, uint32_t g_34_l, uint8_t g_35_l, uint16_t g_83_l){
+            ^~~~~~~
+
+seed_for_retdec/289_new.c: In function ‘func_1’:
+seed_for_retdec/289_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(193, -0x2076, 4, 1, 1, 191, -0x62f7, 1, 0, -65, 1, 1, 4, -0x2076, -63);
+     ^~~~~~~
+seed_for_retdec/289_new.c:33:12: note: declared here
+ static int set_var(uint8_t g_2_l, int32_t g_16_l, uint16_t g_19_l, uint16_t g_23_l, uint32_t g_29_l, uint8_t g_30_l){
+            ^~~~~~~
+
+seed_for_retdec/314_new.c: In function ‘func_1’:
+seed_for_retdec/314_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0x121ac488, 104, 104, 7, -1, 245, 104, 1, -2);
+     ^~~~~~~
+seed_for_retdec/314_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_4_l, int8_t g_10_l, int32_t g_27_l, uint16_t g_39_l, uint32_t g_63_l, uint8_t g_65_l){
+            ^~~~~~~
+
+seed_for_retdec/347_new.c: In function ‘func_1’:
+seed_for_retdec/347_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x7c1d6b3b, -1, 1, 0, 7, 0xffff, -1, 1, 84, -0xb02e598, -0x2743f2ed, 8, 7, -1, 0x7c1d6b3b, 0, 0, 1);
+     ^~~~~~~
+seed_for_retdec/347_new.c:32:12: note: declared here
+ static int set_var(int32_t g_22_l, int16_t g_25_l, uint16_t g_27_l, uint32_t g_48_l, uint8_t g_63_l){
+            ^~~~~~~
+
+seed_for_retdec/35_new.c: In function ‘func_1’:
+seed_for_retdec/35_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-3, -0x17120e02, -20, -3, 0x37ad4351);
+     ^~~~~~~
+seed_for_retdec/35_new.c:29:12: note: declared here
+ static int set_var(int8_t g_7_l){
+            ^~~~~~~
+
+seed_for_retdec/352_new.c: In function ‘func_1’:
+seed_for_retdec/352_new.c:57:5: error: too many arguments to function ‘set_var’
+     set_var(0, -5, 0x4a04, 1, 0x4c9c, 0x3836, 0x1eaa473e, -1, -0x5291c067, 31, -3, 3, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/352_new.c:39:12: note: declared here
+ static int set_var(int32_t g_2_l, int8_t g_10_l, int16_t g_21_l, uint32_t g_34_l, int16_t g_40_l, uint16_t g_43_l, uint32_t g_47_l, int32_t g_79_l, uint32_t g_80_l, uint8_t g_82_l, int32_t g_83_l, uint32_t g_92_l){
+            ^~~~~~~
+
+seed_for_retdec/363_new.c: In function ‘func_1’:
+seed_for_retdec/363_new.c:56:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x8dc4, 0, 0, 9, 1, 0x48bb, 0, -1, 9, 0xdae5, (int16_t)&g1, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/363_new.c:38:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint16_t g_11_l, uint32_t g_18_l, uint32_t g_19_l, int32_t g_20_l, uint32_t g_22_l, int32_t g_23_l, int16_t g_39_l, int32_t g_40_l, int32_t g_52_l, uint16_t g_73_l){
+            ^~~~~~~
+
+seed_for_retdec/369_new.c: In function ‘func_1’:
+seed_for_retdec/369_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x76820624, -28, -1, 0, 0x5f4b3f4b, 1, -2, 6, 7, 1, 9, -98, 0x5f4b3f4b, 0, -1, 0x76820624);
+     ^~~~~~~
+seed_for_retdec/369_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_6_l, int32_t g_7_l, uint32_t g_22_l){
+            ^~~~~~~
+
+seed_for_retdec/388_new.c: In function ‘func_1’:
+seed_for_retdec/388_new.c:57:5: error: too many arguments to function ‘set_var’
+     set_var(-8, 0xbb1a, 20, -0x653b1966, -0x420a, 0x538fd232, -8, 4, 0x5ccbd95d, -0x3749b1c4, -7, 0x31193f73, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/388_new.c:39:12: note: declared here
+ static int set_var(int8_t g_2_l, uint16_t g_22_l, uint8_t g_35_l, uint32_t g_37_l, int32_t g_38_l, int32_t g_39_l, int8_t g_52_l, int32_t g_55_l, uint32_t g_59_l, int32_t g_98_l, uint32_t g_99_l, int32_t g_111_l){
+            ^~~~~~~
+
+seed_for_retdec/41_new.c: In function ‘func_1’:
+seed_for_retdec/41_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0xcd40, 0x218e9934, -0x6f25eeae);
+     ^~~~~~~
+seed_for_retdec/41_new.c:29:12: note: declared here
+ static int set_var(uint16_t g_3_l, int32_t g_8_l){
+            ^~~~~~~
+
+seed_for_retdec/411_new.c: In function ‘func_1’:
+seed_for_retdec/411_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0, 252, 0x649bc00d, 1, 1, 0, 0, 0x649bc00d, -4);
+     ^~~~~~~
+seed_for_retdec/411_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, uint8_t g_3_l, uint32_t g_29_l){
+            ^~~~~~~
+
+seed_for_retdec/420_new.c: In function ‘func_1’:
+seed_for_retdec/420_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x72f2c085, 0x45625131, 0x756b, 0, -1, 0x45625131);
+     ^~~~~~~
+seed_for_retdec/420_new.c:31:12: note: declared here
+ static int set_var(int32_t g_11_l, uint32_t g_13_l, uint16_t g_22_l, int32_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/433_new.c: In function ‘func_1’:
+seed_for_retdec/433_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x40d4d66c, 21, -0x7f84, 0x1b16, -0xa06690d, 0x5fef9d78, 7, 21, 0x1b16, -0x7f84, 21, -0x40d4d66c);
+     ^~~~~~~
+seed_for_retdec/433_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, int32_t g_8_l, int16_t g_10_l, uint32_t g_26_l){
+            ^~~~~~~
+
+seed_for_retdec/439_new.c: In function ‘func_1’:
+seed_for_retdec/439_new.c:54:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0, 1, 1, 0, 9, 2, -0x480e, -0x504f6dcc, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/439_new.c:36:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_19_l, int32_t g_20_l, uint32_t g_21_l, uint16_t g_41_l, int8_t g_50_l, uint32_t g_51_l, int16_t g_67_l, uint32_t g_68_l){
+            ^~~~~~~
+
+seed_for_retdec/442_new.c: In function ‘func_1’:
+seed_for_retdec/442_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(0x7dfe4d9, 1, -1, -1, 1, 1, 0, -29);
+     ^~~~~~~
+seed_for_retdec/442_new.c:35:12: note: declared here
+ static int set_var(uint32_t g_7_l, int32_t g_17_l, uint32_t g_27_l, uint32_t g_31_l, uint16_t g_36_l, int32_t g_46_l, int16_t g_65_l){
+            ^~~~~~~
+
+seed_for_retdec/477_new.c: In function ‘func_1’:
+seed_for_retdec/477_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x1e54170e, 0, 0x51162f63, 0, -1);
+     ^~~~~~~
+seed_for_retdec/477_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_11_l, int32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/480_new.c: In function ‘func_1’:
+seed_for_retdec/480_new.c:60:5: error: too many arguments to function ‘set_var’
+     set_var(3, -96, 1, -1, 0x9cd4, 45, -0x19cc8da8, -0x2973d502, -0x57700899, 0, 5, -0xba492b1, 1, -6, 0x4d85d5fc, (int32_t)&g1, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/480_new.c:42:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_3_l, int16_t g_12_l, int32_t g_15_l, uint16_t g_16_l, int8_t g_27_l, uint32_t g_28_l, int32_t g_31_l, int32_t g_33_l, int16_t g_35_l, int32_t g_36_l, int32_t g_38_l, uint8_t g_39_l, uint32_t g_42_l, uint32_t g_54_l){
+            ^~~~~~~
+
+seed_for_retdec/484_new.c: In function ‘func_1’:
+seed_for_retdec/484_new.c:48:5: error: too many arguments to function ‘set_var’
+     set_var(202, 0, 0, -0x5dc9, 0xc8e4, 0, -5, 0x4cff15cc, 0x44455595);
+     ^~~~~~~
+seed_for_retdec/484_new.c:34:12: note: declared here
+ static int set_var(uint8_t g_2_l, int16_t g_13_l, uint32_t g_36_l, int16_t g_49_l, uint16_t g_51_l, int32_t g_52_l, int32_t g_58_l){
+            ^~~~~~~
+
+seed_for_retdec/487_new.c: In function ‘func_1’:
+seed_for_retdec/487_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-0x67f9, 0, -4, -7, 0xda84, -8, -1, 1, 0x4d2c298c);
+     ^~~~~~~
+seed_for_retdec/487_new.c:35:12: note: declared here
+ static int set_var(int16_t g_4_l, int32_t g_8_l, int16_t g_32_l, int8_t g_43_l, uint16_t g_44_l, int8_t g_56_l, uint32_t g_57_l, int8_t g_60_l){
+            ^~~~~~~
+
+seed_for_retdec/512_new.c: In function ‘func_1’:
+seed_for_retdec/512_new.c:66:5: error: too many arguments to function ‘set_var’
+     set_var(51, 1, 0, -0x57b5, -0xb259, -1, -0x4d8f982b, 0x460deea3, 0, 68, -1, -0x460deea6, 58, -0x7309ce4b, -33, -1, 0x6e93423a, 3, -5, 0x1e1ea803, 0, -1, 0x2324a69d, 0, 1, 61);
+     ^~~~~~~
+seed_for_retdec/512_new.c:52:12: note: declared here
+ static int set_var(uint8_t g_11_l, int16_t g_18_l, uint32_t g_31_l, uint32_t g_32_l, int32_t g_33_l, int32_t g_34_l, int32_t g_35_l, int32_t g_38_l, uint16_t g_42_l, int8_t g_49_l, uint32_t g_50_l, uint32_t g_87_l, int8_t g_88_l, int32_t g_116_l, uint32_t g_117_l, int32_t g_124_l, int32_t g_145_l, uint32_t g_157_l, int32_t g_160_l, uint32_t g_163_l, uint32_t g_168_l, int32_t g_169_l, int32_t g_252_l, uint8_t g_260_l, uint32_t g_271_l){
+            ^~~~~~~
+
+seed_for_retdec/517_new.c: In function ‘func_1’:
+seed_for_retdec/517_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x14173bf3, 1, 0, 0, 0x14173bf3);
+     ^~~~~~~
+seed_for_retdec/517_new.c:28:12: note: declared here
+ static int set_var(int32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/527_new.c: In function ‘func_1’:
+seed_for_retdec/527_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(37, 1, 1, 0xcc66, 102, 0, 0x7cd14257, -0x44ab5fc9, 1, 3, 0, 6, 102, -0x339a, 1, 1, 37);
+     ^~~~~~~
+seed_for_retdec/527_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_9_l, int16_t g_12_l, int32_t g_28_l, uint16_t g_30_l, int32_t g_56_l){
+            ^~~~~~~
+
+seed_for_retdec/539_new.c: In function ‘func_1’:
+seed_for_retdec/539_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-3, 254, 254, 0, 1, 32, 0, 0, 1, -1695);
+     ^~~~~~~
+seed_for_retdec/539_new.c:35:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_5_l, uint8_t g_14_l, uint32_t g_17_l, int32_t g_18_l, uint8_t g_19_l, int8_t g_26_l, int32_t g_33_l){
+            ^~~~~~~
+
+seed_for_retdec/575_new.c: In function ‘func_1’:
+seed_for_retdec/575_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(2, -0x7fdc, 0x8025, 1, -0x5476303e, 1, -0x6dbfb1ac, 1, 1, -0x7fdb, -0x7fdc);
+     ^~~~~~~
+seed_for_retdec/575_new.c:32:12: note: declared here
+ static int set_var(int32_t g_17_l, int16_t g_18_l, uint16_t g_35_l, uint8_t g_36_l){
+            ^~~~~~~
+
+seed_for_retdec/578_new.c: In function ‘func_1’:
+seed_for_retdec/578_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(14, -5, -0x4d304eeb, 0x647dc4b);
+     ^~~~~~~
+seed_for_retdec/578_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_30_l, int32_t g_51_l){
+            ^~~~~~~
+
+seed_for_retdec/61_new.c: In function ‘func_1’:
+seed_for_retdec/61_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x72031aa2, 0, 8, 0, 1, -1);
+     ^~~~~~~
+seed_for_retdec/61_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_15_l, uint32_t g_19_l, uint8_t g_20_l, int32_t g_21_l, uint8_t g_25_l, uint32_t g_28_l){
+            ^~~~~~~
+
+seed_for_retdec/610_new.c: In function ‘func_1’:
+seed_for_retdec/610_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x700d62e6, 0x246c3825, 0, 0, 0xb8c0, 0, 0, 0, 0, 0x246c3825, 0x700d62e6);
+     ^~~~~~~
+seed_for_retdec/610_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_17_l, uint32_t g_18_l, int32_t g_24_l, int8_t g_25_l){
+            ^~~~~~~
+
+seed_for_retdec/619_new.c: In function ‘func_1’:
+seed_for_retdec/619_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-8, 2, 8);
+     ^~~~~~~
+seed_for_retdec/619_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/624_new.c: In function ‘func_1’:
+seed_for_retdec/624_new.c:48:5: error: too many arguments to function ‘set_var’
+     set_var(-6, 0x288586fd, 1, -0x5e83, 1, 125, -9, 1, -0x6dbbcdb1, 125, 1, -0x5e83, 1, -6, -0x5e83, 0x288586fd);
+     ^~~~~~~
+seed_for_retdec/624_new.c:34:12: note: declared here
+ static int set_var(int16_t g_18_l, uint32_t g_19_l, int16_t g_33_l, uint32_t g_34_l, int8_t g_35_l, uint8_t g_44_l){
+            ^~~~~~~
+
+seed_for_retdec/625_new.c: In function ‘func_1’:
+seed_for_retdec/625_new.c:60:5: error: too many arguments to function ‘set_var’
+     set_var(123, 3, 0, 5, -0x75089601, 0, 0x61ffe8b4, -1, 1, 5, 75, -0x1cfb013b, 4093, 3, 1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/625_new.c:42:12: note: declared here
+ static int set_var(int32_t g_4_l, uint32_t g_15_l, int16_t g_16_l, int32_t g_25_l, int32_t g_51_l, uint32_t g_86_l, int32_t g_87_l, int32_t g_89_l, int8_t g_90_l, uint32_t g_175_l, int8_t g_176_l, uint32_t g_183_l, int16_t g_194_l, uint8_t g_195_l, uint8_t g_216_l){
+            ^~~~~~~
+
+seed_for_retdec/627_new.c: In function ‘func_1’:
+seed_for_retdec/627_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(1, -0x76af, -0x3ff5001, -55, -103, -44, -0x76af);
+     ^~~~~~~
+seed_for_retdec/627_new.c:29:12: note: declared here
+ static int set_var(int32_t g_6_l, int16_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/646_new.c: In function ‘func_1’:
+seed_for_retdec/646_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, 77, 0xfffe, 1, -2, 77, 1);
+     ^~~~~~~
+seed_for_retdec/646_new.c:31:12: note: declared here
+ static int set_var(int32_t g_4_l, uint32_t g_8_l, int32_t g_9_l, uint16_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/650_new.c: In function ‘func_1’:
+seed_for_retdec/650_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(7, -0xa3e7b3b, -3);
+     ^~~~~~~
+seed_for_retdec/650_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_4_l){
+            ^~~~~~~
+
+seed_for_retdec/668_new.c: In function ‘func_1’:
+seed_for_retdec/668_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0, 0, 0x11fc80ae, -0x1c1ba445, 0, 0x5fdc8dfb, 0, 0, 1);
+     ^~~~~~~
+seed_for_retdec/668_new.c:30:12: note: declared here
+ static int set_var(int8_t g_8_l, int8_t g_15_l, int16_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/673_new.c: In function ‘func_1’:
+seed_for_retdec/673_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, 0xdf7c, -0x2084, 0x7950, -0x2084, 1, 1);
+     ^~~~~~~
+seed_for_retdec/673_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_13_l, uint32_t g_14_l, uint16_t g_15_l){
+            ^~~~~~~
+
+seed_for_retdec/682_new.c: In function ‘func_1’:
+seed_for_retdec/682_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3ea8b87f, -1, 1, 0, -1, 1, -1);
+     ^~~~~~~
+seed_for_retdec/682_new.c:30:12: note: declared here
+ static int set_var(int32_t g_8_l, int8_t g_13_l, int32_t g_14_l){
+            ^~~~~~~
+
+seed_for_retdec/685_new.c: In function ‘func_1’:
+seed_for_retdec/685_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 128, -0x4ddedb08, -1, -128);
+     ^~~~~~~
+seed_for_retdec/685_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/686_new.c: In function ‘func_1’:
+seed_for_retdec/686_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0x3948, 0, 0);
+     ^~~~~~~
+seed_for_retdec/686_new.c:29:12: note: declared here
+ static int set_var(int16_t g_14_l, int32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/701_new.c: In function ‘func_1’:
+seed_for_retdec/701_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0, -2, 0, 2, 0, -101, 0, -0x5290d118, 2, 0, -2, 0, -1);
+     ^~~~~~~
+seed_for_retdec/701_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_9_l, int8_t g_10_l, int8_t g_11_l, int32_t g_13_l, uint16_t g_14_l){
+            ^~~~~~~
+
+seed_for_retdec/705_new.c: In function ‘func_1’:
+seed_for_retdec/705_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-2, -2, -2);
+     ^~~~~~~
+seed_for_retdec/705_new.c:28:12: note: declared here
+ static int set_var(int32_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/706_new.c: In function ‘func_1’:
+seed_for_retdec/706_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(254, 0, -0x47f8306, 28, 0, -2);
+     ^~~~~~~
+seed_for_retdec/706_new.c:29:12: note: declared here
+ static int set_var(uint8_t g_6_l, int32_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/718_new.c: In function ‘func_1’:
+seed_for_retdec/718_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(3680, 1, 0x1a21c000);
+     ^~~~~~~
+seed_for_retdec/718_new.c:29:12: note: declared here
+ static int set_var(int16_t g_2_l, int32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/726_new.c: In function ‘func_1’:
+seed_for_retdec/726_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, 8, 1, 9, 1, -0x4a2e34a, 0x4c56, 0x8664a11, 5, -0x2bc2235e, 9, 8, -0x76a6cef4, 1, 0x4c56, -0x4a2e34a, 1, 9, 1, 8, 1, -0x2c85a483);
+     ^~~~~~~
+seed_for_retdec/726_new.c:36:12: note: declared here
+ static int set_var(int32_t g_6_l, uint16_t g_11_l, int32_t g_13_l, int8_t g_15_l, int32_t g_20_l, int32_t g_21_l, int32_t g_22_l, uint16_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/742_new.c: In function ‘func_1’:
+seed_for_retdec/742_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x1748d02c, 0, -0x12088021, -7);
+     ^~~~~~~
+seed_for_retdec/742_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_4_l, uint32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/745_new.c: In function ‘func_1’:
+seed_for_retdec/745_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0, -18, 0, 1, 1, 0x654fddd4, 0, 0, 1, 1, 0);
+     ^~~~~~~
+seed_for_retdec/745_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, uint32_t g_10_l, int32_t g_14_l, uint32_t g_15_l){
+            ^~~~~~~
+
+seed_for_retdec/761_new.c: In function ‘func_1’:
+seed_for_retdec/761_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3d65c20a, 73, 0x3989226c, 3, 0x3989226c, 73, -0x3d65c20a);
+     ^~~~~~~
+seed_for_retdec/761_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_8_l, uint32_t g_9_l){
+            ^~~~~~~
+
+seed_for_retdec/771_new.c: In function ‘func_1’:
+seed_for_retdec/771_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(9, 0, 0x1c48);
+     ^~~~~~~
+seed_for_retdec/771_new.c:29:12: note: declared here
+ static int set_var(int32_t g_10_l, int16_t g_14_l){
+            ^~~~~~~
+
+seed_for_retdec/774_new.c: In function ‘func_1’:
+seed_for_retdec/774_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-10, 5, -10, -6, -1, 1, -5, -1, -6, -10);
+     ^~~~~~~
+seed_for_retdec/774_new.c:32:12: note: declared here
+ static int set_var(int32_t g_9_l, int32_t g_12_l, int8_t g_14_l, int8_t g_15_l, uint32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/785_new.c: In function ‘func_1’:
+seed_for_retdec/785_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x2e653e6a, 0xbb8bffb, 1, 5, 0, 1);
+     ^~~~~~~
+seed_for_retdec/785_new.c:31:12: note: declared here
+ static int set_var(int32_t g_7_l, uint32_t g_17_l, uint32_t g_18_l, uint8_t g_19_l){
+            ^~~~~~~
+
+seed_for_retdec/787_new.c: In function ‘func_1’:
+seed_for_retdec/787_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-10, 0, -14, -10);
+     ^~~~~~~
+seed_for_retdec/787_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/798_new.c: In function ‘func_1’:
+seed_for_retdec/798_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(255, 0x733147f5, 9, 0x733147f5, 0, 7, -0x37858adb, -0x6c4b1e5e, 0x733147f5, -1);
+     ^~~~~~~
+seed_for_retdec/798_new.c:29:12: note: declared here
+ static int set_var(uint8_t g_7_l, uint32_t g_24_l){
+            ^~~~~~~
+
+seed_for_retdec/801_new.c: In function ‘func_1’:
+seed_for_retdec/801_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(-0x24c51cab, 0x4504cd45, -1, 0, 0xd29a, (int32_t)&g1, (int16_t)&g1, (char)&g1, (int16_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/801_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_4_l, int32_t g_5_l, uint16_t g_23_l){
+            ^~~~~~~
+
+seed_for_retdec/804_new.c: In function ‘func_1’:
+seed_for_retdec/804_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(107, 9, 107, 0, 0, 0);
+     ^~~~~~~
+seed_for_retdec/804_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_4_l, uint32_t g_9_l, uint32_t g_11_l, int8_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/809_new.c: In function ‘func_1’:
+seed_for_retdec/809_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 9, 9, -0x761fdd5b, 0, 0, 1, -0x16a5527b, 0, -0x761fdd5b, 9);
+     ^~~~~~~
+seed_for_retdec/809_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_12_l, int8_t g_13_l, uint32_t g_15_l, uint32_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/815_new.c: In function ‘func_1’:
+seed_for_retdec/815_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x2eac4531, -9, 1, 1);
+     ^~~~~~~
+seed_for_retdec/815_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/821_new.c: In function ‘func_1’:
+seed_for_retdec/821_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0x20002526, 0x7b7d, 7, 0, 5, -1, 0x20002526);
+     ^~~~~~~
+seed_for_retdec/821_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_4_l, int16_t g_16_l, int16_t g_23_l, uint16_t g_25_l){
+            ^~~~~~~
+
+seed_for_retdec/823_new.c: In function ‘func_1’:
+seed_for_retdec/823_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0, 199, -0x634f4104, 0, 0x6a53, 0);
+     ^~~~~~~
+seed_for_retdec/823_new.c:30:12: note: declared here
+ static int set_var(int32_t g_11_l, uint8_t g_13_l, int32_t g_20_l){
+            ^~~~~~~
+
+seed_for_retdec/825_new.c: In function ‘func_1’:
+seed_for_retdec/825_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(2, 0, 0, 0, 2);
+     ^~~~~~~
+seed_for_retdec/825_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_4_l, int32_t g_6_l){
+            ^~~~~~~
+
+seed_for_retdec/836_new.c: In function ‘func_1’:
+seed_for_retdec/836_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x329ef4a0, 0);
+     ^~~~~~~
+seed_for_retdec/836_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/838_new.c: In function ‘func_1’:
+seed_for_retdec/838_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x791ad274, -0x2bee, 1, 1, 0, 1, 4);
+     ^~~~~~~
+seed_for_retdec/838_new.c:31:12: note: declared here
+ static int set_var(int32_t g_5_l, int16_t g_8_l, uint32_t g_10_l, int32_t g_11_l){
+            ^~~~~~~
+
+seed_for_retdec/841_new.c: In function ‘func_1’:
+seed_for_retdec/841_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4ce7, 975, 0x28df, 0, 1, -93, -5, 0, 0x28df, -0x4ce7, 975);
+     ^~~~~~~
+seed_for_retdec/841_new.c:31:12: note: declared here
+ static int set_var(int16_t g_2_l, uint32_t g_12_l, uint16_t g_13_l, int32_t g_16_l){
+            ^~~~~~~
+
+seed_for_retdec/85_new.c: In function ‘func_1’:
+seed_for_retdec/85_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0, 0, -0x46cc777a, -4, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1);
+     ^~~~~~~
+seed_for_retdec/85_new.c:32:12: note: declared here
+ static int set_var(int32_t g_9_l, int8_t g_10_l, int32_t g_11_l, uint32_t g_27_l, uint32_t g_50_l){
+            ^~~~~~~
+
+seed_for_retdec/852_new.c: In function ‘func_1’:
+seed_for_retdec/852_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-106, 1, 0xfffc, -4, -0x66ccc383, 0x5c96, -4, 1, -106);
+     ^~~~~~~
+seed_for_retdec/852_new.c:30:12: note: declared here
+ static int set_var(int8_t g_3_l, int16_t g_16_l, uint16_t g_17_l){
+            ^~~~~~~
+
+seed_for_retdec/853_new.c: In function ‘func_1’:
+seed_for_retdec/853_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffe, 0xffff, 1, 510, -1, 0x13251f81, -70, -1, -63, -24, 1, 1, 1, 0x13251f81, -1, 510);
+     ^~~~~~~
+seed_for_retdec/853_new.c:33:12: note: declared here
+ static int set_var(uint16_t g_6_l, uint32_t g_13_l, int8_t g_44_l, uint32_t g_45_l, int8_t g_47_l, uint32_t g_48_l){
+            ^~~~~~~
+
+seed_for_retdec/870_new.c: In function ‘func_1’:
+seed_for_retdec/870_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 84, 0x925e, -3, 0);
+     ^~~~~~~
+seed_for_retdec/870_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_9_l){
+            ^~~~~~~
+
+seed_for_retdec/871_new.c: In function ‘func_1’:
+seed_for_retdec/871_new.c:53:5: error: too many arguments to function ‘set_var’
+     set_var(-0x28f0, 0x44ad, -73, 0, (int16_t)&g1, (int32_t)&g1, (int16_t)&g1, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/871_new.c:35:12: note: declared here
+ static int set_var(int16_t g_7_l, int32_t g_9_l, int8_t g_18_l, uint32_t g_22_l){
+            ^~~~~~~
+
+seed_for_retdec/879_new.c: In function ‘func_1’:
+seed_for_retdec/879_new.c:48:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, 0x62d7bc3, 0, -0x19adae3a, -0x5df42fcb, 0);
+     ^~~~~~~
+seed_for_retdec/879_new.c:34:12: note: declared here
+ static int set_var(int8_t g_4_l, int16_t g_13_l){
+            ^~~~~~~
+
+seed_for_retdec/890_new.c: In function ‘func_1’:
+seed_for_retdec/890_new.c:61:5: error: too many arguments to function ‘set_var’
+     set_var(-0x179ab00d, 0, -1, 1, 0x36b80555, 1, -1, 0, 95, 5, 110, -6, -1, 7, 0xfff9, 7);
+     ^~~~~~~
+seed_for_retdec/890_new.c:47:12: note: declared here
+ static int set_var(uint32_t g_37_l, int32_t g_48_l, int32_t g_49_l, uint8_t g_50_l, int32_t g_62_l, int32_t g_71_l, int8_t g_72_l, int32_t g_73_l, int8_t g_101_l, uint16_t g_115_l, uint8_t g_130_l, uint16_t g_166_l, int32_t g_170_l, int16_t g_174_l, uint16_t g_175_l){
+            ^~~~~~~
+
+seed_for_retdec/892_new.c: In function ‘func_1’:
+seed_for_retdec/892_new.c:51:5: error: too many arguments to function ‘set_var’
+     set_var(6, 0xffff, 1, 1, 1, 1, 96, 1, 0, 1, 1, 1, 1, -1, 6);
+     ^~~~~~~
+seed_for_retdec/892_new.c:37:12: note: declared here
+ static int set_var(int16_t g_15_l, uint16_t g_16_l, uint16_t g_18_l, int8_t g_19_l, int16_t g_46_l, uint32_t g_47_l){
+            ^~~~~~~
+
+seed_for_retdec/918_new.c: In function ‘func_1’:
+seed_for_retdec/918_new.c:60:18: error: too many arguments to function ‘set_var’
+     int32_t v2 = set_var(-8, 250, 0, 0x502e46a6, 0, 0xbc9f, 250, 0, 0x5ddb3f0f, 97, 121, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1); // 0x8049b0b
+                  ^~~~~~~
+seed_for_retdec/918_new.c:42:12: note: declared here
+ static int set_var(int8_t g_12_l, uint8_t g_13_l, uint32_t g_23_l, uint32_t g_41_l, uint16_t g_42_l, uint16_t g_44_l, int32_t g_55_l, int8_t g_56_l, uint32_t g_57_l, uint8_t g_101_l, int8_t g_161_l){
+            ^~~~~~~
+
+seed_for_retdec/92_new.c: In function ‘func_1’:
+seed_for_retdec/92_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(186, 0x7c9d, 0, 0, 1, -0x45d8bc72, 29, -70, 1, 0, 0, 0x7c9d, -70);
+     ^~~~~~~
+seed_for_retdec/92_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_11_l, uint16_t g_12_l, uint16_t g_24_l, int32_t g_35_l, int32_t g_37_l){
+            ^~~~~~~
+
+seed_for_retdec/928_new.c: In function ‘func_1’:
+seed_for_retdec/928_new.c:52:5: error: too many arguments to function ‘set_var’
+     set_var(1, 1, -3, 251, 0x4489be66, -1, 29, -0xb7b91e3, 0, 0x78cca699);
+     ^~~~~~~
+seed_for_retdec/928_new.c:38:12: note: declared here
+ static int set_var(int16_t g_14_l, uint32_t g_17_l, int32_t g_19_l, uint8_t g_35_l, uint32_t g_43_l, int32_t g_44_l, uint8_t g_47_l){
+            ^~~~~~~
+
+seed_for_retdec/93_new.c: In function ‘func_1’:
+seed_for_retdec/93_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, -1, -87, 0);
+     ^~~~~~~
+seed_for_retdec/93_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, int32_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/934_new.c: In function ‘func_1’:
+seed_for_retdec/934_new.c:50:5: error: too many arguments to function ‘set_var’
+     set_var(0, 16, 0, 0, 0, 1, 16, 45, 0, 9, 0, 0);
+     ^~~~~~~
+seed_for_retdec/934_new.c:36:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_16_l, int8_t g_22_l, uint16_t g_41_l, uint32_t g_42_l){
+            ^~~~~~~
+
+seed_for_retdec/96_new.c: In function ‘func_1’:
+seed_for_retdec/96_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(18, 0x74da8628, 0x525d2d91, -0x201fed2e, 18);
+     ^~~~~~~
+seed_for_retdec/96_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+seed_for_retdec/98_new.c: In function ‘func_1’:
+seed_for_retdec/98_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0, 1, 0, 0, -114, 1, 0, -1);
+     ^~~~~~~
+seed_for_retdec/98_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_6_l, uint8_t g_7_l, int8_t g_10_l){
+            ^~~~~~~
+
+seed_for_retdec/986_new.c: In function ‘func_1’:
+seed_for_retdec/986_new.c:65:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, -4, 0xfff6, 1, 0x5935, -1, 0xfd71, -0x2361212a, 7, 0x8a47727, 0x1c3d1073, 0, 0xa9f5600, 1, 1, (int32_t)&g1, (char)&g1, (int32_t)&g1, (int32_t)&g1, (int32_t)&g1, (int16_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+seed_for_retdec/986_new.c:47:12: note: declared here
+ static int set_var(int16_t g_4_l, uint16_t g_21_l, int32_t g_32_l, uint16_t g_38_l, int32_t g_40_l, uint32_t g_46_l, int32_t g_85_l, uint16_t g_102_l, uint32_t g_134_l, int8_t g_180_l, uint32_t g_190_l, uint32_t g_194_l, uint32_t g_219_l, uint32_t g_220_l, int32_t g_225_l, uint32_t g_226_l){
+            ^~~~~~~
+
+seed_for_retdec/988_new.c: In function ‘func_1’:
+seed_for_retdec/988_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x17120e02, 254, 0, -2);
+     ^~~~~~~
+seed_for_retdec/988_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint8_t g_3_l){
+            ^~~~~~~
+
+seed_for_retdec/99_new.c: In function ‘func_1’:
+seed_for_retdec/99_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0x15a1, -95, 0x15a1, 0x15a1, -95);
+     ^~~~~~~
+seed_for_retdec/99_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_10_l, int8_t g_12_l){
+            ^~~~~~~
+
+seed_for_retdec/994_new.c: In function ‘func_1’:
+seed_for_retdec/994_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x652a61a9, -82, -0x527acf22, 0x66bafcb1, 1, -82);
+     ^~~~~~~
+seed_for_retdec/994_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_4_l, int8_t g_5_l){
+            ^~~~~~~
+
+seed_for_retdec/999_new.c: In function ‘func_1’:
+seed_for_retdec/999_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-8, 0, 0, 8, -1);
+     ^~~~~~~
+seed_for_retdec/999_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_8_l, uint32_t g_29_l, uint16_t g_31_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffb, 0x66f6, -1, 0, 0, 0, 0xfffb);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0xae8c, 0x3a3dbc56, 0x2e64, 1, -0xe78e2f4, 1, 0, -1, 0, 1, 0x2e64, -0x5174);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x3371247a, 0, 0x40ed, 0, 0, 0x3371247a, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint8_t g_8_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0xea75c96, -1, -0x20d0b574);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:29:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_6_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(2, 0, 1, 0x2910a83a, 0x21e0bec0, -3, 0, 0, 0x46710139, 4);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_23_l, uint16_t g_26_l, int32_t g_27_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/125_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/125_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0x128f, 11, 0, 1, -0x7d7bae29, 74, 74, 1, 0, 11);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/125_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_19_l, int32_t g_21_l, uint16_t g_22_l, int32_t g_23_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/128_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/128_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(628, -32, 66, 0, -0x1e84, 66, -32, 5, 628);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/128_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_15_l, int8_t g_16_l, uint8_t g_18_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/137_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/137_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, -3, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/137_new.c:28:12: note: declared here
+ static int set_var(int8_t g_4_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/143_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/143_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-21, 0x65ab3e90, -7);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/143_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/148_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/148_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(4, -0x639c3bf9, 0x3988, 0x311e2db8, 96, -9, 0x74579933, 1, 55, -2, 0x3988);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/148_new.c:30:12: note: declared here
+ static int set_var(int32_t g_13_l, int32_t g_14_l, uint16_t g_21_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/149_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/149_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 72, 5, 0, 0x25bb0866, 0, 1, 72, 5, 72);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/149_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_2_l, int8_t g_6_l, uint8_t g_16_l, uint32_t g_17_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/158_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/158_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x73e9, 0, 0xffff, -0x73e9, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/158_new.c:29:12: note: declared here
+ static int set_var(int32_t g_7_l, uint8_t g_8_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/159_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/159_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x4a0426a7, 0x278fa8f9, 0x4a0426a7, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/159_new.c:29:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_16_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/165_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/165_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x29000d4e, -1, 0, 0x215e1abe, 0, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/165_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_3_l, uint8_t g_9_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/170_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/170_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0xfa4b, 1, 3, 3, 193, -63, -0x10562e66, 0x4d2edc75, -0x4a81748e, -63, 3, 3, 1, -1461, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/170_new.c:33:12: note: declared here
+ static int set_var(int16_t g_6_l, uint16_t g_7_l, uint16_t g_10_l, uint16_t g_16_l, int32_t g_19_l, uint8_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/173_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/173_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4a71e83f, 0x245c, 0x4308, -23, 1, -0x245c);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/173_new.c:32:12: note: declared here
+ static int set_var(int32_t g_17_l, int16_t g_18_l, uint16_t g_19_l, int8_t g_32_l, uint32_t g_33_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/175_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/175_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-2, -0x5795, 0, 0, -0x6e090b64, -2, 0, 0, 0, -33, -37, -2, -0x6e090b64, 0, 0, -0x5795, -2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/175_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_2_l, int16_t g_15_l, uint8_t g_17_l, int32_t g_22_l, uint32_t g_23_l, uint32_t g_27_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/178_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/178_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-8, -1, 0, 0x3b10, 0, 0, 0, -0x752c7a1e, -9);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/178_new.c:35:12: note: declared here
+ static int set_var(int8_t g_4_l, int16_t g_20_l, uint32_t g_21_l, uint16_t g_23_l, uint32_t g_35_l, uint32_t g_41_l, uint8_t g_42_l, uint32_t g_45_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/186_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/186_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, -0x133dbbc6, -0x4aa44d3e, -0x3205, -0x3205, 2, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/186_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint32_t g_10_l, int16_t g_11_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/19_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/19_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 33, 113, 113, 33, 33, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/19_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_11_l, uint16_t g_12_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/190_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/190_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4293c10, -0x537c, -0x10ae5165, 0xc3f0, -1, 1, 0x753f3ac9, 0, -0x3c10, -0x5d8976cb, 1, -1, -0x3c10, -0x10ae5165, -0x537c);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/190_new.c:33:12: note: declared here
+ static int set_var(int32_t g_10_l, int16_t g_16_l, uint32_t g_18_l, uint16_t g_27_l, uint32_t g_32_l, uint8_t g_33_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/197_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/197_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x5d39, (int32_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/197_new.c:28:12: note: declared here
+ static int set_var(int16_t g_6_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/199_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/199_new.c:58:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4539b598, 0, 0, -10, -1, 3, -80, 0x4f79, -1, 229, 3, 137, -0x698fc47a, (int16_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/199_new.c:40:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, uint32_t g_6_l, int8_t g_7_l, uint32_t g_28_l, uint32_t g_30_l, int8_t g_42_l, int16_t g_68_l, uint32_t g_78_l, uint8_t g_83_l, uint8_t g_84_l, uint8_t g_101_l, uint32_t g_108_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/203_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/203_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 0, -1, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/203_new.c:31:12: note: declared here
+ static int set_var(int32_t g_5_l, int32_t g_13_l, uint32_t g_15_l, uint32_t g_16_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/215_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/215_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3824, 8, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/215_new.c:29:12: note: declared here
+ static int set_var(int16_t g_11_l, uint8_t g_12_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/216_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/216_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(247, 254, 0, 1, 0, 0, 0, 0, 5);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/216_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_13_l, uint8_t g_16_l, uint8_t g_18_l, int32_t g_19_l, uint16_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/217_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/217_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, -4, 1, 0, 0, 1, -4, 0, -1778, 0, 0, 1, -4, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/217_new.c:32:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_11_l, uint32_t g_12_l, int16_t g_13_l, uint16_t g_24_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/230_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/230_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(2, -0x3acd, 0, 0, -1, 5, 1, 0, -0x3acd, 2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/230_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, int16_t g_18_l, uint16_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/232_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/232_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffe, -14, 0, 111, 0, -1, -48, 0x9e820f8, -0x6175d728, -1, -1, 0, 0, 0x9e820f8, -48, -1, 0, 111, 0, -14, -2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/232_new.c:35:12: note: declared here
+ static int set_var(uint16_t g_4_l, int16_t g_17_l, uint8_t g_31_l, int32_t g_32_l, uint16_t g_34_l, int16_t g_37_l, int8_t g_41_l, uint32_t g_42_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/242_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/242_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(6, -2, 0x6951ad38);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/242_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, int32_t g_3_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/243_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/243_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x5e08cccd, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/243_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_5_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/246_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/246_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 1, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/246_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint32_t g_12_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/249_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/249_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(248, 0, -1, -0x76f3abbf, 92, 1, -1, 0, -8);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/249_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_4_l, uint8_t g_8_l, int16_t g_9_l, uint32_t g_10_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/254_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/254_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x714a, 0, 0x52f0, -1, 3, 0x298c, 0, -0x40499015, -10, 0x714a, 0x52f0, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/254_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_18_l, uint8_t g_21_l, int16_t g_29_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/258_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/258_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3162fa46, -4, 0x6f084217, 1, -3, 1, 0x56160cbd);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/258_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, int16_t g_7_l, int32_t g_8_l, int8_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/27_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/27_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0xc2de, 1, 122, 1, -0x5a3e4f65, 0, 1, -0x3736, 6, 0, 1, 0, 0x151c3c39, 0, -0x5a3e4f65, 1, 122, 1, -0x3d22);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/27_new.c:33:12: note: declared here
+ static int set_var(uint16_t g_18_l, int8_t g_23_l, int8_t g_36_l, int32_t g_37_l, uint32_t g_38_l, int8_t g_49_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/272_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/272_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 1, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/272_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint16_t g_3_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/285_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/285_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x7f62fef9, 1, -0x117c5215, 119, 0xfffe, 0, 1, 1, 1, -2, 119, -0x117c5215, -0x7f62fef9);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/285_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_11_l, int32_t g_12_l, uint32_t g_34_l, uint8_t g_35_l, uint16_t g_83_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/289_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/289_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(193, -0x2076, 4, 1, 1, 191, -0x62f7, 1, 0, -65, 1, 1, 4, -0x2076, -63);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/289_new.c:33:12: note: declared here
+ static int set_var(uint8_t g_2_l, int32_t g_16_l, uint16_t g_19_l, uint16_t g_23_l, uint32_t g_29_l, uint8_t g_30_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/314_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/314_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0x121ac488, 104, 104, 7, -1, 245, 104, 1, -2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/314_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_4_l, int8_t g_10_l, int32_t g_27_l, uint16_t g_39_l, uint32_t g_63_l, uint8_t g_65_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/347_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/347_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x7c1d6b3b, -1, 1, 0, 7, 0xffff, -1, 1, 84, -0xb02e598, -0x2743f2ed, 8, 7, -1, 0x7c1d6b3b, 0, 0, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/347_new.c:32:12: note: declared here
+ static int set_var(int32_t g_22_l, int16_t g_25_l, uint16_t g_27_l, uint32_t g_48_l, uint8_t g_63_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/35_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/35_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-3, -0x17120e02, -20, -3, 0x37ad4351);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/35_new.c:29:12: note: declared here
+ static int set_var(int8_t g_7_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/352_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/352_new.c:57:5: error: too many arguments to function ‘set_var’
+     set_var(0, -5, 0x4a04, 1, 0x4c9c, 0x3836, 0x1eaa473e, -1, -0x5291c067, 31, -3, 3, (int32_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/352_new.c:39:12: note: declared here
+ static int set_var(int32_t g_2_l, int8_t g_10_l, int16_t g_21_l, uint32_t g_34_l, int16_t g_40_l, uint16_t g_43_l, uint32_t g_47_l, int32_t g_79_l, uint32_t g_80_l, uint8_t g_82_l, int32_t g_83_l, uint32_t g_92_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/363_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/363_new.c:56:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x8dc4, 0, 0, 9, 1, 0x48bb, 0, -1, 9, 0xdae5, (int16_t)&g1, (int16_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/363_new.c:38:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint16_t g_11_l, uint32_t g_18_l, uint32_t g_19_l, int32_t g_20_l, uint32_t g_22_l, int32_t g_23_l, int16_t g_39_l, int32_t g_40_l, int32_t g_52_l, uint16_t g_73_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/369_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/369_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(0x76820624, -28, -1, 0, 0x5f4b3f4b, 1, -2, 6, 7, 1, 9, -98, 0x5f4b3f4b, 0, -1, 0x76820624);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/369_new.c:32:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, int32_t g_6_l, int32_t g_7_l, uint32_t g_22_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffb, 0x66f6, -1, 0, 0, 0, 0xfffb);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0xae8c, 0x3a3dbc56, 0x2e64, 1, -0xe78e2f4, 1, 0, -1, 0, 1, 0x2e64, -0x5174);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x3371247a, 0, 0x40ed, 0, 0, 0x3371247a, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint8_t g_8_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0xea75c96, -1, -0x20d0b574);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:29:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_6_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffb, 0x66f6, -1, 0, 0, 0, 0xfffb);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0xae8c, 0x3a3dbc56, 0x2e64, 1, -0xe78e2f4, 1, 0, -1, 0, 1, 0x2e64, -0x5174);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x3371247a, 0, 0x40ed, 0, 0, 0x3371247a, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint8_t g_8_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0xea75c96, -1, -0x20d0b574);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:29:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_6_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(2, 0, 1, 0x2910a83a, 0x21e0bec0, -3, 0, 0, 0x46710139, 4);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_23_l, uint16_t g_26_l, int32_t g_27_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/125_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/125_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0x128f, 11, 0, 1, -0x7d7bae29, 74, 74, 1, 0, 11);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/125_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_19_l, int32_t g_21_l, uint16_t g_22_l, int32_t g_23_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/128_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/128_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(628, -32, 66, 0, -0x1e84, 66, -32, 5, 628);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/128_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_15_l, int8_t g_16_l, uint8_t g_18_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/137_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/137_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0, -3, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/137_new.c:28:12: note: declared here
+ static int set_var(int8_t g_4_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/143_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/143_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(-21, 0x65ab3e90, -7);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/143_new.c:28:12: note: declared here
+ static int set_var(int32_t g_2_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/148_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/148_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(4, -0x639c3bf9, 0x3988, 0x311e2db8, 96, -9, 0x74579933, 1, 55, -2, 0x3988);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/148_new.c:30:12: note: declared here
+ static int set_var(int32_t g_13_l, int32_t g_14_l, uint16_t g_21_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/149_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/149_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 72, 5, 0, 0x25bb0866, 0, 1, 72, 5, 72);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/149_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_2_l, int8_t g_6_l, uint8_t g_16_l, uint32_t g_17_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/158_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/158_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x73e9, 0, 0xffff, -0x73e9, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/158_new.c:29:12: note: declared here
+ static int set_var(int32_t g_7_l, uint8_t g_8_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/159_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/159_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 0x4a0426a7, 0x278fa8f9, 0x4a0426a7, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/159_new.c:29:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_16_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/165_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/165_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x29000d4e, -1, 0, 0x215e1abe, 0, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/165_new.c:30:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_3_l, uint8_t g_9_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/170_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/170_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(1, 0xfa4b, 1, 3, 3, 193, -63, -0x10562e66, 0x4d2edc75, -0x4a81748e, -63, 3, 3, 1, -1461, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/170_new.c:33:12: note: declared here
+ static int set_var(int16_t g_6_l, uint16_t g_7_l, uint16_t g_10_l, uint16_t g_16_l, int32_t g_19_l, uint8_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/173_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/173_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4a71e83f, 0x245c, 0x4308, -23, 1, -0x245c);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/173_new.c:32:12: note: declared here
+ static int set_var(int32_t g_17_l, int16_t g_18_l, uint16_t g_19_l, int8_t g_32_l, uint32_t g_33_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/175_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/175_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-2, -0x5795, 0, 0, -0x6e090b64, -2, 0, 0, 0, -33, -37, -2, -0x6e090b64, 0, 0, -0x5795, -2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/175_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_2_l, int16_t g_15_l, uint8_t g_17_l, int32_t g_22_l, uint32_t g_23_l, uint32_t g_27_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/178_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/178_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(-8, -1, 0, 0x3b10, 0, 0, 0, -0x752c7a1e, -9);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/178_new.c:35:12: note: declared here
+ static int set_var(int8_t g_4_l, int16_t g_20_l, uint32_t g_21_l, uint16_t g_23_l, uint32_t g_35_l, uint32_t g_41_l, uint8_t g_42_l, uint32_t g_45_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/186_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/186_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, -0x133dbbc6, -0x4aa44d3e, -0x3205, -0x3205, 2, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/186_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint32_t g_10_l, int16_t g_11_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/19_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/19_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 33, 113, 113, 33, 33, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/19_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_11_l, uint16_t g_12_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/190_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/190_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4293c10, -0x537c, -0x10ae5165, 0xc3f0, -1, 1, 0x753f3ac9, 0, -0x3c10, -0x5d8976cb, 1, -1, -0x3c10, -0x10ae5165, -0x537c);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/190_new.c:33:12: note: declared here
+ static int set_var(int32_t g_10_l, int16_t g_16_l, uint32_t g_18_l, uint16_t g_27_l, uint32_t g_32_l, uint8_t g_33_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/197_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/197_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x5d39, (int32_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/197_new.c:28:12: note: declared here
+ static int set_var(int16_t g_6_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/199_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/199_new.c:58:5: error: too many arguments to function ‘set_var’
+     set_var(-0x4539b598, 0, 0, -10, -1, 3, -80, 0x4f79, -1, 229, 3, 137, -0x698fc47a, (int16_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/199_new.c:40:12: note: declared here
+ static int set_var(int32_t g_2_l, int32_t g_3_l, uint32_t g_6_l, int8_t g_7_l, uint32_t g_28_l, uint32_t g_30_l, int8_t g_42_l, int16_t g_68_l, uint32_t g_78_l, uint8_t g_83_l, uint8_t g_84_l, uint8_t g_101_l, uint32_t g_108_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/203_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/203_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 0, -1, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/203_new.c:31:12: note: declared here
+ static int set_var(int32_t g_5_l, int32_t g_13_l, uint32_t g_15_l, uint32_t g_16_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/215_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/215_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3824, 8, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/215_new.c:29:12: note: declared here
+ static int set_var(int16_t g_11_l, uint8_t g_12_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/216_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/216_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(247, 254, 0, 1, 0, 0, 0, 0, 5);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/216_new.c:32:12: note: declared here
+ static int set_var(uint8_t g_13_l, uint8_t g_16_l, uint8_t g_18_l, int32_t g_19_l, uint16_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/217_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/217_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-1, -4, 1, 0, 0, 1, -4, 0, -1778, 0, 0, 1, -4, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/217_new.c:32:12: note: declared here
+ static int set_var(int8_t g_10_l, uint32_t g_11_l, uint32_t g_12_l, int16_t g_13_l, uint16_t g_24_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/230_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/230_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(2, -0x3acd, 0, 0, -1, 5, 1, 0, -0x3acd, 2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/230_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, int16_t g_18_l, uint16_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/232_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/232_new.c:49:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffe, -14, 0, 111, 0, -1, -48, 0x9e820f8, -0x6175d728, -1, -1, 0, 0, 0x9e820f8, -48, -1, 0, 111, 0, -14, -2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/232_new.c:35:12: note: declared here
+ static int set_var(uint16_t g_4_l, int16_t g_17_l, uint8_t g_31_l, int32_t g_32_l, uint16_t g_34_l, int16_t g_37_l, int8_t g_41_l, uint32_t g_42_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/242_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/242_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(6, -2, 0x6951ad38);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/242_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, int32_t g_3_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/243_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/243_new.c:42:5: error: too many arguments to function ‘set_var’
+     set_var(0x5e08cccd, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/243_new.c:28:12: note: declared here
+ static int set_var(uint32_t g_5_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/246_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/246_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 1, (int32_t)&g1, (int32_t)&g1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/246_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint32_t g_12_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/249_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/249_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(248, 0, -1, -0x76f3abbf, 92, 1, -1, 0, -8);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/249_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_4_l, uint8_t g_8_l, int16_t g_9_l, uint32_t g_10_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/254_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/254_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0x714a, 0, 0x52f0, -1, 3, 0x298c, 0, -0x40499015, -10, 0x714a, 0x52f0, 0);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/254_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_18_l, uint8_t g_21_l, int16_t g_29_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/258_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/258_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(-0x3162fa46, -4, 0x6f084217, 1, -3, 1, 0x56160cbd);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/258_new.c:31:12: note: declared here
+ static int set_var(uint32_t g_5_l, int16_t g_7_l, int32_t g_8_l, int8_t g_20_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/27_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/27_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0xc2de, 1, 122, 1, -0x5a3e4f65, 0, 1, -0x3736, 6, 0, 1, 0, 0x151c3c39, 0, -0x5a3e4f65, 1, 122, 1, -0x3d22);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/27_new.c:33:12: note: declared here
+ static int set_var(uint16_t g_18_l, int8_t g_23_l, int8_t g_36_l, int32_t g_37_l, uint32_t g_38_l, int8_t g_49_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/272_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/272_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0, 1, 1, 1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/272_new.c:29:12: note: declared here
+ static int set_var(uint32_t g_2_l, uint16_t g_3_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/285_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/285_new.c:46:5: error: too many arguments to function ‘set_var’
+     set_var(-0x7f62fef9, 1, -0x117c5215, 119, 0xfffe, 0, 1, 1, 1, -2, 119, -0x117c5215, -0x7f62fef9);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/285_new.c:32:12: note: declared here
+ static int set_var(uint32_t g_11_l, int32_t g_12_l, uint32_t g_34_l, uint8_t g_35_l, uint16_t g_83_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/289_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/289_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(193, -0x2076, 4, 1, 1, 191, -0x62f7, 1, 0, -65, 1, 1, 4, -0x2076, -63);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/289_new.c:33:12: note: declared here
+ static int set_var(uint8_t g_2_l, int32_t g_16_l, uint16_t g_19_l, uint16_t g_23_l, uint32_t g_29_l, uint8_t g_30_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/314_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/314_new.c:47:5: error: too many arguments to function ‘set_var’
+     set_var(0x121ac488, 104, 104, 7, -1, 245, 104, 1, -2);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/314_new.c:33:12: note: declared here
+ static int set_var(uint32_t g_4_l, int8_t g_10_l, int32_t g_27_l, uint16_t g_39_l, uint32_t g_63_l, uint8_t g_65_l){
+            ^~~~~~~
+

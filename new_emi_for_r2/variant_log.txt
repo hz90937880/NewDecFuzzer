@@ -1,0 +1,107 @@
+
+file /home/hz/DecFuzzer/seed_for_r2/1.c
+about 4 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/435.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/436.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/437.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/438.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/10.c
+
+file /home/hz/DecFuzzer/seed_for_r2/100.c
+
+file /home/hz/DecFuzzer/seed_for_r2/101.c
+about 10 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/439.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/440.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/441.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/442.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/443.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/102.c
+about 2 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/444.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/445.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/103.c
+
+file /home/hz/DecFuzzer/seed_for_r2/104.c
+about 10 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/446.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/447.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/448.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/449.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/450.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/451.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/452.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/453.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/454.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/1.c
+about 4 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/450.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/451.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/452.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/453.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/10.c
+
+file /home/hz/DecFuzzer/seed_for_r2/100.c
+
+file /home/hz/DecFuzzer/seed_for_r2/101.c
+about 10 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/454.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/455.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/456.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/457.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/458.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/459.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/460.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/461.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/462.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/463.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/102.c
+about 2 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/464.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/465.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/103.c
+
+file /home/hz/DecFuzzer/seed_for_r2/104.c
+about 10 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/466.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/467.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/468.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/469.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/470.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/471.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/472.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/473.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/474.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/475.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/105.c
+
+file /home/hz/DecFuzzer/seed_for_r2/106.c
+
+file /home/hz/DecFuzzer/seed_for_r2/107.c
+
+file /home/hz/DecFuzzer/seed_for_r2/108.c
+
+file /home/hz/DecFuzzer/seed_for_r2/11.c
+about 2 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/476.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/477.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/110.c
+about 10 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/478.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/479.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/480.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/481.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/482.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/483.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/484.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/485.c is generated
+/home/hz/DecFuzzer/new_emi_for_r2/486.c is generated
