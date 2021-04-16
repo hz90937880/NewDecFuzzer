@@ -82,7 +82,7 @@ def set_live_code_mutate(value):
 
 
 def set_decompiler(tool=''):
-    global RetDec_test, JEB3_test, IDA_test, R2_test, Other_test
+    global RetDec_test, JEB3_test, IDA_test, R2_test, {{capitalKeyword}}_test
     {{capitalKeyword}}_test= False
     RetDec_test = False
     JEB3_test = False
