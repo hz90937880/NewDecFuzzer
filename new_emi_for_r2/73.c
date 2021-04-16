@@ -136,11 +136,8 @@ uint16_t g_313_l = 0x1904;
                     { /* block id: 37 */
                         set_var(g_15_l, g_23_l, g_24_l, g_48_l, g_57_l, g_79_l, g_81_l, g_87_l, g_88_l, g_130_l, g_154_l, g_172_l, g_215_l, g_216_l, g_232_l, g_242_l, g_280_l, g_282_l, g_288_l, g_289_l, g_291_l, g_305_l, g_313_l);return l_126;
                     }
-                    l_82 = (-5);
                     l_20 = 0xEBCCE3F5;
-                    packed_printf(g_87_l);
                     g_215_l ^= g_216_l;
-                    packed_printf(g_215_l);
                 }
                 else
                 { /* block id: 46 */
@@ -216,11 +213,6 @@ uint16_t g_313_l = 0x1904;
         int32_t backup_g_305_l = (((-(~g_305_l)) >> (-(g_313_l == g_216_l))) ^ ((!g_79_l) >= g_215_l));
         backup_g_280_l = g_280_l;
         backup_g_305_l = g_305_l;
-        if(g_280_l < 1)
-        {/*False Condition Block*/
-            g_15_l |= (backup_g_305_l = l_290);
-        }
-        
         g_280_l = ((!g_15_l) < (((-g_280_l) | g_291_l) & (-(g_23_l >= g_216_l))));
         g_305_l = ((!(!(-((~g_88_l) > g_291_l)))) | (~(!(g_48_l >= g_24_l))));
         if(((g_313_l < g_172_l) && (g_48_l < g_130_l)) && ((g_87_l < g_282_l) && (g_23_l > -146349089)))

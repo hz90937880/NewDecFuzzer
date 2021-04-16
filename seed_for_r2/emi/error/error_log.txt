@@ -4,3 +4,9 @@
                                                       ^
 /home/hz/DecFuzzer/seed_for_r2/emi/103_new.c:113:54: error: expected statement before ‘)’ token
 
+/home/hz/DecFuzzer/seed_for_r2/emi/103_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_r2/emi/103_new.c:113:54: error: expected ‘;’ before ‘)’ token
+                 -0x67be3dee, -0x10, -0x79b56304, 0xfd);
+                                                      ^
+/home/hz/DecFuzzer/seed_for_r2/emi/103_new.c:113:54: error: expected statement before ‘)’ token
+
