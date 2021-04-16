@@ -489,6 +489,7 @@ class R2Modifier:
         return txt
 
 
+
 def JEB3_modifier_before(txt):
     txt = JEB3Modifier.delete_tmp(txt)
     txt = JEB3Modifier.modify_reg_var_name(txt)

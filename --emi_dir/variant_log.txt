@@ -1,0 +1,4 @@
+
+file /home/hz/DecFuzzer/seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+/home/hz/DecFuzzer/--emi_dir/1588.c is generated

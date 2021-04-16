@@ -107,6 +107,8 @@ def replace_function(source_code, decompiled_code, func_name, keep_func_decl_unc
         decompiled_code = modifier.IDA_modifier_before(decompiled_code)
     elif Config.R2_test:
         decompiled_code = modifier.R2_modifier_before(decompiled_code)
+    elif Config.Test_test:
+        decompiled_code = modifier.Test_modifier_before(decompiled_code)
 
     # Step B: get decompiled func_1 code
     m1 = find_fun_with_name(source_code, func_name)
@@ -132,6 +134,8 @@ def replace_function(source_code, decompiled_code, func_name, keep_func_decl_unc
         main_fun = modifier.IDA_modifier_after(main_fun)
     elif Config.R2_test:
         main_fun = modifier.R2_modifier_after(main_fun)
+    elif Config.Test_test:
+        main_fun = modifier.Test_modifier_after(main_fun)
 
     # Step D: replace
     if keep_func_decl_unchange == 0:
