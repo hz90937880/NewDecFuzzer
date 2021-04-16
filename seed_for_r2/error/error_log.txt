@@ -3,3 +3,8 @@
  code_r0x0804ab9b:
  ^~~~~~~~~~~~~~~~
 
+/home/hz/DecFuzzer/seed_for_r2/129_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_r2/129_new.c:231:1: error: label at end of compound statement
+ code_r0x0804ab9b:
+ ^~~~~~~~~~~~~~~~
+

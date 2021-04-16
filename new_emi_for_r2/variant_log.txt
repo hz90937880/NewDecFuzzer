@@ -105,3 +105,10 @@ about 10 variants will be generated, they are:
 /home/hz/DecFuzzer/new_emi_for_r2/484.c is generated
 /home/hz/DecFuzzer/new_emi_for_r2/485.c is generated
 /home/hz/DecFuzzer/new_emi_for_r2/486.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/1.c
+about 4 variants will be generated, they are:
+/home/hz/DecFuzzer/new_emi_for_r2/478.c is generated
+
+file /home/hz/DecFuzzer/seed_for_r2/1.c
+about 5 variants will be generated, they are:

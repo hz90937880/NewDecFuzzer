@@ -979,3 +979,22 @@ file ./seed_for_r2/100.c
 file ./seed_for_r2/101.c
 about 10 variants will be generated, they are:
 ./seed_for_r2/emi/450.c is generated
+
+file ./seed_for_r2/1.c
+about 4 variants will be generated, they are:
+./seed_for_r2/emi/478.c is generated
+
+file ./seed_for_r2/1.c
+about 4 variants will be generated, they are:
+
+file ./seed_for_r2/1.c
+about 4 variants will be generated, they are:
+./seed_for_r2/emi/478.c is generated
+./seed_for_r2/emi/479.c is generated
+
+file ./seed_for_r2/1.c
+about 4 variants will be generated, they are:
+
+file ./seed_for_r2/1.c
+about 4 variants will be generated, they are:
+./seed_for_r2/emi/478.c is generated

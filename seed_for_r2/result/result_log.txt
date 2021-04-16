@@ -243,3 +243,548 @@ Found discrepancy:
 /home/hz/DecFuzzer/seed_for_r2/109_new outputs [b'checksum = ACE1A2A3\n']
 /home/hz/DecFuzzer/seed_for_r2/109     errors [b'']
 /home/hz/DecFuzzer/seed_for_r2/109_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+seed_for_r2/0_new outputs [b'']
+seed_for_r2/0     errors [b'']
+seed_for_r2/0_new errors [b'']
+Found discrepancy:
+seed_for_r2/109     outputs [b'']
+seed_for_r2/109_new outputs [b'checksum = ACE1A2A3\n']
+seed_for_r2/109     errors [b'']
+seed_for_r2/109_new errors [b'']
+Found discrepancy:
+./seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_r2/0_new outputs [b'']
+./seed_for_r2/0     errors [b'']
+./seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/109     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/109_new outputs [b'checksum = ACE1A2A3\n']
+/home/hz/DecFuzzer/seed_for_r2/109     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/109_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/116     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/116_new outputs [b'checksum = 2C7310D4\n']
+/home/hz/DecFuzzer/seed_for_r2/116     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/116_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/131     outputs [b'checksum = B61C0CC2\n']
+/home/hz/DecFuzzer/seed_for_r2/131_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/131     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/131_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/132     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/132_new outputs [b'checksum = 615FE6C1\n']
+/home/hz/DecFuzzer/seed_for_r2/132     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/132_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/145     outputs [b'checksum = F0C38461\n']
+/home/hz/DecFuzzer/seed_for_r2/145_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/145     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/145_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/147     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/147_new outputs [b'checksum = 33284D09\n']
+/home/hz/DecFuzzer/seed_for_r2/147     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/147_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/150     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/150_new outputs [b'checksum = 2973D15B\n']
+/home/hz/DecFuzzer/seed_for_r2/150     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/150_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/168     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/168_new outputs [b'checksum = C3374FAF\n']
+/home/hz/DecFuzzer/seed_for_r2/168     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/168_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/172     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/172_new outputs [b'checksum = D16A26F3\n']
+/home/hz/DecFuzzer/seed_for_r2/172     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/172_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/178     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/178_new outputs [b'checksum = EA1467A6\n']
+/home/hz/DecFuzzer/seed_for_r2/178     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/178_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/206     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/206_new outputs [b'checksum = E928C05C\n']
+/home/hz/DecFuzzer/seed_for_r2/206     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/206_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/21     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/21_new outputs [b'checksum = E364A5A9\n']
+/home/hz/DecFuzzer/seed_for_r2/21     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/21_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/210     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/210_new outputs [b'checksum = 17CD259F\n']
+/home/hz/DecFuzzer/seed_for_r2/210     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/210_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/220     outputs [b'checksum = 48E8285F\n']
+/home/hz/DecFuzzer/seed_for_r2/220_new outputs [b'checksum = D70C8692\n']
+/home/hz/DecFuzzer/seed_for_r2/220     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/220_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/221     outputs [b'checksum = 8E4093B4\n']
+/home/hz/DecFuzzer/seed_for_r2/221_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/221     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/221_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/222     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/222_new outputs [b'checksum = 8ACD5894\n']
+/home/hz/DecFuzzer/seed_for_r2/222     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/222_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/23     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/23_new outputs [b'checksum = C4413526\n']
+/home/hz/DecFuzzer/seed_for_r2/23     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/23_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/230     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/230_new outputs [b'checksum = 2C29D002\n']
+/home/hz/DecFuzzer/seed_for_r2/230     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/230_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/233     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/233_new outputs [b'checksum = AE58170B\n']
+/home/hz/DecFuzzer/seed_for_r2/233     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/233_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/234     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/234_new outputs [b'checksum = 33A430E\n']
+/home/hz/DecFuzzer/seed_for_r2/234     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/234_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/254     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/254_new outputs [b'checksum = 7773F8B4\n']
+/home/hz/DecFuzzer/seed_for_r2/254     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/254_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/262     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/262_new outputs [b'checksum = 70E55A1E\n']
+/home/hz/DecFuzzer/seed_for_r2/262     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/262_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/269     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/269_new outputs [b'checksum = F2CED19\n']
+/home/hz/DecFuzzer/seed_for_r2/269     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/269_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/280     outputs [b'checksum = A0021B31\n']
+/home/hz/DecFuzzer/seed_for_r2/280_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/280     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/280_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/284     outputs [b'checksum = 36E08C\n']
+/home/hz/DecFuzzer/seed_for_r2/284_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/284     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/284_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/300     outputs [b'checksum = BD0DE751\n']
+/home/hz/DecFuzzer/seed_for_r2/300_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/300     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/300_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/302     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/302_new outputs [b'checksum = 7F2B1C70\n']
+/home/hz/DecFuzzer/seed_for_r2/302     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/302_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/307     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/307_new outputs [b'checksum = D99047AE\n']
+/home/hz/DecFuzzer/seed_for_r2/307     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/307_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/309     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/309_new outputs [b'checksum = F0AE8B87\n']
+/home/hz/DecFuzzer/seed_for_r2/309     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/309_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/313     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/313_new outputs [b'checksum = DF124A85\n']
+/home/hz/DecFuzzer/seed_for_r2/313     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/313_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/315     outputs [b'checksum = A7FADCB\n']
+/home/hz/DecFuzzer/seed_for_r2/315_new outputs [b'checksum = 3C66DCAE\n']
+/home/hz/DecFuzzer/seed_for_r2/315     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/315_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/320     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/320_new outputs [b'checksum = 9E48D47F\n']
+/home/hz/DecFuzzer/seed_for_r2/320     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/320_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/322     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/322_new outputs [b'checksum = 6E6591C\n']
+/home/hz/DecFuzzer/seed_for_r2/322     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/322_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/33     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/33_new outputs [b'checksum = F1B8408B\n']
+/home/hz/DecFuzzer/seed_for_r2/33     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/33_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/337     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/337_new outputs [b'checksum = 43803C10\n']
+/home/hz/DecFuzzer/seed_for_r2/337     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/337_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/339     outputs [b'checksum = A66F55FE\n']
+/home/hz/DecFuzzer/seed_for_r2/339_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/339     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/339_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/36     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/36_new outputs [b'checksum = EB41FF7F\n']
+/home/hz/DecFuzzer/seed_for_r2/36     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/36_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/37     outputs [b'checksum = DEBE5CA6\n']
+/home/hz/DecFuzzer/seed_for_r2/37_new outputs [b'checksum = C74617C1\n']
+/home/hz/DecFuzzer/seed_for_r2/37     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/37_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/38     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/38_new outputs [b'checksum = CA26D2F8\n']
+/home/hz/DecFuzzer/seed_for_r2/38     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/38_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/380     outputs [b'checksum = 4E71D3F0\n']
+/home/hz/DecFuzzer/seed_for_r2/380_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/380     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/380_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/386     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/386_new outputs [b'checksum = 467BD96E\n']
+/home/hz/DecFuzzer/seed_for_r2/386     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/386_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/395     outputs [b'checksum = F9506B68\n']
+/home/hz/DecFuzzer/seed_for_r2/395_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/395     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/395_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/403     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/403_new outputs [b'checksum = BB95310F\n']
+/home/hz/DecFuzzer/seed_for_r2/403     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/403_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/411     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/411_new outputs [b'checksum = 68BE7F67\n']
+/home/hz/DecFuzzer/seed_for_r2/411     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/411_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/415     outputs [b'checksum = DC4AC165\n']
+/home/hz/DecFuzzer/seed_for_r2/415_new outputs [b'checksum = 365E4CA5\n']
+/home/hz/DecFuzzer/seed_for_r2/415     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/415_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/42     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/42_new outputs [b'checksum = 1793DDDB\n']
+/home/hz/DecFuzzer/seed_for_r2/42     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/42_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/420     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/420_new outputs [b'checksum = E5EF2D64\n']
+/home/hz/DecFuzzer/seed_for_r2/420     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/420_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/425     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/425_new outputs [b'checksum = FBE1908\n']
+/home/hz/DecFuzzer/seed_for_r2/425     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/425_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/435     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/435_new outputs [b'checksum = F6F906E0\n']
+/home/hz/DecFuzzer/seed_for_r2/435     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/435_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/465     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/465_new outputs [b'checksum = 9D631700\n']
+/home/hz/DecFuzzer/seed_for_r2/465     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/465_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/467     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/467_new outputs [b'checksum = 900AFCE0\n']
+/home/hz/DecFuzzer/seed_for_r2/467     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/467_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/492     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/492_new outputs [b'checksum = 1AB503DD\n']
+/home/hz/DecFuzzer/seed_for_r2/492     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/492_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/493     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/493_new outputs [b'checksum = D3381093\n']
+/home/hz/DecFuzzer/seed_for_r2/493     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/493_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/503     outputs [b'checksum = 92C7151\n']
+/home/hz/DecFuzzer/seed_for_r2/503_new outputs [b'checksum = EA23B272\n']
+/home/hz/DecFuzzer/seed_for_r2/503     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/503_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/505     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/505_new outputs [b'checksum = B7C88364\n']
+/home/hz/DecFuzzer/seed_for_r2/505     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/505_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/517     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/517_new outputs [b'checksum = 82F03CCF\n']
+/home/hz/DecFuzzer/seed_for_r2/517     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/517_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/554     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/554_new outputs [b'checksum = 7D6FA763\n']
+/home/hz/DecFuzzer/seed_for_r2/554     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/554_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/556     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/556_new outputs [b'checksum = 16370C0\n']
+/home/hz/DecFuzzer/seed_for_r2/556     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/556_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/568     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/568_new outputs [b'checksum = AE692C79\n']
+/home/hz/DecFuzzer/seed_for_r2/568     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/568_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/577     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/577_new outputs [b'checksum = C547F3FD\n']
+/home/hz/DecFuzzer/seed_for_r2/577     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/577_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/579     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/579_new outputs [b'checksum = B8B903DA\n']
+/home/hz/DecFuzzer/seed_for_r2/579     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/579_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/588     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/588_new outputs [b'checksum = E67E3131\n']
+/home/hz/DecFuzzer/seed_for_r2/588     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/588_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/589     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/589_new outputs [b'checksum = 2286C8DB\n']
+/home/hz/DecFuzzer/seed_for_r2/589     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/589_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/601     outputs [b'checksum = F1FCCDB9\n']
+/home/hz/DecFuzzer/seed_for_r2/601_new outputs [b'checksum = CB18DF47\n']
+/home/hz/DecFuzzer/seed_for_r2/601     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/601_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/638     outputs [b'checksum = 8E36FF6A\n']
+/home/hz/DecFuzzer/seed_for_r2/638_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/638     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/638_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/654     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/654_new outputs [b'checksum = 5427A3C6\n']
+/home/hz/DecFuzzer/seed_for_r2/654     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/654_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/660     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/660_new outputs [b'checksum = D1C63153\n']
+/home/hz/DecFuzzer/seed_for_r2/660     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/660_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/683     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/683_new outputs [b'checksum = 554895CC\n']
+/home/hz/DecFuzzer/seed_for_r2/683     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/683_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/691     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/691_new outputs [b'checksum = 3D09ECDB\n']
+/home/hz/DecFuzzer/seed_for_r2/691     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/691_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/716     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/716_new outputs [b'checksum = F7E5EB52\n']
+/home/hz/DecFuzzer/seed_for_r2/716     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/716_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/747     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/747_new outputs [b'checksum = AD4B06E4\n']
+/home/hz/DecFuzzer/seed_for_r2/747     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/747_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/768     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/768_new outputs [b'checksum = 977A7D40\n']
+/home/hz/DecFuzzer/seed_for_r2/768     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/768_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/787     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/787_new outputs [b'checksum = 82F7B075\n']
+/home/hz/DecFuzzer/seed_for_r2/787     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/787_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/791     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/791_new outputs [b'checksum = 70207FA9\n']
+/home/hz/DecFuzzer/seed_for_r2/791     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/791_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/805     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/805_new outputs [b'checksum = 6379A36D\n']
+/home/hz/DecFuzzer/seed_for_r2/805     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/805_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/842     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/842_new outputs [b'checksum = 3F7AF24C\n']
+/home/hz/DecFuzzer/seed_for_r2/842     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/842_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/845     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/845_new outputs [b'checksum = C9709D3A\n']
+/home/hz/DecFuzzer/seed_for_r2/845     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/845_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/85     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/85_new outputs [b'checksum = 17281868\n']
+/home/hz/DecFuzzer/seed_for_r2/85     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/85_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/850     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/850_new outputs [b'checksum = 284132E9\n']
+/home/hz/DecFuzzer/seed_for_r2/850     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/850_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/859     outputs [b'checksum = DE278765\n']
+/home/hz/DecFuzzer/seed_for_r2/859_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/859     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/859_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/863     outputs [b'checksum = 11D2A8F7\n']
+/home/hz/DecFuzzer/seed_for_r2/863_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/863     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/863_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/870     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/870_new outputs [b'checksum = 2144DF1C\n']
+/home/hz/DecFuzzer/seed_for_r2/870     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/870_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/874     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/874_new outputs [b'checksum = 49CF89DF\n']
+/home/hz/DecFuzzer/seed_for_r2/874     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/874_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/878     outputs [b'checksum = 891ACFB5\n']
+/home/hz/DecFuzzer/seed_for_r2/878_new outputs [b'checksum = 3F49F578\n']
+/home/hz/DecFuzzer/seed_for_r2/878     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/878_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/879     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/879_new outputs [b'checksum = 7C01BF3\n']
+/home/hz/DecFuzzer/seed_for_r2/879     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/879_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/887     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/887_new outputs [b'checksum = 9C2B8175\n']
+/home/hz/DecFuzzer/seed_for_r2/887     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/887_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/889     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/889_new outputs [b'checksum = 5083A365\n']
+/home/hz/DecFuzzer/seed_for_r2/889     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/889_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/894     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/894_new outputs [b'checksum = 50E7EAAD\n']
+/home/hz/DecFuzzer/seed_for_r2/894     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/894_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/896     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/896_new outputs [b'checksum = 5D7A25E1\n']
+/home/hz/DecFuzzer/seed_for_r2/896     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/896_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/898     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/898_new outputs [b'checksum = A8935AA1\n']
+/home/hz/DecFuzzer/seed_for_r2/898     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/898_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/899     outputs [b'checksum = 9E404C1F\n']
+/home/hz/DecFuzzer/seed_for_r2/899_new outputs [b'checksum = 28450C37\n']
+/home/hz/DecFuzzer/seed_for_r2/899     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/899_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/903     outputs [b'checksum = B383F4C7\n']
+/home/hz/DecFuzzer/seed_for_r2/903_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/903     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/903_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/919     outputs [b'checksum = 80D909A8\n']
+/home/hz/DecFuzzer/seed_for_r2/919_new outputs [b'checksum = 61EC1228\n']
+/home/hz/DecFuzzer/seed_for_r2/919     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/919_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/925     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/925_new outputs [b'checksum = 67D6D5D5\n']
+/home/hz/DecFuzzer/seed_for_r2/925     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/925_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/926     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/926_new outputs [b'checksum = 40029D3E\n']
+/home/hz/DecFuzzer/seed_for_r2/926     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/926_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/961     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/961_new outputs [b'checksum = 5023C2EA\n']
+/home/hz/DecFuzzer/seed_for_r2/961     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/961_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/967     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/967_new outputs [b'checksum = BF06A15F\n']
+/home/hz/DecFuzzer/seed_for_r2/967     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/967_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/980     outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/980_new outputs [b'checksum = 44FAF2AB\n']
+/home/hz/DecFuzzer/seed_for_r2/980     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/980_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/987     outputs [b'checksum = 6B09F2ED\n']
+/home/hz/DecFuzzer/seed_for_r2/987_new outputs [b'checksum = 874390F3\n']
+/home/hz/DecFuzzer/seed_for_r2/987     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/987_new errors [b'']
