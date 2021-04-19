@@ -2,16 +2,9 @@
 
 ISSTA'20 Artifact for: `How Far We Have Come: Testing Decompilation Correctness of C Decompilers`
 
-## 0. Environment
-Our experiment was conducted on `64-bit Ubuntu 18.04`. We recommend to set up on
-the same OS system. 
 
-## 1. Project Structure
-* `src/`: source code directory
-* `runtime/`: CSmith runtime library
-* `seed_for_retdec` and  `seed_for_r2`: sample seeds for EMI testing (see clarifications below).
 
-## 2. Code Structure
+## 1. Code Structure
 * `fuzzer.py`: main component to initialize a fuzzing test campaign by calling functions in this script
 * `generator.py`: to compile and decompile files (to interact with Radare2 and IDA-Pro, we provide two scripts as follows; the other two decompilers can be used directly via command line)
     * `R2_decompile.py`: to decompile with Radare2/Ghidra 
@@ -26,105 +19,43 @@ the same OS system.
 * `checker.py`: to compare the output of the two programs for consistency
 * `Config.py`: constant values/strings/paths
 
-## 3. Installation of dependencies
+For this project I used the 64-bit Ubuntu 18.04 opeartion system to do as recommended from the developer of DecFuzzer.
 
-### 3.0. Libraries and tools:
+## 2. Installation of Software and Environment Settings.
+2.4.1 Download the libraries and tools:
+sudo apt install gcc-multilib -- GNU Compiler Collection 
+sudo apt install m4 -- The component M4 of GNU Compiler Collection 
+sudo apt install openssl libssl-dev -y -- Secure Socket Layer
+sudo apt install flex bison -- Lexical analyzar and Yet Another Compiler Compiler sudo apt install pkg-config -- Return basic information of installed libraries
+sudo apt install pyqt5 -- Designer of User Interface
+sudo apt install jinja2 -- For the development of FixFlie
 
-    sudo apt install gcc-multilib
-    sudo apt install m4
-    sudo apt install openssl libssl-dev -y
-    sudo apt install flex bison
-    sudo apt install pkg-config
+2.4.2 Install Cmake
+We use cmake to generate the c source code which needed for our experiment. Note that Cmake version 3.12 or later is needed to build r2ghidra-dec. 
 
-`Cmake` version 3.12 or later is needed to build r2ghidra-dec. To install latest
-version of Cmake, download source code from [here](https://github.com/Kitware/CMake/releases/download/v3.16.6/cmake-3.16.6.tar.gz),
-and then build it following instructions on their [website](https://cmake.org/install/):
+2.4.3 Configure MySQL which is used in EMI mutation of our experiment. 
+apt-get install mysql-server -- MySQL server
+service mysql start -- Start MysSQL
+sudo cat /etc/mysql/debian.cnf – Display then recordthe username and password of MySQL
+apt-get install python3-pip & pip3 install PyMySQL -- install the MySQL Driver for Python3
 
-    ./bootstrap
-    make 
-    sudo make install
+2.4.4 Set Decompilers Radare2
+git clone https://github.com/radareorg/radare2 
+cd radare2 ; sys/install.sh ; cd ..  
+--To install Radare2
+r2pm update & r2pm -i r2ghidra-dec -- To further install the Ghidra decompiler plugin
+pip3 install r2pipe -- install r2pipe to use the decompiler script R2_decompile.py
 
-### 3.1. MySQL
-MySQL is used in EMI mutation. To install it on Ubuntu:
+2.4.5 Set Decompilers RetDec
+Download and unpack the pre-built RetDec (ver. 4.0) for Ubuntu, then you can use retdec-decompiler.py under retdec/bin/.
 
-    apt-get install mysql-server
-
-Then start mysql service:
-
-    service mysql start
-
-**Remember to update `user` and `passwd` in MySQL_connector.py** if you set another user and password. You can check your default user and password by:
-
-    sudo cat /etc/mysql/debian.cnf
-
-### 3.2. PyMySQL
-
-To install the MySQL Driver for Python3:
-
-    apt-get install python3-pip
-    pip3 install PyMySQL
+2.4.6 Setup for NewDecFuzzer with UI Design
+Clone this repository: git clone https://github.com/hz90937880/NewDecFuzzer.git Then update the absolute path to csmith runtime runtime_dir and the absolute path to retdec-decompiler.py in Config.py. 
+For example: runtime_dir = '/home/hz/DecFuzzer/runtime/'
+RetDec_absolute_path = '/home/hz/Downloads/retdec/retdec-install/bin/retdec-decompiler.py'
 
 
-### 3.3. Decompilers
-
-As reported in the paper, four decompilers are tested as follows:
-
-* IDA Pro: [https://www.hex-rays.com/products/ida/](https://www.hex-rays.com/products/ida/ )
-* JEB3: [https://www.pnfsoftware.com/](https://www.pnfsoftware.com/)
-* RetDec: [https://retdec.com/](https://retdec.com/)
-* Radare2: [https://www.radare.org/n/radare2.html](https://www.radare.org/n/radare2.html) 
-(we tested the r2ghidra plugin of Radare2, more specifically)
-
-We note that *IDA Pro* and *JEB3* are commercial tools, and we decide to not provide them in this artifact evaluation phase. Instead, we provide instructions to setup the other two free decompilers *RetDec* and *Radare2* with *Ghidra* plugin. We assure that two commercial decompilers are tested in exactly the same way.
-
-#### 3.3.1. Radare2 and r2ghidra 
-
-To install Radare2:
-
-    git clone https://github.com/radareorg/radare2
-    cd radare2 ; sys/install.sh ; cd ..
-
-We use commit 06ab29b93cb0168a8ec1cb39f860c6b990678838 when writing this README.
-
-To further install the Ghidra decompiler plugin (named r2ghidra):
-
-    r2pm update
-    r2pm -gi r2ghidra
-
-Then we need to install r2pipe to use our decompiler script *R2_decompile.py*:
-
-    pip3 install r2pipe
-
-#### 3.3.2. RetDec
-
-To install RetDec, we recommend to download and unpack [pre-built
-package](https://github.com/avast/retdec/releases) to save time, you can also
-build from source code following the instructions on their [github
-page](https://github.com/avast/retdec) (note that the size of unpacked RetDec is
-about 5.5 GB.)
-
-Download and unpack the pre-built RetDec (ver. 4.0) for Ubuntu at
-[here](https://github.com/avast/retdec/releases/download/v4.0/retdec-v4.0-ubuntu-64b.tar.xz),
-then you can use `retdec-decompiler.py` under `retdec/bin/`.
-
-**Remember to update the absolute path to `retdec-decompiler.py` in _Config.py_.** For example:
-
-    RetDec_absolute_path = '/home/fuzz/Documents/retdec-install/bin/retdec-decompiler.py'
-
-
-## 4. Reproducing experimental results
-
-### 4.1. Setup
-
-Clone this repository
-
-    git clone https://github.com/monkbai/DecFuzzer.git
-
-Then do not forget to **update the absolute path to csmith runtime `runtime_dir` in _Config.py_.** For example:
-
-    runtime_dir = '/home/fuzz/Documents/DecFuzzer/runtime/'
-
-### 4.2. Reproducing experimental results
+### 3. Reproducing experimental results
 
     python3 run.py
 
