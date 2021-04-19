@@ -23,11 +23,17 @@ For this project I used the 64-bit Ubuntu 18.04 opeartion system to do as recomm
 
 ## 2. Installation of Software and Environment Settings.
 2.4.1 Download the libraries and tools:
+
 sudo apt install gcc-multilib -- GNU Compiler Collection 
+
 sudo apt install m4 -- The component M4 of GNU Compiler Collection 
+
 sudo apt install openssl libssl-dev -y -- Secure Socket Layer
+
 sudo apt install flex bison -- Lexical analyzar and Yet Another Compiler Compiler sudo apt install pkg-config -- Return basic information of installed libraries
+
 sudo apt install pyqt5 -- Designer of User Interface
+
 sudo apt install jinja2 -- For the development of FixFlie
 
 2.4.2 Install Cmake
@@ -37,16 +43,24 @@ We use cmake to generate the c source code which needed for our experiment. Note
 2.4.3 Configure MySQL which is used in EMI mutation of our experiment. 
 
 apt-get install mysql-server -- MySQL server
+
 service mysql start -- Start MysSQL
+
 sudo cat /etc/mysql/debian.cnf – Display then recordthe username and password of MySQL
+
 apt-get install python3-pip & pip3 install PyMySQL -- install the MySQL Driver for Python3
+
 
 2.4.4 Set Decompilers Radare2
 
-git clone https://github.com/radareorg/radare2 
+git clone https://github.com/radareorg/radare2;
+
 cd radare2 ; sys/install.sh ; cd ..  
+
 --To install Radare2
+
 r2pm update & r2pm -i r2ghidra-dec -- To further install the Ghidra decompiler plugin
+
 pip3 install r2pipe -- install r2pipe to use the decompiler script R2_decompile.py
 
 2.4.5 Set Decompilers RetDec
