@@ -310,7 +310,7 @@ def seed_test_AE(files_dir, emi_dir, config_file):
                     and not f.endswith('_r2.c') and not f.endswith('_retdec.c')\
                     and not f.endswith('_ida.c') and not f.endswith('_JEB3.c') \
                     {% for i in range(input_param['number']) %}{% if i != input_param['number'] - 1 %}and not (f.endswith('_{{input_param['keyword'][i]}}.c'))\
-                    {% else %}and not (f.endswith('_{{input_param['keyword'][i]}}.c')):{% endif %}{% endfor %}
+                    {% else %}and not f.endswith('_{{input_param['keyword'][i]}}.c'){% endif %}{% endfor %}:
                 if root.endswith(files_dir):
 
                     # test all files in this folder
@@ -336,8 +336,8 @@ def emi_test_AE(files_dir, config_file):
             if f.endswith('.c') and not f.endswith('_new.c') \
                     and not f.endswith('_r2.c') and not f.endswith('_retdec.c') \
                     and not f.endswith('_ida.c') and not f.endswith('_JEB3.c') \
-                    {% for i in range(input_param['number']) %}{% if i != input_param['number'] - 1 %}and not f.endswith('_{{input_param['keyword'][i]}}}.c')\
-                    {% else %}and not f.endswith('_{{input_param['keyword'][i]}}}.c'):{% endif %}{% endfor %}
+                    {% for i in range(input_param['number']) %}{% if i != input_param['number'] - 1 %}and not f.endswith('_{{input_param['keyword'][i]}}.c')\
+                    {% else %}and not f.endswith('_{{input_param['keyword'][i]}}.c'){% endif %}{% endfor %}:
                 if root.endswith(files_dir):
                     # test all files in this folder
                     file_path = os.path.join(root, f)

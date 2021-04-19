@@ -788,3 +788,18 @@ Found discrepancy:
 /home/hz/DecFuzzer/seed_for_r2/987_new outputs [b'checksum = 874390F3\n']
 /home/hz/DecFuzzer/seed_for_r2/987     errors [b'']
 /home/hz/DecFuzzer/seed_for_r2/987_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']

@@ -127,8 +127,7 @@ def test_single_file(file_path, current_dir, EMI_dir='', mutation_flag=1, compil
         decompiled_file_name = file_path[:-2] + Config.IDA_suffix  # '_ida.c'
     elif Config.R2_test:
         decompiled_file_name = file_path[:-2] + Config.Radare2_suffix  # '_r2.c'
-    elif Config.Test1_test:
-        decompiled_file_name = file_path[:-2] + Config.Other_suffix  # '_Test1.c'
+
 
     status, output = generator.recompile_single_file(file_path,
                                                      decompiled_file_name,
@@ -307,7 +306,7 @@ def seed_test_AE(files_dir, emi_dir, config_file):
             if f.endswith('.c') and not f.endswith('_new.c')\
                     and not f.endswith('_r2.c') and not f.endswith('_retdec.c')\
                     and not f.endswith('_ida.c') and not f.endswith('_JEB3.c') \
-                    and not f.endswith('_Test1.c'):
+                    :
                 if root.endswith(files_dir):
 
                     # test all files in this folder
@@ -333,8 +332,7 @@ def emi_test_AE(files_dir, config_file):
             if f.endswith('.c') and not f.endswith('_new.c') \
                     and not f.endswith('_r2.c') and not f.endswith('_retdec.c') \
                     and not f.endswith('_ida.c') and not f.endswith('_JEB3.c') \
-                    and not f.endswith('_Test1}.c'):
-
+                    :
                 if root.endswith(files_dir):
                     # test all files in this folder
                     file_path = os.path.join(root, f)

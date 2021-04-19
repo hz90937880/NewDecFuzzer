@@ -7,3 +7,32 @@ about 5 variants will be generated, they are:
 file ./seed_for_retdec/1.c
 about 5 variants will be generated, they are:
 ./seed_for_retdec/emi/1588.c is generated
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+./seed_for_retdec/emi/1588.c is generated
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+./seed_for_retdec/emi/1588.c is generated
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+./seed_for_retdec/emi/1588.c is generated
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+./seed_for_retdec/emi/1588.c is generated
+
+file ./seed_for_retdec/1.c
+about 5 variants will be generated, they are:
+./seed_for_retdec/emi/1588.c is generated

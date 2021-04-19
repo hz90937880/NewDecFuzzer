@@ -6,3 +6,6 @@ about 5 variants will be generated, they are:
 file /home/hz/DecFuzzer/seed_for_retdec/1.c
 about 5 variants will be generated, they are:
 /home/hz/DecFuzzer/new_emi/1588.c is generated
+
+file /home/hz/DecFuzzer/seed_for_retdec/1.c
+about 5 variants will be generated, they are:

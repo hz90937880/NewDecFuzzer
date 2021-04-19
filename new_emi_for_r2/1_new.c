@@ -51,84 +51,22 @@ static int set_var(int8_t g_4_l, uint32_t g_7_l, int32_t g_10_l, uint32_t g_20_l
  */
 static int32_t  func_1(void)
 {
-
-int8_t g_4_l = 0x9B;
-uint32_t g_7_l = 1U;
-int32_t g_10_l = 0xDCA27289;
-uint32_t g_20_l = 8U;
-int16_t g_22_l = 0xAD0D;
-int16_t g_52_l = 0;
-uint16_t g_54_l = 1U;
-uint8_t g_64_l = 0xF4;
-uint32_t g_71_l = 4294967292U;
-uint8_t g_76_l = 0x4E;
-uint32_t g_83_l = 0U;
-
- /* block id: 0 */
-    int8_t l_8 = (-3);
-    int32_t l_9 = 7;
-    int16_t l_19 = (-1);
-    int32_t l_21 = 0x142C78EF;
-    int16_t l_77 = 0x52EB;
-    int8_t l_82 = 0;
-printf("line_num: %d,", 74);printf("g_10_l: %d,", g_10_l);printf("g_4_l: %d,", g_4_l);printf("g_7_l: %d,", g_7_l);printf("l_9: %d,", l_9);printf("l_8: %d\n", l_8);
-    g_10_l = (((uint16_t)((((((g_4_l & (((uint32_t)0x30F5872D - (uint32_t)(g_7_l >= (l_9 = (l_8 , l_8)))) < g_7_l)) && l_8) && g_7_l) || g_7_l) != g_7_l) ^ g_7_l) >> (uint16_t)l_8) & l_8);
-    if ((g_7_l || ((int8_t)0 * (int8_t)(((int32_t)(l_9 = (-3)) - (int32_t)g_10_l) <= g_4_l))))
-    { /* block id: 4 */
-        if(((l_9 >= 0) && (l_19 <= -1)) || (!(g_10_l > 0)))
-        {/*True Guard */
-printf("line_num: %d,", 79);printf("g_22_l: %d,", g_22_l);printf("g_10_l: %d,", g_10_l);printf("g_20_l: %d,", g_20_l);printf("l_9: %d,", l_9);printf("l_19: %d,", l_19);printf("g_7_l: %d,", g_7_l);printf("l_21: %d\n", l_21);
-            g_22_l &= ((g_10_l , ((int16_t)(g_20_l = (l_9 , ((((int8_t)(l_19 = (g_7_l , g_10_l)) / (int8_t)0x64) , l_9) , g_10_l))) >> (int16_t)15)) , l_21);
-        }
-        
-        if(!((!(g_64_l > g_71_l)) && (!(g_54_l < g_22_l))))
-        {/*True Condition Block*/
-            int32_t backup_g_10_l = ((g_83_l | g_52_l) ^ g_64_l);
-            uint32_t backup_g_20_l = (g_22_l / g_71_l);
-            int8_t backup_g_4_l = ((g_10_l == g_71_l) <= ((g_76_l != g_83_l) <= g_22_l));
-            uint8_t backup_g_64_l = ((g_4_l - g_54_l) >= g_22_l);
-            uint32_t backup_g_71_l = (!g_52_l);
-            backup_g_10_l = g_10_l;
-            backup_g_20_l = g_20_l;
-            backup_g_4_l = g_4_l;
-            backup_g_64_l = g_64_l;
-            backup_g_71_l = g_71_l;
-            g_10_l = (((~g_20_l) | (!(~((!g_4_l) == (g_71_l / (~g_54_l)))))) == g_7_l);
-            g_20_l = ((!g_71_l) | ((g_22_l << g_83_l) - (g_20_l != (-(-g_52_l)))));
-            g_4_l = ((g_22_l | ((g_83_l == (!g_52_l)) | g_71_l)) | g_7_l);
-            g_64_l = (((-g_54_l) % (~(g_71_l & g_76_l))) - (~(~(!g_64_l))));
-printf("line_num: %d,", 98);printf("g_71_l: %d,", g_71_l);printf("g_54_l: %d,", g_54_l);printf("g_83_l: %d,", g_83_l);printf("g_52_l: %d,", g_52_l);printf("g_7_l: %d\n", g_7_l);
-            g_71_l = (((-(!g_54_l)) >> (!(~g_83_l))) != (g_52_l > (!(g_7_l == g_71_l))));
-            while(g_83_l > 0)
-            {
-                packed_printf(g_10_l);
-                packed_printf(g_20_l);
-                packed_printf(g_4_l);
-                packed_printf(g_64_l);
-                packed_printf(g_71_l);
-            }
-            g_10_l = backup_g_10_l;
-            g_20_l = backup_g_20_l;
-printf("line_num: %d,", 109);printf("g_4_l: %d\n", g_4_l);
-            g_4_l = backup_g_4_l;
-            g_64_l = backup_g_64_l;
-            g_71_l = backup_g_71_l;
-        }
-        
-        set_var(g_4_l, g_7_l, g_10_l, g_20_l, g_22_l, g_52_l, g_54_l, g_64_l, g_71_l, g_76_l, g_83_l);return g_4_l;
-    }
-    else
-    { /* block id: 9 */
-        uint32_t l_30 = 0x659BAAA4;
-        int32_t l_34 = 0xDBC46D76;
-        uint16_t l_35 = 0xB167;
-        int32_t l_63 = 1;
-        int32_t l_70 = 4;
-        l_35 = ((((((int8_t)((int32_t)g_4_l + (int32_t)((uint8_t)(~l_30) + (uint8_t)((uint8_t)(!0x10) * (uint8_t)(l_34 = (l_30 != 0x3E5C7D81))))) * (int8_t)0x44) | l_30) < 0x64) | g_20_l) <= l_21);
-        packed_printf(l_34);
-        g_71_l &= (l_70 &= (l_30 > (0 >= ((!((l_9 |= ((uint16_t)((l_19 > (((int8_t)g_54_l << (int8_t)l_34) <= l_63)) , l_21) / (uint16_t)l_30)) , g_22_l)) > 0xE3B4))));
-    }
-    set_var(g_4_l, g_7_l, g_10_l, g_20_l, g_22_l, g_52_l, g_54_l, g_64_l, g_71_l, g_76_l, g_83_l);return g_22_l;
+    int32_t var_66h;
+    int32_t var_60h;
+    int32_t var_58h;
+    int32_t var_54h;
+    int32_t var_4ch;
+    int32_t var_44h;
+    int32_t var_3ch;
+    int32_t var_34h;
+    uint32_t var_2ch;
+    uint32_t var_28h;
+    uint32_t var_24h;
+    uint32_t var_1dh;
+    int32_t var_ch;
+    
+    set_var(0xffffff9b, 1, 0, 0, 0x280d, 0, 1, 0xf4, -4, 0x4e, 0);
+    return 0xffffff9b;
 }
 
 
