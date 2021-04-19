@@ -69,8 +69,12 @@ Download and unpack the pre-built RetDec (ver. 4.0) for Ubuntu, then you can use
 
 2.4.6 Setup for NewDecFuzzer with UI Design
 
-Clone this repository: git clone https://github.com/hz90937880/NewDecFuzzer.git Then update the absolute path to csmith runtime runtime_dir and the absolute path to retdec-decompiler.py in Config.py. 
+Clone this repository: git clone https://github.com/hz90937880/NewDecFuzzer.git
+
+Then update the absolute path to csmith runtime runtime_dir and the absolute path to retdec-decompiler.py in Config.py. 
+
 For example: runtime_dir = '/home/hz/DecFuzzer/runtime/'
+
 RetDec_absolute_path = '/home/hz/Downloads/retdec/retdec-install/bin/retdec-decompiler.py'
 
 
