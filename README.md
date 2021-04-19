@@ -31,9 +31,11 @@ sudo apt install pyqt5 -- Designer of User Interface
 sudo apt install jinja2 -- For the development of FixFlie
 
 2.4.2 Install Cmake
+
 We use cmake to generate the c source code which needed for our experiment. Note that Cmake version 3.12 or later is needed to build r2ghidra-dec. 
 
 2.4.3 Configure MySQL which is used in EMI mutation of our experiment. 
+
 apt-get install mysql-server -- MySQL server
 service mysql start -- Start MysSQL
 sudo cat /etc/mysql/debian.cnf – Display then recordthe username and password of MySQL
@@ -48,9 +50,11 @@ r2pm update & r2pm -i r2ghidra-dec -- To further install the Ghidra decompiler p
 pip3 install r2pipe -- install r2pipe to use the decompiler script R2_decompile.py
 
 2.4.5 Set Decompilers RetDec
+
 Download and unpack the pre-built RetDec (ver. 4.0) for Ubuntu, then you can use retdec-decompiler.py under retdec/bin/.
 
 2.4.6 Setup for NewDecFuzzer with UI Design
+
 Clone this repository: git clone https://github.com/hz90937880/NewDecFuzzer.git Then update the absolute path to csmith runtime runtime_dir and the absolute path to retdec-decompiler.py in Config.py. 
 For example: runtime_dir = '/home/hz/DecFuzzer/runtime/'
 RetDec_absolute_path = '/home/hz/Downloads/retdec/retdec-install/bin/retdec-decompiler.py'
