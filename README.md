@@ -1,4 +1,4 @@
-# How Far We Have Come: Testing Decompilation Correctness of C Decompilers  ISSTA'20
+Decompilation:  The Use of Decompilers and Analysis of Generated Results
 
 ISSTA'20 Artifact for: `How Far We Have Come: Testing Decompilation Correctness of C Decompilers`
 
@@ -40,6 +40,7 @@ sudo cat /etc/mysql/debian.cnf – Display then recordthe username and password 
 apt-get install python3-pip & pip3 install PyMySQL -- install the MySQL Driver for Python3
 
 2.4.4 Set Decompilers Radare2
+
 git clone https://github.com/radareorg/radare2 
 cd radare2 ; sys/install.sh ; cd ..  
 --To install Radare2
@@ -65,7 +66,7 @@ Then it will test all generated EMI variants, the results are stored in a simila
 
 It will take several hours to finish the whole process. While it's unlikely to get exactly the same number (since randomness is involved in generating EMI mutations), it should give a very close number reported in Table 3 in our paper.
 
-### 4.4. Access to data
+### 4. Access to data
 
 Meanwhile, for the ease of understanding/checking our results reported in the paper, We also provide all Csmith generated programs and EMI mutations which can be used to re-produce findings in Table 3, you can download them from [here](https://www.dropbox.com/sh/kqw7e19snfeukai/AADHZ45TAL9Kxi7v9nmdXfLCa?dl=0).
 
@@ -108,7 +109,7 @@ Indeed, `reproduce.py` is designed such that when users want to test our four de
 
 Where `--emi_dir` accompanies `--EMI` to specify the output directory of newly generated EMI variants.
 
-### 4.5. Interpret Result
+### 5. Interpret Result
 
 As noted in our paper, suppose a C file `10.c` is to be tested, it will be compiled first:
 
