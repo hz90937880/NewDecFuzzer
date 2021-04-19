@@ -53,6 +53,8 @@ def batch_compile(src_dir):
         if not file_path.endswith('.c'):
             continue
         if file_path.endswith('_JEB3.c') or file_path.endswith('_retdec.c') or file_path.endswith('_ida.c') or file_path.endswith('_new.c') \
+            or file_path.endswith('test1.c')\
+            or file_path.endswith('test2.c')\
             :
             continue
         if os.path.exists(file_path[:-2]):
@@ -76,6 +78,12 @@ def decompile_single_file(file_path, generated_file_path=''):
         elif Config.R2_test:
             generated_file_path = file_path + Config.Radare2_suffix  # '_r2.c'
 
+        elif Config.Test1_test:
+            generated_file_path = file_path + Config.Other_suffix  # '_test1.c'
+
+        elif Config.Test2_test:
+            generated_file_path = file_path + Config.Other_suffix  # '_test2.c'
+
     fname, extname = os.path.splitext(file_path)
     if os.path.isdir(file_path):
         pass
@@ -96,6 +104,18 @@ def decompile_single_file(file_path, generated_file_path=''):
         elif Config.R2_test:
             status, output = subprocess.getstatusoutput(time_cmd + Config.Radare2_decompile_cmd +
                                                         fname + ' ' + generated_file_path)
+
+        elif Config.Test1_test:
+            status, output = \
+               subprocess.getstatusoutput(time_cmd + Config.Test1_decompile_cmd +
+                                          fname + '  ' +
+                                          generated_file_path)
+
+        elif Config.Test2_test:
+            status, output = \
+               subprocess.getstatusoutput(time_cmd + Config.Test2_decompile_cmd +
+                                          fname + '  ' +
+                                          generated_file_path)
 
         # It seems JEB3 returns 0 even
         # when it failed to generate decompiled code file
@@ -292,6 +312,12 @@ def recompilation_test(running_dir, generate=1, compile=1, decompile=1):
             elif Config.R2_test:
                 generated_file_path = file_path + Config.Radare2_suffix  # '_r2.c'
 
+            elif Config.Test1_test:
+                generated_file_path = file_path + Config.Test1_suffix  # '_test1.c'
+
+            elif Config.Test2_test:
+                generated_file_path = file_path + Config.Test2_suffix  # '_test2.c'
+
             if os.path.exists(decompiled_file_path):
                 continue
 
@@ -316,6 +342,12 @@ def recompilation_test(running_dir, generate=1, compile=1, decompile=1):
             decompiled_file_name = file_path[:-2] + Config.RetDec_suffix  # '_retdec.c'
         elif Config.IDA_test:
             decompiled_file_name = file_path[:-2] + Config.IDA_suffix  # '_ida.c'
+
+        elif Config.Test1_test:
+            decompiled_file_name = file_path[:-2] + Config.Test1_suffix  # '_test1.c'
+
+        elif Config.Test2_test:
+            decompiled_file_name = file_path[:-2] + Config.Test2_suffix  # '_test2.c'
 
 
         status, output = recompile_single_file(file_path,
