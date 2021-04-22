@@ -194,3 +194,16 @@ def batch_compare(dir):
                 print(org_name + ' errors [' + stderr1 + ']')
                 print(file_path + ' errors [' + stderr2 + ']')
 
+'''
+def test():
+    result_dir = './tmp/src_code/result/'
+    result_log = os.path.join(result_dir, 'result_test.txt')
+    f = open(result_log, 'ZH')
+    f.write('\nFound discrepancy:\n')
+    f.close()
+
+
+if __name__ == '__main__':
+    for i in range(10):
+        test()
+'''

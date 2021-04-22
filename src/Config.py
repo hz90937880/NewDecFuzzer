@@ -7,10 +7,6 @@
 
 # Absolute path to csmith runtime directory
 
-Test1_absolute_path = '/home/hz/Downloads/test1'
-
-Test2_absolute_path = '/home/hz/Downloads/test2'
-
 runtime_dir = '/home/hz/DecFuzzer/runtime'
 RetDec_absolute_path = '/home/hz/Downloads/retdec/bin/retdec-decompiler.py'
 JEB3_absolute_path = '/home/fuzz/Documents/jeb-pro-3.0-beta.8/jeb_linux.sh'  #
@@ -28,10 +24,6 @@ timeout_sec = 2
 
 replaced_func_name = 'func_1'
 
-Test1_test = False
-
-Test2_test = False
-
 RetDec_test = False
 JEB3_test = False
 IDA_test = False
@@ -39,19 +31,11 @@ R2_test = True
 
 time_cmd = "time -p "
 
-Test1_suffix = 'Test1.c'
-
-Test2_suffix = 'Test2.c'
-
 JEB3_suffix = '_JEB3.c'
 RetDec_suffix = '_retdec.c'
 IDA_suffix = '_ida.c'
 Radare2_suffix = '_r2.c'
 
-
-Test1_decompile_cmd = (Test1_absolute_path + r" --cleanup ")
-
-Test2_decompile_cmd = (Test2_absolute_path + r" --cleanup ")
 
 
 JEB3_decompile_cmd = (JEB3_absolute_path + " "
@@ -95,10 +79,8 @@ def set_live_code_mutate(value):
 
 
 def set_decompiler(tool=''):
-    global RetDec_test, JEB3_test, IDA_test, R2_test , Test1_test, Test2_test
+    global RetDec_test, JEB3_test, IDA_test, R2_test 
 
-    Test1_test= False
-    Test2_test= False
 
     RetDec_test = False
     JEB3_test = False
@@ -109,10 +91,6 @@ def set_decompiler(tool=''):
     elif tool.startswith('jeb'):
         JEB3_test = True
 
-    elif tool.startswith('test1'):
-        Test1_test = True
-    elif tool.startswith('test2'):
-        Test2_test = True
     elif tool.startswith('ida'):
         IDA_test = True
     elif tool.startswith('r2'):

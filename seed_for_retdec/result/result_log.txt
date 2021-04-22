@@ -4348,3 +4348,88 @@ Found discrepancy:
 ./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
 ./seed_for_retdec/0     errors [b'']
 ./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/104     outputs [b'checksum = 841EAE85\n']
+/home/hz/DecFuzzer/seed_for_retdec/104_new outputs [b'checksum = 25625FC1\n']
+/home/hz/DecFuzzer/seed_for_retdec/104     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/104_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']

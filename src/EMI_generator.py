@@ -840,3 +840,71 @@ class EMIWrapper:
         self.last_variant_txt = self.new_variant_txt
         return 0, self.new_variant_txt
 
+'''
+def test():
+    file_path = './tmp/src_code/csmith_test_1416_m.c'
+    emi = EMIWrapper(file_path)
+    for i in range(10):
+        status, variant_txt = emi.gen_a_new_variant()
+        if status != 0:
+            break
+        # print(variant_txt)
+        path = './tmp/0_variant'+'_'+str(i)+'.c'
+        f = open(path, 'w')
+        f.write(variant_txt)
+        f.close()
+
+        file_path2 = path
+        cfg1 = CFGInfo(file_path)
+        cfg2 = CFGInfo(file_path2)
+        acc1 = Distance(cfg2, cfg1)
+
+        distance = acc1.get_distance()
+        print('distance file', str(i), distance)
+
+
+def num_test(a=0):
+    a += 1
+    return a
+
+
+def test_context():
+    ct = ContextTable()
+    f = open('./tmp/src_code/csmith_test_1777_m.c')
+    txt = f.read()
+    f.close()
+    start, end = replacer.find_fun_pos_with_name(txt, func_name='func_1')
+    lines = txt[start:end].split('\n')[1:]
+    for line in lines:
+        ct.add_context_line(line)
+
+    print(len(ct.context_stack))
+
+
+def blank_test():
+    string = '    abcd{\n      efg\n        abc\n    }\n'
+    print(string)
+    string = EMIGenerator.replace_blank_prefix(string, '')
+
+    print(string)
+
+
+def list_test(li=[]):
+    li = list(set(li))
+
+if __name__ == '__main__':
+     x = 2021
+     num_test(x)
+     print(x)
+
+     test_context()
+
+     blank_test()
+     li = ['z','h','e','n','g']
+     list_test(li)
+
+     li =list(set(li))
+     print(li)
+
+     # test()
+'''

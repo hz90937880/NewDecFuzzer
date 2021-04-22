@@ -1,0 +1,1212 @@
+        -:    0:Source:/home/hz/DecFuzzer/runtime/safe_math.h
+        -:    0:Graph:./1.gcno
+        -:    0:Data:./1.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:
+        -:    2:#ifndef SAFE_MATH_H
+        -:    3:#define SAFE_MATH_H
+        -:    4:
+        -:    5:
+        -:    6:
+        -:    7:
+        -:    8:
+        -:    9:
+        -:   10:
+        -:   11:
+        -:   12:
+        -:   13:STATIC int8_t
+    #####:   14:FUNC_NAME(unary_minus_func_int8_t_s)(int8_t si LOG_INDEX)
+        -:   15:{
+        -:   16:  LOG_EXEC
+        -:   17:  return 
+        -:   18:#ifndef UNSAFE
+        -:   19:#if (INT8_MAX>=INT_MAX)
+        -:   20:    (si==INT8_MIN) ?
+        -:   21:    (UNDEFINED(si)) :
+        -:   22:#endif
+        -:   23:#endif
+    #####:   24:    -si;
+        -:   25:}
+        -:   26:
+        -:   27:STATIC int8_t
+    #####:   28:FUNC_NAME(add_func_int8_t_s_s)(int8_t si1, int8_t si2 LOG_INDEX)
+        -:   29:{
+        -:   30:  LOG_EXEC
+        -:   31:  return 
+        -:   32:#ifndef UNSAFE
+        -:   33:#if (INT8_MAX>=INT_MAX)
+        -:   34:    (((si1>0) && (si2>0) && (si1 > (INT8_MAX-si2))) || ((si1<0) && (si2<0) && (si1 < (INT8_MIN-si2)))) ?
+        -:   35:    (UNDEFINED(si1)) :
+        -:   36:#endif
+        -:   37:#endif
+    #####:   38:    (si1 + si2);
+        -:   39:}
+        -:   40:
+        -:   41:STATIC int8_t
+    #####:   42:FUNC_NAME(sub_func_int8_t_s_s)(int8_t si1, int8_t si2 LOG_INDEX)
+        -:   43:{
+        -:   44:  LOG_EXEC
+        -:   45:  return 
+        -:   46:#ifndef UNSAFE
+        -:   47:#if (INT8_MAX>=INT_MAX)
+        -:   48:    (((si1^si2) & (((si1 ^ ((si1^si2) & (~INT8_MAX)))-si2)^si2)) < 0) ? 
+        -:   49:    (UNDEFINED(si1)) : 
+        -:   50:#endif
+        -:   51:#endif
+    #####:   52:    (si1 - si2);
+        -:   53:}
+        -:   54:
+        -:   55:STATIC int8_t
+    #####:   56:FUNC_NAME(mul_func_int8_t_s_s)(int8_t si1, int8_t si2 LOG_INDEX)
+        -:   57:{
+        -:   58:  LOG_EXEC
+        -:   59:  return 
+        -:   60:#ifndef UNSAFE
+        -:   61:#if (INT8_MAX>=INT_MAX)
+        -:   62:    (((si1 > 0) && (si2 > 0) && (si1 > (INT8_MAX / si2))) || ((si1 > 0) && (si2 <= 0) && (si2 < (INT8_MIN / si1))) || ((si1 <= 0) && (si2 > 0) && (si1 < (INT8_MIN / si2))) || ((si1 <= 0) && (si2 <= 0) && (si1 != 0) && (si2 < (INT8_MAX / si1)))) ? 
+        -:   63:    (UNDEFINED(si1)) : 
+        -:   64:#endif
+        -:   65:#endif
+    #####:   66:    si1 * si2;
+        -:   67:}
+        -:   68:
+        -:   69:STATIC int8_t
+    #####:   70:FUNC_NAME(mod_func_int8_t_s_s)(int8_t si1, int8_t si2 LOG_INDEX)
+        -:   71:{
+        -:   72:  LOG_EXEC
+        -:   73:  return 
+        -:   74:#ifndef UNSAFE
+    #####:   75:    ((si2 == 0) || ((si1 == INT8_MIN) && (si2 == (-1)))) ? 
+    #####:   76:    (UNDEFINED(si1)) : 
+        -:   77:#endif
+    #####:   78:    (si1 % si2);
+        -:   79:}
+        -:   80:
+        -:   81:STATIC int8_t
+    #####:   82:FUNC_NAME(div_func_int8_t_s_s)(int8_t si1, int8_t si2 LOG_INDEX)
+        -:   83:{
+        -:   84:  LOG_EXEC
+        -:   85:  return 
+        -:   86:#ifndef UNSAFE
+    #####:   87:    ((si2 == 0) || ((si1 == INT8_MIN) && (si2 == (-1)))) ? 
+    #####:   88:    (UNDEFINED(si1)) : 
+        -:   89:#endif
+    #####:   90:    (si1 / si2);
+        -:   91:}
+        -:   92:
+        -:   93:STATIC int8_t
+    #####:   94:FUNC_NAME(lshift_func_int8_t_s_s)(int8_t left, int right LOG_INDEX)
+        -:   95:{
+        -:   96:  LOG_EXEC
+        -:   97:  return 
+        -:   98:#ifndef UNSAFE
+    #####:   99:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32) || (left > (INT8_MAX >> ((int)right)))) ? 
+    #####:  100:    (UNDEFINED(left)) : 
+        -:  101:#endif
+    #####:  102:    (left << ((int)right));
+        -:  103:}
+        -:  104:
+        -:  105:STATIC int8_t
+    #####:  106:FUNC_NAME(lshift_func_int8_t_s_u)(int8_t left, unsigned int right LOG_INDEX)
+        -:  107:{
+        -:  108:  LOG_EXEC
+        -:  109:  return 
+        -:  110:#ifndef UNSAFE
+    #####:  111:    ((left < 0) || (((unsigned int)right) >= 32) || (left > (INT8_MAX >> ((unsigned int)right)))) ? 
+    #####:  112:    (UNDEFINED(left)) : 
+        -:  113:#endif
+    #####:  114:    (left << ((unsigned int)right));
+        -:  115:}
+        -:  116:
+        -:  117:STATIC int8_t
+    #####:  118:FUNC_NAME(rshift_func_int8_t_s_s)(int8_t left, int right LOG_INDEX)
+        -:  119:{
+        -:  120:  LOG_EXEC
+        -:  121:  return 
+        -:  122:#ifndef UNSAFE
+    #####:  123:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32))? 
+    #####:  124:    (UNDEFINED(left)) : 
+        -:  125:#endif
+    #####:  126:    (left >> ((int)right));
+        -:  127:}
+        -:  128:
+        -:  129:STATIC int8_t
+    #####:  130:FUNC_NAME(rshift_func_int8_t_s_u)(int8_t left, unsigned int right LOG_INDEX)
+        -:  131:{
+        -:  132:  LOG_EXEC
+        -:  133:  return 
+        -:  134:#ifndef UNSAFE
+    #####:  135:    ((left < 0) || (((unsigned int)right) >= 32)) ? 
+    #####:  136:    (UNDEFINED(left)) : 
+        -:  137:#endif
+    #####:  138:    (left >> ((unsigned int)right));
+        -:  139:}
+        -:  140:
+        -:  141:
+        -:  142:
+        -:  143:STATIC int16_t
+    #####:  144:FUNC_NAME(unary_minus_func_int16_t_s)(int16_t si LOG_INDEX)
+        -:  145:{
+        -:  146:  LOG_EXEC
+        -:  147:  return 
+        -:  148:#ifndef UNSAFE
+        -:  149:#if (INT16_MAX>=INT_MAX)
+        -:  150:    (si==INT16_MIN) ?
+        -:  151:    (UNDEFINED(si)) :
+        -:  152:#endif
+        -:  153:#endif
+    #####:  154:    -si;
+        -:  155:}
+        -:  156:
+        -:  157:STATIC int16_t
+    #####:  158:FUNC_NAME(add_func_int16_t_s_s)(int16_t si1, int16_t si2 LOG_INDEX)
+        -:  159:{
+        -:  160:  LOG_EXEC
+        -:  161:  return 
+        -:  162:#ifndef UNSAFE
+        -:  163:#if (INT16_MAX>=INT_MAX)
+        -:  164:    (((si1>0) && (si2>0) && (si1 > (INT16_MAX-si2))) || ((si1<0) && (si2<0) && (si1 < (INT16_MIN-si2)))) ?
+        -:  165:    (UNDEFINED(si1)) :
+        -:  166:#endif
+        -:  167:#endif
+    #####:  168:    (si1 + si2);
+        -:  169:}
+        -:  170:
+        -:  171:STATIC int16_t
+    #####:  172:FUNC_NAME(sub_func_int16_t_s_s)(int16_t si1, int16_t si2 LOG_INDEX)
+        -:  173:{
+        -:  174:  LOG_EXEC
+        -:  175:  return 
+        -:  176:#ifndef UNSAFE
+        -:  177:#if (INT16_MAX>=INT_MAX)
+        -:  178:    (((si1^si2) & (((si1 ^ ((si1^si2) & (~INT16_MAX)))-si2)^si2)) < 0) ? 
+        -:  179:    (UNDEFINED(si1)) : 
+        -:  180:#endif
+        -:  181:#endif
+    #####:  182:    (si1 - si2);
+        -:  183:}
+        -:  184:
+        -:  185:STATIC int16_t
+    #####:  186:FUNC_NAME(mul_func_int16_t_s_s)(int16_t si1, int16_t si2 LOG_INDEX)
+        -:  187:{
+        -:  188:  LOG_EXEC
+        -:  189:  return 
+        -:  190:#ifndef UNSAFE
+        -:  191:#if (INT16_MAX>=INT_MAX)
+        -:  192:    (((si1 > 0) && (si2 > 0) && (si1 > (INT16_MAX / si2))) || ((si1 > 0) && (si2 <= 0) && (si2 < (INT16_MIN / si1))) || ((si1 <= 0) && (si2 > 0) && (si1 < (INT16_MIN / si2))) || ((si1 <= 0) && (si2 <= 0) && (si1 != 0) && (si2 < (INT16_MAX / si1)))) ? 
+        -:  193:    (UNDEFINED(si1)) : 
+        -:  194:#endif
+        -:  195:#endif
+    #####:  196:    si1 * si2;
+        -:  197:}
+        -:  198:
+        -:  199:STATIC int16_t
+    #####:  200:FUNC_NAME(mod_func_int16_t_s_s)(int16_t si1, int16_t si2 LOG_INDEX)
+        -:  201:{
+        -:  202:  LOG_EXEC
+        -:  203:  return 
+        -:  204:#ifndef UNSAFE
+    #####:  205:    ((si2 == 0) || ((si1 == INT16_MIN) && (si2 == (-1)))) ? 
+    #####:  206:    (UNDEFINED(si1)) : 
+        -:  207:#endif
+    #####:  208:    (si1 % si2);
+        -:  209:}
+        -:  210:
+        -:  211:STATIC int16_t
+    #####:  212:FUNC_NAME(div_func_int16_t_s_s)(int16_t si1, int16_t si2 LOG_INDEX)
+        -:  213:{
+        -:  214:  LOG_EXEC
+        -:  215:  return 
+        -:  216:#ifndef UNSAFE
+    #####:  217:    ((si2 == 0) || ((si1 == INT16_MIN) && (si2 == (-1)))) ? 
+    #####:  218:    (UNDEFINED(si1)) : 
+        -:  219:#endif
+    #####:  220:    (si1 / si2);
+        -:  221:}
+        -:  222:
+        -:  223:STATIC int16_t
+    #####:  224:FUNC_NAME(lshift_func_int16_t_s_s)(int16_t left, int right LOG_INDEX)
+        -:  225:{
+        -:  226:  LOG_EXEC
+        -:  227:  return 
+        -:  228:#ifndef UNSAFE
+    #####:  229:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32) || (left > (INT16_MAX >> ((int)right)))) ? 
+    #####:  230:    (UNDEFINED(left)) : 
+        -:  231:#endif
+    #####:  232:    (left << ((int)right));
+        -:  233:}
+        -:  234:
+        -:  235:STATIC int16_t
+    #####:  236:FUNC_NAME(lshift_func_int16_t_s_u)(int16_t left, unsigned int right LOG_INDEX)
+        -:  237:{
+        -:  238:  LOG_EXEC
+        -:  239:  return 
+        -:  240:#ifndef UNSAFE
+    #####:  241:    ((left < 0) || (((unsigned int)right) >= 32) || (left > (INT16_MAX >> ((unsigned int)right)))) ? 
+    #####:  242:    (UNDEFINED(left)) : 
+        -:  243:#endif
+    #####:  244:    (left << ((unsigned int)right));
+        -:  245:}
+        -:  246:
+        -:  247:STATIC int16_t
+    #####:  248:FUNC_NAME(rshift_func_int16_t_s_s)(int16_t left, int right LOG_INDEX)
+        -:  249:{
+        -:  250:  LOG_EXEC
+        -:  251:  return 
+        -:  252:#ifndef UNSAFE
+    #####:  253:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32))? 
+    #####:  254:    (UNDEFINED(left)) : 
+        -:  255:#endif
+    #####:  256:    (left >> ((int)right));
+        -:  257:}
+        -:  258:
+        -:  259:STATIC int16_t
+    #####:  260:FUNC_NAME(rshift_func_int16_t_s_u)(int16_t left, unsigned int right LOG_INDEX)
+        -:  261:{
+        -:  262:  LOG_EXEC
+        -:  263:  return 
+        -:  264:#ifndef UNSAFE
+    #####:  265:    ((left < 0) || (((unsigned int)right) >= 32)) ? 
+    #####:  266:    (UNDEFINED(left)) : 
+        -:  267:#endif
+    #####:  268:    (left >> ((unsigned int)right));
+        -:  269:}
+        -:  270:
+        -:  271:
+        -:  272:
+        -:  273:STATIC int32_t
+    #####:  274:FUNC_NAME(unary_minus_func_int32_t_s)(int32_t si LOG_INDEX)
+        -:  275:{
+        -:  276:  LOG_EXEC
+        -:  277:  return 
+        -:  278:#ifndef UNSAFE
+        -:  279:#if (INT32_MAX>=INT_MAX)
+        -:  280:    (si==INT32_MIN) ?
+    #####:  281:    (UNDEFINED(si)) :
+        -:  282:#endif
+        -:  283:#endif
+        -:  284:    -si;
+        -:  285:}
+        -:  286:
+        -:  287:STATIC int32_t
+    #####:  288:FUNC_NAME(add_func_int32_t_s_s)(int32_t si1, int32_t si2 LOG_INDEX)
+        -:  289:{
+        -:  290:  LOG_EXEC
+        -:  291:  return 
+        -:  292:#ifndef UNSAFE
+        -:  293:#if (INT32_MAX>=INT_MAX)
+    #####:  294:    (((si1>0) && (si2>0) && (si1 > (INT32_MAX-si2))) || ((si1<0) && (si2<0) && (si1 < (INT32_MIN-si2)))) ?
+    #####:  295:    (UNDEFINED(si1)) :
+        -:  296:#endif
+        -:  297:#endif
+        -:  298:    (si1 + si2);
+        -:  299:}
+        -:  300:
+        -:  301:STATIC int32_t
+    #####:  302:FUNC_NAME(sub_func_int32_t_s_s)(int32_t si1, int32_t si2 LOG_INDEX)
+        -:  303:{
+        -:  304:  LOG_EXEC
+        -:  305:  return 
+        -:  306:#ifndef UNSAFE
+        -:  307:#if (INT32_MAX>=INT_MAX)
+    #####:  308:    (((si1^si2) & (((si1 ^ ((si1^si2) & (~INT32_MAX)))-si2)^si2)) < 0) ? 
+    #####:  309:    (UNDEFINED(si1)) : 
+        -:  310:#endif
+        -:  311:#endif
+        -:  312:    (si1 - si2);
+        -:  313:}
+        -:  314:
+        -:  315:STATIC int32_t
+    #####:  316:FUNC_NAME(mul_func_int32_t_s_s)(int32_t si1, int32_t si2 LOG_INDEX)
+        -:  317:{
+        -:  318:  LOG_EXEC
+        -:  319:  return 
+        -:  320:#ifndef UNSAFE
+        -:  321:#if (INT32_MAX>=INT_MAX)
+    #####:  322:    (((si1 > 0) && (si2 > 0) && (si1 > (INT32_MAX / si2))) || ((si1 > 0) && (si2 <= 0) && (si2 < (INT32_MIN / si1))) || ((si1 <= 0) && (si2 > 0) && (si1 < (INT32_MIN / si2))) || ((si1 <= 0) && (si2 <= 0) && (si1 != 0) && (si2 < (INT32_MAX / si1)))) ? 
+    #####:  323:    (UNDEFINED(si1)) : 
+        -:  324:#endif
+        -:  325:#endif
+        -:  326:    si1 * si2;
+        -:  327:}
+        -:  328:
+        -:  329:STATIC int32_t
+    #####:  330:FUNC_NAME(mod_func_int32_t_s_s)(int32_t si1, int32_t si2 LOG_INDEX)
+        -:  331:{
+        -:  332:  LOG_EXEC
+        -:  333:  return 
+        -:  334:#ifndef UNSAFE
+    #####:  335:    ((si2 == 0) || ((si1 == INT32_MIN) && (si2 == (-1)))) ? 
+    #####:  336:    (UNDEFINED(si1)) : 
+        -:  337:#endif
+        -:  338:    (si1 % si2);
+        -:  339:}
+        -:  340:
+        -:  341:STATIC int32_t
+    #####:  342:FUNC_NAME(div_func_int32_t_s_s)(int32_t si1, int32_t si2 LOG_INDEX)
+        -:  343:{
+        -:  344:  LOG_EXEC
+        -:  345:  return 
+        -:  346:#ifndef UNSAFE
+    #####:  347:    ((si2 == 0) || ((si1 == INT32_MIN) && (si2 == (-1)))) ? 
+    #####:  348:    (UNDEFINED(si1)) : 
+        -:  349:#endif
+        -:  350:    (si1 / si2);
+        -:  351:}
+        -:  352:
+        -:  353:STATIC int32_t
+    #####:  354:FUNC_NAME(lshift_func_int32_t_s_s)(int32_t left, int right LOG_INDEX)
+        -:  355:{
+        -:  356:  LOG_EXEC
+        -:  357:  return 
+        -:  358:#ifndef UNSAFE
+    #####:  359:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32) || (left > (INT32_MAX >> ((int)right)))) ? 
+    #####:  360:    (UNDEFINED(left)) : 
+        -:  361:#endif
+        -:  362:    (left << ((int)right));
+        -:  363:}
+        -:  364:
+        -:  365:STATIC int32_t
+    #####:  366:FUNC_NAME(lshift_func_int32_t_s_u)(int32_t left, unsigned int right LOG_INDEX)
+        -:  367:{
+        -:  368:  LOG_EXEC
+        -:  369:  return 
+        -:  370:#ifndef UNSAFE
+    #####:  371:    ((left < 0) || (((unsigned int)right) >= 32) || (left > (INT32_MAX >> ((unsigned int)right)))) ? 
+    #####:  372:    (UNDEFINED(left)) : 
+        -:  373:#endif
+        -:  374:    (left << ((unsigned int)right));
+        -:  375:}
+        -:  376:
+        -:  377:STATIC int32_t
+    #####:  378:FUNC_NAME(rshift_func_int32_t_s_s)(int32_t left, int right LOG_INDEX)
+        -:  379:{
+        -:  380:  LOG_EXEC
+        -:  381:  return 
+        -:  382:#ifndef UNSAFE
+    #####:  383:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32))? 
+    #####:  384:    (UNDEFINED(left)) : 
+        -:  385:#endif
+        -:  386:    (left >> ((int)right));
+        -:  387:}
+        -:  388:
+        -:  389:STATIC int32_t
+    #####:  390:FUNC_NAME(rshift_func_int32_t_s_u)(int32_t left, unsigned int right LOG_INDEX)
+        -:  391:{
+        -:  392:  LOG_EXEC
+        -:  393:  return 
+        -:  394:#ifndef UNSAFE
+    #####:  395:    ((left < 0) || (((unsigned int)right) >= 32)) ? 
+    #####:  396:    (UNDEFINED(left)) : 
+        -:  397:#endif
+        -:  398:    (left >> ((unsigned int)right));
+        -:  399:}
+        -:  400:
+        -:  401:#ifndef NO_LONGLONG
+        -:  402:
+        -:  403:
+        -:  404:STATIC int64_t
+        -:  405:FUNC_NAME(unary_minus_func_int64_t_s)(int64_t si LOG_INDEX)
+        -:  406:{
+        -:  407:  LOG_EXEC
+        -:  408:  return 
+        -:  409:#ifndef UNSAFE
+        -:  410:#if (INT64_MAX>=INT_MAX)
+        -:  411:    (si==INT64_MIN) ?
+        -:  412:    (UNDEFINED(si)) :
+        -:  413:#endif
+        -:  414:#endif
+        -:  415:    -si;
+        -:  416:}
+        -:  417:
+        -:  418:STATIC int64_t
+        -:  419:FUNC_NAME(add_func_int64_t_s_s)(int64_t si1, int64_t si2 LOG_INDEX)
+        -:  420:{
+        -:  421:  LOG_EXEC
+        -:  422:  return 
+        -:  423:#ifndef UNSAFE
+        -:  424:#if (INT64_MAX>=INT_MAX)
+        -:  425:    (((si1>0) && (si2>0) && (si1 > (INT64_MAX-si2))) || ((si1<0) && (si2<0) && (si1 < (INT64_MIN-si2)))) ?
+        -:  426:    (UNDEFINED(si1)) :
+        -:  427:#endif
+        -:  428:#endif
+        -:  429:    (si1 + si2);
+        -:  430:}
+        -:  431:
+        -:  432:STATIC int64_t
+        -:  433:FUNC_NAME(sub_func_int64_t_s_s)(int64_t si1, int64_t si2 LOG_INDEX)
+        -:  434:{
+        -:  435:  LOG_EXEC
+        -:  436:  return 
+        -:  437:#ifndef UNSAFE
+        -:  438:#if (INT64_MAX>=INT_MAX)
+        -:  439:    (((si1^si2) & (((si1 ^ ((si1^si2) & (~INT64_MAX)))-si2)^si2)) < 0) ? 
+        -:  440:    (UNDEFINED(si1)) : 
+        -:  441:#endif
+        -:  442:#endif
+        -:  443:    (si1 - si2);
+        -:  444:}
+        -:  445:
+        -:  446:STATIC int64_t
+        -:  447:FUNC_NAME(mul_func_int64_t_s_s)(int64_t si1, int64_t si2 LOG_INDEX)
+        -:  448:{
+        -:  449:  LOG_EXEC
+        -:  450:  return 
+        -:  451:#ifndef UNSAFE
+        -:  452:#if (INT64_MAX>=INT_MAX)
+        -:  453:    (((si1 > 0) && (si2 > 0) && (si1 > (INT64_MAX / si2))) || ((si1 > 0) && (si2 <= 0) && (si2 < (INT64_MIN / si1))) || ((si1 <= 0) && (si2 > 0) && (si1 < (INT64_MIN / si2))) || ((si1 <= 0) && (si2 <= 0) && (si1 != 0) && (si2 < (INT64_MAX / si1)))) ? 
+        -:  454:    (UNDEFINED(si1)) : 
+        -:  455:#endif
+        -:  456:#endif
+        -:  457:    si1 * si2;
+        -:  458:}
+        -:  459:
+        -:  460:STATIC int64_t
+        -:  461:FUNC_NAME(mod_func_int64_t_s_s)(int64_t si1, int64_t si2 LOG_INDEX)
+        -:  462:{
+        -:  463:  LOG_EXEC
+        -:  464:  return 
+        -:  465:#ifndef UNSAFE
+        -:  466:    ((si2 == 0) || ((si1 == INT64_MIN) && (si2 == (-1)))) ? 
+        -:  467:    (UNDEFINED(si1)) : 
+        -:  468:#endif
+        -:  469:    (si1 % si2);
+        -:  470:}
+        -:  471:
+        -:  472:STATIC int64_t
+        -:  473:FUNC_NAME(div_func_int64_t_s_s)(int64_t si1, int64_t si2 LOG_INDEX)
+        -:  474:{
+        -:  475:  LOG_EXEC
+        -:  476:  return 
+        -:  477:#ifndef UNSAFE
+        -:  478:    ((si2 == 0) || ((si1 == INT64_MIN) && (si2 == (-1)))) ? 
+        -:  479:    (UNDEFINED(si1)) : 
+        -:  480:#endif
+        -:  481:    (si1 / si2);
+        -:  482:}
+        -:  483:
+        -:  484:STATIC int64_t
+        -:  485:FUNC_NAME(lshift_func_int64_t_s_s)(int64_t left, int right LOG_INDEX)
+        -:  486:{
+        -:  487:  LOG_EXEC
+        -:  488:  return 
+        -:  489:#ifndef UNSAFE
+        -:  490:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32) || (left > (INT64_MAX >> ((int)right)))) ? 
+        -:  491:    (UNDEFINED(left)) : 
+        -:  492:#endif
+        -:  493:    (left << ((int)right));
+        -:  494:}
+        -:  495:
+        -:  496:STATIC int64_t
+        -:  497:FUNC_NAME(lshift_func_int64_t_s_u)(int64_t left, unsigned int right LOG_INDEX)
+        -:  498:{
+        -:  499:  LOG_EXEC
+        -:  500:  return 
+        -:  501:#ifndef UNSAFE
+        -:  502:    ((left < 0) || (((unsigned int)right) >= 32) || (left > (INT64_MAX >> ((unsigned int)right)))) ? 
+        -:  503:    (UNDEFINED(left)) : 
+        -:  504:#endif
+        -:  505:    (left << ((unsigned int)right));
+        -:  506:}
+        -:  507:
+        -:  508:STATIC int64_t
+        -:  509:FUNC_NAME(rshift_func_int64_t_s_s)(int64_t left, int right LOG_INDEX)
+        -:  510:{
+        -:  511:  LOG_EXEC
+        -:  512:  return 
+        -:  513:#ifndef UNSAFE
+        -:  514:    ((left < 0) || (((int)right) < 0) || (((int)right) >= 32))? 
+        -:  515:    (UNDEFINED(left)) : 
+        -:  516:#endif
+        -:  517:    (left >> ((int)right));
+        -:  518:}
+        -:  519:
+        -:  520:STATIC int64_t
+        -:  521:FUNC_NAME(rshift_func_int64_t_s_u)(int64_t left, unsigned int right LOG_INDEX)
+        -:  522:{
+        -:  523:  LOG_EXEC
+        -:  524:  return 
+        -:  525:#ifndef UNSAFE
+        -:  526:    ((left < 0) || (((unsigned int)right) >= 32)) ? 
+        -:  527:    (UNDEFINED(left)) : 
+        -:  528:#endif
+        -:  529:    (left >> ((unsigned int)right));
+        -:  530:}
+        -:  531:
+        -:  532:#endif
+        -:  533:
+        -:  534:
+        -:  535:
+        -:  536:
+        -:  537:
+        -:  538:STATIC uint8_t
+    #####:  539:FUNC_NAME(unary_minus_func_uint8_t_u)(uint8_t ui LOG_INDEX)
+        -:  540:{
+        -:  541:  LOG_EXEC
+    #####:  542:  return -ui;
+        -:  543:}
+        -:  544:
+        -:  545:STATIC uint8_t
+    #####:  546:FUNC_NAME(add_func_uint8_t_u_u)(uint8_t ui1, uint8_t ui2 LOG_INDEX)
+        -:  547:{
+        -:  548:  LOG_EXEC
+    #####:  549:  return ui1 + ui2;
+        -:  550:}
+        -:  551:
+        -:  552:STATIC uint8_t
+    #####:  553:FUNC_NAME(sub_func_uint8_t_u_u)(uint8_t ui1, uint8_t ui2 LOG_INDEX)
+        -:  554:{
+        -:  555:  LOG_EXEC
+    #####:  556:  return ui1 - ui2;
+        -:  557:}
+        -:  558:
+        -:  559:STATIC uint8_t
+    #####:  560:FUNC_NAME(mul_func_uint8_t_u_u)(uint8_t ui1, uint8_t ui2 LOG_INDEX)
+        -:  561:{
+        -:  562:  LOG_EXEC
+    #####:  563:  return ((unsigned int)ui1) * ((unsigned int)ui2);
+        -:  564:}
+        -:  565:
+        -:  566:STATIC uint8_t
+    #####:  567:FUNC_NAME(mod_func_uint8_t_u_u)(uint8_t ui1, uint8_t ui2 LOG_INDEX)
+        -:  568:{
+        -:  569:  LOG_EXEC
+        -:  570:  return 
+        -:  571:#ifndef UNSAFE
+        -:  572:    (ui2 == 0) ? 
+    #####:  573:    (UNDEFINED(ui1)) : 
+        -:  574:#endif
+        -:  575:    (ui1 % ui2);
+        -:  576:}
+        -:  577:
+        -:  578:STATIC uint8_t
+    #####:  579:FUNC_NAME(div_func_uint8_t_u_u)(uint8_t ui1, uint8_t ui2 LOG_INDEX)
+        -:  580:{
+        -:  581:  LOG_EXEC
+        -:  582:  return 
+        -:  583:#ifndef UNSAFE
+        -:  584:    (ui2 == 0) ? 
+    #####:  585:    (UNDEFINED(ui1)) : 
+        -:  586:#endif
+        -:  587:    (ui1 / ui2);
+        -:  588:}
+        -:  589:
+        -:  590:STATIC uint8_t
+    #####:  591:FUNC_NAME(lshift_func_uint8_t_u_s)(uint8_t left, int right LOG_INDEX)
+        -:  592:{
+        -:  593:  LOG_EXEC
+        -:  594:  return 
+        -:  595:#ifndef UNSAFE
+    #####:  596:    ((((int)right) < 0) || (((int)right) >= 32) || (left > (UINT8_MAX >> ((int)right)))) ? 
+    #####:  597:    (UNDEFINED(left)) : 
+        -:  598:#endif
+    #####:  599:    (left << ((int)right));
+        -:  600:}
+        -:  601:
+        -:  602:STATIC uint8_t
+    #####:  603:FUNC_NAME(lshift_func_uint8_t_u_u)(uint8_t left, unsigned int right LOG_INDEX)
+        -:  604:{
+        -:  605:  LOG_EXEC
+        -:  606:  return 
+        -:  607:#ifndef UNSAFE
+    #####:  608:    ((((unsigned int)right) >= 32) || (left > (UINT8_MAX >> ((unsigned int)right)))) ? 
+    #####:  609:    (UNDEFINED(left)) : 
+        -:  610:#endif
+    #####:  611:    (left << ((unsigned int)right));
+        -:  612:}
+        -:  613:
+        -:  614:STATIC uint8_t
+    #####:  615:FUNC_NAME(rshift_func_uint8_t_u_s)(uint8_t left, int right LOG_INDEX)
+        -:  616:{
+        -:  617:  LOG_EXEC
+        -:  618:  return 
+        -:  619:#ifndef UNSAFE
+    #####:  620:    ((((int)right) < 0) || (((int)right) >= 32)) ? 
+    #####:  621:    (UNDEFINED(left)) : 
+        -:  622:#endif
+    #####:  623:    (left >> ((int)right));
+        -:  624:}
+        -:  625:
+        -:  626:STATIC uint8_t
+    #####:  627:FUNC_NAME(rshift_func_uint8_t_u_u)(uint8_t left, unsigned int right LOG_INDEX)
+        -:  628:{
+        -:  629:  LOG_EXEC
+        -:  630:  return 
+        -:  631:#ifndef UNSAFE
+        -:  632:    (((unsigned int)right) >= 32) ? 
+    #####:  633:    (UNDEFINED(left)) : 
+        -:  634:#endif
+    #####:  635:    (left >> ((unsigned int)right));
+        -:  636:}
+        -:  637:
+        -:  638:
+        -:  639:
+        -:  640:STATIC uint16_t
+    #####:  641:FUNC_NAME(unary_minus_func_uint16_t_u)(uint16_t ui LOG_INDEX)
+        -:  642:{
+        -:  643:  LOG_EXEC
+    #####:  644:  return -ui;
+        -:  645:}
+        -:  646:
+        -:  647:STATIC uint16_t
+    #####:  648:FUNC_NAME(add_func_uint16_t_u_u)(uint16_t ui1, uint16_t ui2 LOG_INDEX)
+        -:  649:{
+        -:  650:  LOG_EXEC
+    #####:  651:  return ui1 + ui2;
+        -:  652:}
+        -:  653:
+        -:  654:STATIC uint16_t
+    #####:  655:FUNC_NAME(sub_func_uint16_t_u_u)(uint16_t ui1, uint16_t ui2 LOG_INDEX)
+        -:  656:{
+        -:  657:  LOG_EXEC
+    #####:  658:  return ui1 - ui2;
+        -:  659:}
+        -:  660:
+        -:  661:STATIC uint16_t
+    #####:  662:FUNC_NAME(mul_func_uint16_t_u_u)(uint16_t ui1, uint16_t ui2 LOG_INDEX)
+        -:  663:{
+        -:  664:  LOG_EXEC
+    #####:  665:  return ((unsigned int)ui1) * ((unsigned int)ui2);
+        -:  666:}
+        -:  667:
+        -:  668:STATIC uint16_t
+    #####:  669:FUNC_NAME(mod_func_uint16_t_u_u)(uint16_t ui1, uint16_t ui2 LOG_INDEX)
+        -:  670:{
+        -:  671:  LOG_EXEC
+        -:  672:  return 
+        -:  673:#ifndef UNSAFE
+        -:  674:    (ui2 == 0) ? 
+    #####:  675:    (UNDEFINED(ui1)) : 
+        -:  676:#endif
+        -:  677:    (ui1 % ui2);
+        -:  678:}
+        -:  679:
+        -:  680:STATIC uint16_t
+    #####:  681:FUNC_NAME(div_func_uint16_t_u_u)(uint16_t ui1, uint16_t ui2 LOG_INDEX)
+        -:  682:{
+        -:  683:  LOG_EXEC
+        -:  684:  return 
+        -:  685:#ifndef UNSAFE
+        -:  686:    (ui2 == 0) ? 
+    #####:  687:    (UNDEFINED(ui1)) : 
+        -:  688:#endif
+        -:  689:    (ui1 / ui2);
+        -:  690:}
+        -:  691:
+        -:  692:STATIC uint16_t
+    #####:  693:FUNC_NAME(lshift_func_uint16_t_u_s)(uint16_t left, int right LOG_INDEX)
+        -:  694:{
+        -:  695:  LOG_EXEC
+        -:  696:  return 
+        -:  697:#ifndef UNSAFE
+    #####:  698:    ((((int)right) < 0) || (((int)right) >= 32) || (left > (UINT16_MAX >> ((int)right)))) ? 
+    #####:  699:    (UNDEFINED(left)) : 
+        -:  700:#endif
+    #####:  701:    (left << ((int)right));
+        -:  702:}
+        -:  703:
+        -:  704:STATIC uint16_t
+    #####:  705:FUNC_NAME(lshift_func_uint16_t_u_u)(uint16_t left, unsigned int right LOG_INDEX)
+        -:  706:{
+        -:  707:  LOG_EXEC
+        -:  708:  return 
+        -:  709:#ifndef UNSAFE
+    #####:  710:    ((((unsigned int)right) >= 32) || (left > (UINT16_MAX >> ((unsigned int)right)))) ? 
+    #####:  711:    (UNDEFINED(left)) : 
+        -:  712:#endif
+    #####:  713:    (left << ((unsigned int)right));
+        -:  714:}
+        -:  715:
+        -:  716:STATIC uint16_t
+    #####:  717:FUNC_NAME(rshift_func_uint16_t_u_s)(uint16_t left, int right LOG_INDEX)
+        -:  718:{
+        -:  719:  LOG_EXEC
+        -:  720:  return 
+        -:  721:#ifndef UNSAFE
+    #####:  722:    ((((int)right) < 0) || (((int)right) >= 32)) ? 
+    #####:  723:    (UNDEFINED(left)) : 
+        -:  724:#endif
+    #####:  725:    (left >> ((int)right));
+        -:  726:}
+        -:  727:
+        -:  728:STATIC uint16_t
+    #####:  729:FUNC_NAME(rshift_func_uint16_t_u_u)(uint16_t left, unsigned int right LOG_INDEX)
+        -:  730:{
+        -:  731:  LOG_EXEC
+        -:  732:  return 
+        -:  733:#ifndef UNSAFE
+        -:  734:    (((unsigned int)right) >= 32) ? 
+    #####:  735:    (UNDEFINED(left)) : 
+        -:  736:#endif
+    #####:  737:    (left >> ((unsigned int)right));
+        -:  738:}
+        -:  739:
+        -:  740:
+        -:  741:
+        -:  742:STATIC uint32_t
+    #####:  743:FUNC_NAME(unary_minus_func_uint32_t_u)(uint32_t ui LOG_INDEX)
+        -:  744:{
+        -:  745:  LOG_EXEC
+    #####:  746:  return -ui;
+        -:  747:}
+        -:  748:
+        -:  749:STATIC uint32_t
+    #####:  750:FUNC_NAME(add_func_uint32_t_u_u)(uint32_t ui1, uint32_t ui2 LOG_INDEX)
+        -:  751:{
+        -:  752:  LOG_EXEC
+    #####:  753:  return ui1 + ui2;
+        -:  754:}
+        -:  755:
+        -:  756:STATIC uint32_t
+    #####:  757:FUNC_NAME(sub_func_uint32_t_u_u)(uint32_t ui1, uint32_t ui2 LOG_INDEX)
+        -:  758:{
+        -:  759:  LOG_EXEC
+    #####:  760:  return ui1 - ui2;
+        -:  761:}
+        -:  762:
+        -:  763:STATIC uint32_t
+    #####:  764:FUNC_NAME(mul_func_uint32_t_u_u)(uint32_t ui1, uint32_t ui2 LOG_INDEX)
+        -:  765:{
+        -:  766:  LOG_EXEC
+    #####:  767:  return ((unsigned int)ui1) * ((unsigned int)ui2);
+        -:  768:}
+        -:  769:
+        -:  770:STATIC uint32_t
+    #####:  771:FUNC_NAME(mod_func_uint32_t_u_u)(uint32_t ui1, uint32_t ui2 LOG_INDEX)
+        -:  772:{
+        -:  773:  LOG_EXEC
+        -:  774:  return 
+        -:  775:#ifndef UNSAFE
+        -:  776:    (ui2 == 0) ? 
+    #####:  777:    (UNDEFINED(ui1)) : 
+        -:  778:#endif
+        -:  779:    (ui1 % ui2);
+        -:  780:}
+        -:  781:
+        -:  782:STATIC uint32_t
+    #####:  783:FUNC_NAME(div_func_uint32_t_u_u)(uint32_t ui1, uint32_t ui2 LOG_INDEX)
+        -:  784:{
+        -:  785:  LOG_EXEC
+        -:  786:  return 
+        -:  787:#ifndef UNSAFE
+        -:  788:    (ui2 == 0) ? 
+    #####:  789:    (UNDEFINED(ui1)) : 
+        -:  790:#endif
+        -:  791:    (ui1 / ui2);
+        -:  792:}
+        -:  793:
+        -:  794:STATIC uint32_t
+    #####:  795:FUNC_NAME(lshift_func_uint32_t_u_s)(uint32_t left, int right LOG_INDEX)
+        -:  796:{
+        -:  797:  LOG_EXEC
+        -:  798:  return 
+        -:  799:#ifndef UNSAFE
+    #####:  800:    ((((int)right) < 0) || (((int)right) >= 32) || (left > (UINT32_MAX >> ((int)right)))) ? 
+    #####:  801:    (UNDEFINED(left)) : 
+        -:  802:#endif
+        -:  803:    (left << ((int)right));
+        -:  804:}
+        -:  805:
+        -:  806:STATIC uint32_t
+    #####:  807:FUNC_NAME(lshift_func_uint32_t_u_u)(uint32_t left, unsigned int right LOG_INDEX)
+        -:  808:{
+        -:  809:  LOG_EXEC
+        -:  810:  return 
+        -:  811:#ifndef UNSAFE
+    #####:  812:    ((((unsigned int)right) >= 32) || (left > (UINT32_MAX >> ((unsigned int)right)))) ? 
+    #####:  813:    (UNDEFINED(left)) : 
+        -:  814:#endif
+        -:  815:    (left << ((unsigned int)right));
+        -:  816:}
+        -:  817:
+        -:  818:STATIC uint32_t
+    #####:  819:FUNC_NAME(rshift_func_uint32_t_u_s)(uint32_t left, int right LOG_INDEX)
+        -:  820:{
+        -:  821:  LOG_EXEC
+        -:  822:  return 
+        -:  823:#ifndef UNSAFE
+    #####:  824:    ((((int)right) < 0) || (((int)right) >= 32)) ? 
+    #####:  825:    (UNDEFINED(left)) : 
+        -:  826:#endif
+        -:  827:    (left >> ((int)right));
+        -:  828:}
+        -:  829:
+        -:  830:STATIC uint32_t
+    #####:  831:FUNC_NAME(rshift_func_uint32_t_u_u)(uint32_t left, unsigned int right LOG_INDEX)
+        -:  832:{
+        -:  833:  LOG_EXEC
+        -:  834:  return 
+        -:  835:#ifndef UNSAFE
+        -:  836:    (((unsigned int)right) >= 32) ? 
+    #####:  837:    (UNDEFINED(left)) : 
+        -:  838:#endif
+        -:  839:    (left >> ((unsigned int)right));
+        -:  840:}
+        -:  841:
+        -:  842:#ifndef NO_LONGLONG
+        -:  843:
+        -:  844:
+        -:  845:STATIC uint64_t
+        -:  846:FUNC_NAME(unary_minus_func_uint64_t_u)(uint64_t ui LOG_INDEX)
+        -:  847:{
+        -:  848:  LOG_EXEC
+        -:  849:  return -ui;
+        -:  850:}
+        -:  851:
+        -:  852:STATIC uint64_t
+        -:  853:FUNC_NAME(add_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2 LOG_INDEX)
+        -:  854:{
+        -:  855:  LOG_EXEC
+        -:  856:  return ui1 + ui2;
+        -:  857:}
+        -:  858:
+        -:  859:STATIC uint64_t
+        -:  860:FUNC_NAME(sub_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2 LOG_INDEX)
+        -:  861:{
+        -:  862:  LOG_EXEC
+        -:  863:  return ui1 - ui2;
+        -:  864:}
+        -:  865:
+        -:  866:STATIC uint64_t
+        -:  867:FUNC_NAME(mul_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2 LOG_INDEX)
+        -:  868:{
+        -:  869:  LOG_EXEC
+        -:  870:  return ((unsigned long long)ui1) * ((unsigned long long)ui2);
+        -:  871:}
+        -:  872:
+        -:  873:STATIC uint64_t
+        -:  874:FUNC_NAME(mod_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2 LOG_INDEX)
+        -:  875:{
+        -:  876:  LOG_EXEC
+        -:  877:  return 
+        -:  878:#ifndef UNSAFE
+        -:  879:    (ui2 == 0) ? 
+        -:  880:    (UNDEFINED(ui1)) : 
+        -:  881:#endif
+        -:  882:    (ui1 % ui2);
+        -:  883:}
+        -:  884:
+        -:  885:STATIC uint64_t
+        -:  886:FUNC_NAME(div_func_uint64_t_u_u)(uint64_t ui1, uint64_t ui2 LOG_INDEX)
+        -:  887:{
+        -:  888:  LOG_EXEC
+        -:  889:  return 
+        -:  890:#ifndef UNSAFE
+        -:  891:    (ui2 == 0) ? 
+        -:  892:    (UNDEFINED(ui1)) : 
+        -:  893:#endif
+        -:  894:    (ui1 / ui2);
+        -:  895:}
+        -:  896:
+        -:  897:STATIC uint64_t
+        -:  898:FUNC_NAME(lshift_func_uint64_t_u_s)(uint64_t left, int right LOG_INDEX)
+        -:  899:{
+        -:  900:  LOG_EXEC
+        -:  901:  return 
+        -:  902:#ifndef UNSAFE
+        -:  903:    ((((int)right) < 0) || (((int)right) >= 32) || (left > (UINT64_MAX >> ((int)right)))) ? 
+        -:  904:    (UNDEFINED(left)) : 
+        -:  905:#endif
+        -:  906:    (left << ((int)right));
+        -:  907:}
+        -:  908:
+        -:  909:STATIC uint64_t
+        -:  910:FUNC_NAME(lshift_func_uint64_t_u_u)(uint64_t left, unsigned int right LOG_INDEX)
+        -:  911:{
+        -:  912:  LOG_EXEC
+        -:  913:  return 
+        -:  914:#ifndef UNSAFE
+        -:  915:    ((((unsigned int)right) >= 32) || (left > (UINT64_MAX >> ((unsigned int)right)))) ? 
+        -:  916:    (UNDEFINED(left)) : 
+        -:  917:#endif
+        -:  918:    (left << ((unsigned int)right));
+        -:  919:}
+        -:  920:
+        -:  921:STATIC uint64_t
+        -:  922:FUNC_NAME(rshift_func_uint64_t_u_s)(uint64_t left, int right LOG_INDEX)
+        -:  923:{
+        -:  924:  LOG_EXEC
+        -:  925:  return 
+        -:  926:#ifndef UNSAFE
+        -:  927:    ((((int)right) < 0) || (((int)right) >= 32)) ? 
+        -:  928:    (UNDEFINED(left)) : 
+        -:  929:#endif
+        -:  930:    (left >> ((int)right));
+        -:  931:}
+        -:  932:
+        -:  933:STATIC uint64_t
+        -:  934:FUNC_NAME(rshift_func_uint64_t_u_u)(uint64_t left, unsigned int right LOG_INDEX)
+        -:  935:{
+        -:  936:  LOG_EXEC
+        -:  937:  return 
+        -:  938:#ifndef UNSAFE
+        -:  939:    (((unsigned int)right) >= 32) ? 
+        -:  940:    (UNDEFINED(left)) : 
+        -:  941:#endif
+        -:  942:    (left >> ((unsigned int)right));
+        -:  943:}
+        -:  944:
+        -:  945:#endif
+        -:  946:
+        -:  947:
+        -:  948:
+        -:  949:
+        -:  950:#ifdef __STDC__
+        -:  951:
+        -:  952:
+        -:  953:STATIC float
+    #####:  954:FUNC_NAME(add_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -:  955:{
+        -:  956:  LOG_EXEC
+        -:  957:  return 
+        -:  958:#ifndef UNSAFE_FLOAT
+    #####:  959:    (fabsf((0.5f * sf1) + (0.5f * sf2)) > (0.5f * FLT_MAX)) ? 
+    #####:  960:    UNDEFINED(sf1) :
+        -:  961:#endif
+        -:  962:    (sf1 + sf2);
+        -:  963:}
+        -:  964:
+        -:  965:STATIC float
+    #####:  966:FUNC_NAME(sub_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -:  967:{
+        -:  968:  LOG_EXEC
+        -:  969:  return 
+        -:  970:#ifndef UNSAFE_FLOAT
+    #####:  971:    (fabsf((0.5f * sf1) - (0.5f * sf2)) > (0.5f * FLT_MAX)) ? 
+    #####:  972:    UNDEFINED(sf1) :
+        -:  973:#endif
+        -:  974:    (sf1 - sf2);
+        -:  975:}
+        -:  976:
+        -:  977:STATIC float
+    #####:  978:FUNC_NAME(mul_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -:  979:{
+        -:  980:  LOG_EXEC
+        -:  981:  return
+        -:  982:#ifndef UNSAFE_FLOAT
+        -:  983:#ifdef __STDC__
+    #####:  984:    (fabsf((0x1.0p-100f * sf1) * (0x1.0p-28f * sf2)) > (0x1.0p-100f * (0x1.0p-28f * FLT_MAX))) ?
+        -:  985:#else
+        -:  986:    (fabsf((ldexpf(1.0, -100) * sf1) * (0x1.0p-28f * sf2)) > (ldexpf(1.0, -100) * (0x1.0p-28f * FLT_MAX))) ?
+        -:  987:#endif
+    #####:  988:    UNDEFINED(sf1) :
+        -:  989:#endif
+        -:  990:    (sf1 * sf2);
+        -:  991:}
+        -:  992:
+        -:  993:STATIC float
+    #####:  994:FUNC_NAME(div_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -:  995:{
+        -:  996:  LOG_EXEC
+        -:  997:  return
+        -:  998:#ifndef UNSAFE_FLOAT
+        -:  999:#ifdef __STDC__
+    #####: 1000:    ((fabsf(sf2) < 1.0f) && (((sf2 == 0.0f) || (fabsf((0x1.0p-49f * sf1) / (0x1.0p100f * sf2))) > (0x1.0p-100f * (0x1.0p-49f * FLT_MAX))))) ?
+        -: 1001:#else
+        -: 1002:    ((fabsf(sf2) < 1.0f) && (((sf2 == 0.0f) || (fabsf((0x1.0p-49f * sf1) / (ldexpf(1.0, 100) * sf2))) > (ldexpf(1.0, -100) * (0x1.0p-49f * FLT_MAX))))) ?
+        -: 1003:#endif
+    #####: 1004:    UNDEFINED(sf1) :
+        -: 1005:#endif
+        -: 1006:    (sf1 / sf2);
+        -: 1007:}
+        -: 1008:
+        -: 1009:
+        -: 1010:
+        -: 1011:
+        -: 1012:STATIC double
+    #####: 1013:FUNC_NAME(add_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1014:{
+        -: 1015:  LOG_EXEC
+        -: 1016:  return 
+        -: 1017:#ifndef UNSAFE_FLOAT
+    #####: 1018:    (fabs((0.5 * sf1) + (0.5 * sf2)) > (0.5 * DBL_MAX)) ? 
+    #####: 1019:    UNDEFINED(sf1) :
+        -: 1020:#endif
+        -: 1021:    (sf1 + sf2);
+        -: 1022:}
+        -: 1023:
+        -: 1024:STATIC double
+    #####: 1025:FUNC_NAME(sub_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1026:{
+        -: 1027:  LOG_EXEC
+        -: 1028:  return 
+        -: 1029:#ifndef UNSAFE_FLOAT
+    #####: 1030:    (fabs((0.5 * sf1) - (0.5 * sf2)) > (0.5 * DBL_MAX)) ? 
+    #####: 1031:    UNDEFINED(sf1) :
+        -: 1032:#endif
+        -: 1033:    (sf1 - sf2);
+        -: 1034:}
+        -: 1035:
+        -: 1036:STATIC double
+    #####: 1037:FUNC_NAME(mul_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1038:{
+        -: 1039:  LOG_EXEC
+        -: 1040:  return
+        -: 1041:#ifndef UNSAFE_FLOAT
+        -: 1042:#ifdef __STDC__
+    #####: 1043:    (fabs((0x1.0p-100 * sf1) * (0x1.0p-924 * sf2)) > (0x1.0p-100 * (0x1.0p-924 * DBL_MAX))) ?
+        -: 1044:#else
+        -: 1045:    (fabs((ldexp(1.0, -100) * sf1) * (0x1.0p-924 * sf2)) > (ldexp(1.0, -100) * (0x1.0p-924 * DBL_MAX))) ?
+        -: 1046:#endif
+    #####: 1047:    UNDEFINED(sf1) :
+        -: 1048:#endif
+        -: 1049:    (sf1 * sf2);
+        -: 1050:}
+        -: 1051:
+        -: 1052:STATIC double
+    #####: 1053:FUNC_NAME(div_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1054:{
+        -: 1055:  LOG_EXEC
+        -: 1056:  return
+        -: 1057:#ifndef UNSAFE_FLOAT
+        -: 1058:#ifdef __STDC__
+    #####: 1059:    ((fabs(sf2) < 1.0) && (((sf2 == 0.0) || (fabs((0x1.0p-974 * sf1) / (0x1.0p100 * sf2))) > (0x1.0p-100 * (0x1.0p-974 * DBL_MAX))))) ?
+        -: 1060:#else
+        -: 1061:    ((fabs(sf2) < 1.0) && (((sf2 == 0.0) || (fabs((0x1.0p-974 * sf1) / (ldexp(1.0, 100) * sf2))) > (ldexp(1.0, -100) * (0x1.0p-974 * DBL_MAX))))) ?
+        -: 1062:#endif
+    #####: 1063:    UNDEFINED(sf1) :
+        -: 1064:#endif
+        -: 1065:    (sf1 / sf2);
+        -: 1066:}
+        -: 1067:
+        -: 1068:
+        -: 1069:#else
+        -: 1070:
+        -: 1071:
+        -: 1072:STATIC float
+        -: 1073:FUNC_NAME(add_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -: 1074:{
+        -: 1075:  LOG_EXEC
+        -: 1076:  return 
+        -: 1077:#ifndef UNSAFE_FLOAT
+        -: 1078:    (fabsf((0.5f * sf1) + (0.5f * sf2)) > (0.5f * FLT_MAX)) ? 
+        -: 1079:    UNDEFINED(sf1) :
+        -: 1080:#endif
+        -: 1081:    (sf1 + sf2);
+        -: 1082:}
+        -: 1083:
+        -: 1084:STATIC float
+        -: 1085:FUNC_NAME(sub_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -: 1086:{
+        -: 1087:  LOG_EXEC
+        -: 1088:  return 
+        -: 1089:#ifndef UNSAFE_FLOAT
+        -: 1090:    (fabsf((0.5f * sf1) - (0.5f * sf2)) > (0.5f * FLT_MAX)) ? 
+        -: 1091:    UNDEFINED(sf1) :
+        -: 1092:#endif
+        -: 1093:    (sf1 - sf2);
+        -: 1094:}
+        -: 1095:
+        -: 1096:STATIC float
+        -: 1097:FUNC_NAME(mul_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -: 1098:{
+        -: 1099:  LOG_EXEC
+        -: 1100:  return
+        -: 1101:#ifndef UNSAFE_FLOAT
+        -: 1102:#ifdef __STDC__
+        -: 1103:    (fabsf((0x1.0p-100f * sf1) * (ldexpf(1.0, -28) * sf2)) > (0x1.0p-100f * (ldexpf(1.0, -28) * FLT_MAX))) ?
+        -: 1104:#else
+        -: 1105:    (fabsf((ldexpf(1.0, -100) * sf1) * (ldexpf(1.0, -28) * sf2)) > (ldexpf(1.0, -100) * (ldexpf(1.0, -28) * FLT_MAX))) ?
+        -: 1106:#endif
+        -: 1107:    UNDEFINED(sf1) :
+        -: 1108:#endif
+        -: 1109:    (sf1 * sf2);
+        -: 1110:}
+        -: 1111:
+        -: 1112:STATIC float
+        -: 1113:FUNC_NAME(div_func_float_f_f)(float sf1, float sf2 LOG_INDEX)
+        -: 1114:{
+        -: 1115:  LOG_EXEC
+        -: 1116:  return
+        -: 1117:#ifndef UNSAFE_FLOAT
+        -: 1118:#ifdef __STDC__
+        -: 1119:    ((fabsf(sf2) < 1.0f) && (((sf2 == 0.0f) || (fabsf((ldexpf(1.0, -49) * sf1) / (0x1.0p100f * sf2))) > (0x1.0p-100f * (ldexpf(1.0, -49) * FLT_MAX))))) ?
+        -: 1120:#else
+        -: 1121:    ((fabsf(sf2) < 1.0f) && (((sf2 == 0.0f) || (fabsf((ldexpf(1.0, -49) * sf1) / (ldexpf(1.0, 100) * sf2))) > (ldexpf(1.0, -100) * (ldexpf(1.0, -49) * FLT_MAX))))) ?
+        -: 1122:#endif
+        -: 1123:    UNDEFINED(sf1) :
+        -: 1124:#endif
+        -: 1125:    (sf1 / sf2);
+        -: 1126:}
+        -: 1127:
+        -: 1128:
+        -: 1129:
+        -: 1130:
+        -: 1131:STATIC double
+        -: 1132:FUNC_NAME(add_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1133:{
+        -: 1134:  LOG_EXEC
+        -: 1135:  return 
+        -: 1136:#ifndef UNSAFE_FLOAT
+        -: 1137:    (fabs((0.5 * sf1) + (0.5 * sf2)) > (0.5 * DBL_MAX)) ? 
+        -: 1138:    UNDEFINED(sf1) :
+        -: 1139:#endif
+        -: 1140:    (sf1 + sf2);
+        -: 1141:}
+        -: 1142:
+        -: 1143:STATIC double
+        -: 1144:FUNC_NAME(sub_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1145:{
+        -: 1146:  LOG_EXEC
+        -: 1147:  return 
+        -: 1148:#ifndef UNSAFE_FLOAT
+        -: 1149:    (fabs((0.5 * sf1) - (0.5 * sf2)) > (0.5 * DBL_MAX)) ? 
+        -: 1150:    UNDEFINED(sf1) :
+        -: 1151:#endif
+        -: 1152:    (sf1 - sf2);
+        -: 1153:}
+        -: 1154:
+        -: 1155:STATIC double
+        -: 1156:FUNC_NAME(mul_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1157:{
+        -: 1158:  LOG_EXEC
+        -: 1159:  return
+        -: 1160:#ifndef UNSAFE_FLOAT
+        -: 1161:#ifdef __STDC__
+        -: 1162:    (fabs((0x1.0p-100 * sf1) * (ldexp(1.0, -924) * sf2)) > (0x1.0p-100 * (ldexp(1.0, -924) * DBL_MAX))) ?
+        -: 1163:#else
+        -: 1164:    (fabs((ldexp(1.0, -100) * sf1) * (ldexp(1.0, -924) * sf2)) > (ldexp(1.0, -100) * (ldexp(1.0, -924) * DBL_MAX))) ?
+        -: 1165:#endif
+        -: 1166:    UNDEFINED(sf1) :
+        -: 1167:#endif
+        -: 1168:    (sf1 * sf2);
+        -: 1169:}
+        -: 1170:
+        -: 1171:STATIC double
+        -: 1172:FUNC_NAME(div_func_double_f_f)(double sf1, double sf2 LOG_INDEX)
+        -: 1173:{
+        -: 1174:  LOG_EXEC
+        -: 1175:  return
+        -: 1176:#ifndef UNSAFE_FLOAT
+        -: 1177:#ifdef __STDC__
+        -: 1178:    ((fabs(sf2) < 1.0) && (((sf2 == 0.0) || (fabs((ldexp(1.0, -974) * sf1) / (0x1.0p100 * sf2))) > (0x1.0p-100 * (ldexp(1.0, -974) * DBL_MAX))))) ?
+        -: 1179:#else
+        -: 1180:    ((fabs(sf2) < 1.0) && (((sf2 == 0.0) || (fabs((ldexp(1.0, -974) * sf1) / (ldexp(1.0, 100) * sf2))) > (ldexp(1.0, -100) * (ldexp(1.0, -974) * DBL_MAX))))) ?
+        -: 1181:#endif
+        -: 1182:    UNDEFINED(sf1) :
+        -: 1183:#endif
+        -: 1184:    (sf1 / sf2);
+        -: 1185:}
+        -: 1186:
+        -: 1187:
+        -: 1188:#endif
+        -: 1189:
+        -: 1190:
+        -: 1191:
+        -: 1192:
+        -: 1193:STATIC int32_t
+    #####: 1194:FUNC_NAME(convert_func_float_to_int32_t)(float sf1 LOG_INDEX)
+        -: 1195:{
+        -: 1196:  LOG_EXEC
+        -: 1197:  return 
+        -: 1198:#ifndef UNSAFE_FLOAT
+    #####: 1199:    ((sf1 <= INT32_MIN) || (sf1 >= INT32_MAX)) ?
+    #####: 1200:    UNDEFINED(INT32_MAX) :
+        -: 1201:#endif
+        -: 1202:    ((int32_t)(sf1));
+        -: 1203:}
+        -: 1204:
+        -: 1205:
+        -: 1206:
+        -: 1207:#endif

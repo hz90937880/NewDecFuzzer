@@ -340,4 +340,34 @@ class AcceptProb:
         # return accept_probability, diff_size_of_new_file, diff_size_of_old_file
         return math.exp(self.sigma * (self.dis_new - self.dis_old)), distance_new.d_s, distance_old.d_s
 
+'''
+def test():
+    file_path1 = './tmp/src_code/csmith_test_1_m.c'
+    file_path2 = './tmp/src_code/csmith_test_2_m.c'
+    file_path3 = './tmp/src_code/csmith_test_3_m.c'
+    file_path4 = './tmp/src_code/csmith_test_4_m.c'
+    
+    cfg1 = CFGInfo(file_path1)
+    cfg2 = CFGInfo(file_path2)
+    cfg3 = CFGInfo(file_path3)
+    cfg4 = CFGInfo(file_path4)
+    
+    acc1 = Distance(cfg2, cfg1)
+    acc2 = Distance(cfg3, cfg1)
+    acc3 = Distance(cfg2, cfg3)
+    acc4 = Distance(cfg4, cfg1)
+    acc1.get_distance()
+    acc2.get_distance()
+    acc3.get_distance()
+    acc4.get_distance()
+    
+    ap = AcceptProb()
+    pro = ap.get_accept_prob(file_path2, file_path3, file_path1)
+    print(pro)
+    time.sleep(1)
 
+
+if __name__ == '__main__':
+    cfg = CFGInfo("./tmp/src_code/csmith_test_5_m.c")
+    test()
+'''

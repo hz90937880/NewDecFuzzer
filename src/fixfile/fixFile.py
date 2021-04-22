@@ -54,18 +54,18 @@ os.chdir(OUT_DIR)
 fileName = 'Config.py'
 fileData = configtemplate.render(input_param = input_param)
 
-# 创建文件
+# Create the files
 if not os.path.exists(fileName):
     config_file = open(fileName, 'w')
     config_file.close()
     print(fileName, ' Created !')
 
-# 读取文件
+# Read the files
 config_file = open(fileName)
 config_fileData = config_file.read()
 config_file.close()
 
-# 对比文件
+# compare the files
 if operator.ne(config_fileData, fileData):
     print(fileName, ' Updated !')
 
@@ -81,7 +81,7 @@ if operator.ne(config_fileData, fileData):
     temp2.close()
     os.remove('temp.py')
 
-    # 打印 两者的不同
+    # print the difference of the files
     print('\n==== source file unique ====\n')
     for i in line1:
         if i not in line2:
@@ -102,7 +102,7 @@ else:
 fileName = 'fuzzer.py'
 fileData = fuzzertemplate.render(input_param = input_param)
 
-# 创建文件
+# Create the file
 if not os.path.exists(fileName):
     fuzzer_file = open(fileName, 'w')
     fuzzer_file.close()

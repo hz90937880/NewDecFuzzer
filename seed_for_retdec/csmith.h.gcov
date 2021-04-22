@@ -1,0 +1,150 @@
+        -:    0:Source:/home/hz/DecFuzzer/runtime/csmith.h
+        -:    0:Graph:./1.gcno
+        -:    0:Data:./1.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/* -*- mode: C -*-
+        -:    2: *
+        -:    3: * Copyright (c) 2007-2011, 2013, 2014 The University of Utah
+        -:    4: * All rights reserved.
+        -:    5: *
+        -:    6: * This file is part of `csmith', a random generator of C programs.
+        -:    7: *
+        -:    8: * Redistribution and use in source and binary forms, with or without
+        -:    9: * modification, are permitted provided that the following conditions are met:
+        -:   10: *
+        -:   11: *   * Redistributions of source code must retain the above copyright notice,
+        -:   12: *     this list of conditions and the following disclaimer.
+        -:   13: *
+        -:   14: *   * Redistributions in binary form must reproduce the above copyright
+        -:   15: *     notice, this list of conditions and the following disclaimer in the
+        -:   16: *     documentation and/or other materials provided with the distribution.
+        -:   17: *
+        -:   18: * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        -:   19: * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        -:   20: * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+        -:   21: * ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+        -:   22: * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+        -:   23: * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+        -:   24: * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+        -:   25: * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+        -:   26: * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+        -:   27: * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+        -:   28: * POSSIBILITY OF SUCH DAMAGE.
+        -:   29: */
+        -:   30:
+        -:   31:#ifndef RANDOM_RUNTIME_H
+        -:   32:#define RANDOM_RUNTIME_H
+        -:   33:
+        -:   34:#ifdef CSMITH_MINIMAL
+        -:   35:#include "csmith_minimal.h"
+        -:   36:#else
+        -:   37:
+        -:   38:/*****************************************************************************/
+        -:   39:
+        -:   40:#include <string.h>
+        -:   41:#include <float.h>
+        -:   42:#include <math.h>
+        -:   43:
+        -:   44:#define __STDC_LIMIT_MACROS
+        -:   45:#include "random_inc.h"
+        -:   46:
+        -:   47:static uint32_t crc32_tab[256];
+        -:   48:static uint32_t crc32_context = 0xFFFFFFFFUL;
+        -:   49:
+        -:   50:static void 
+        1:   51:crc32_gentab (void)
+        -:   52:{
+        -:   53:	uint32_t crc;
+        1:   54:	const uint32_t poly = 0xEDB88320UL;
+        -:   55:	int i, j;
+        -:   56:	
+      257:   57:	for (i = 0; i < 256; i++) {
+      256:   58:		crc = i;
+     2304:   59:		for (j = 8; j > 0; j--) {
+     2048:   60:			if (crc & 1) {
+     1024:   61:				crc = (crc >> 1) ^ poly;
+        -:   62:			} else {
+     1024:   63:				crc >>= 1;
+        -:   64:			}
+        -:   65:		}
+      256:   66:		crc32_tab[i] = crc;
+        -:   67:	}
+        1:   68:}
+        -:   69:
+        -:   70:static void 
+       44:   71:crc32_byte (uint8_t b) {
+       44:   72:	crc32_context = 
+       88:   73:		((crc32_context >> 8) & 0x00FFFFFF) ^ 
+       44:   74:		crc32_tab[(crc32_context ^ b) & 0xFF];
+       44:   75:}
+        -:   76:
+        -:   77:#if defined(__SPLAT__) || defined(NO_LONGLONG)
+        -:   78:static void 
+       11:   79:crc32_8bytes (uint32_t val)
+        -:   80:{
+       11:   81:	crc32_byte ((val>>0) & 0xff);
+       11:   82:	crc32_byte ((val>>8) & 0xff);
+       11:   83:	crc32_byte ((val>>16) & 0xff);
+       11:   84:	crc32_byte ((val>>24) & 0xff);
+       11:   85:}
+        -:   86:
+        -:   87:static void 
+       11:   88:transparent_crc (uint32_t val, char* vname, int flag)
+        -:   89:{
+       11:   90:	crc32_8bytes(val);
+       11:   91:	if (flag) {
+    #####:   92:  		printf("...checksum after hashing %s : %X\n", vname, crc32_context ^ 0xFFFFFFFFU);
+        -:   93:	}
+       11:   94:}
+        -:   95:#else
+        -:   96:static void 
+        -:   97:crc32_8bytes (uint64_t val)
+        -:   98:{
+        -:   99:	crc32_byte ((val>>0) & 0xff);
+        -:  100:	crc32_byte ((val>>8) & 0xff);
+        -:  101:	crc32_byte ((val>>16) & 0xff);
+        -:  102:	crc32_byte ((val>>24) & 0xff);
+        -:  103:	crc32_byte ((val>>32) & 0xff);
+        -:  104:	crc32_byte ((val>>40) & 0xff);
+        -:  105:	crc32_byte ((val>>48) & 0xff);
+        -:  106:	crc32_byte ((val>>56) & 0xff);
+        -:  107:}
+        -:  108:
+        -:  109:static void 
+        -:  110:transparent_crc (uint64_t val, char* vname, int flag)
+        -:  111:{
+        -:  112:	crc32_8bytes(val);
+        -:  113:	if (flag) {
+        -:  114:  		printf("...checksum after hashing %s : %lX\n", vname, crc32_context ^ 0xFFFFFFFFUL);
+        -:  115:	}
+        -:  116:}
+        -:  117:
+        -:  118:#endif
+        -:  119:
+        -:  120:static void 
+    #####:  121:transparent_crc_bytes (char *ptr, int nbytes, char* vname, int flag)
+        -:  122:{
+        -:  123:    int i;
+    #####:  124:    for (i=0; i<nbytes; i++) {
+    #####:  125:        crc32_byte(ptr[i]);
+        -:  126:    }
+    #####:  127:	if (flag) {
+    #####:  128:  		printf("...checksum after hashing %s : %lX\n", vname, crc32_context ^ 0xFFFFFFFFUL);
+        -:  129:	}
+    #####:  130:}
+        -:  131:
+        -:  132:/*****************************************************************************/
+        -:  133:
+        -:  134:#endif
+        -:  135:
+        -:  136:#endif /* RANDOM_RUNTIME_H */
+        -:  137:
+        -:  138:/*
+        -:  139: * Local Variables:
+        -:  140: * c-basic-offset: 4
+        -:  141: * tab-width: 4
+        -:  142: * End:
+        -:  143: */
+        -:  144:
+        -:  145:/* End of file. */

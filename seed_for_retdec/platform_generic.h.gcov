@@ -1,0 +1,140 @@
+        -:    0:Source:/home/hz/DecFuzzer/runtime/platform_generic.h
+        -:    0:Graph:./1.gcno
+        -:    0:Data:./1.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/* -*- mode: C -*-
+        -:    2: *
+        -:    3: * Copyright (c) 2007, 2008, 2011, 2013 The University of Utah
+        -:    4: * All rights reserved.
+        -:    5: *
+        -:    6: * This file is part of `csmith', a random generator of C programs.
+        -:    7: *
+        -:    8: * Redistribution and use in source and binary forms, with or without
+        -:    9: * modification, are permitted provided that the following conditions are met:
+        -:   10: *
+        -:   11: *   * Redistributions of source code must retain the above copyright notice,
+        -:   12: *     this list of conditions and the following disclaimer.
+        -:   13: *
+        -:   14: *   * Redistributions in binary form must reproduce the above copyright
+        -:   15: *     notice, this list of conditions and the following disclaimer in the
+        -:   16: *     documentation and/or other materials provided with the distribution.
+        -:   17: *
+        -:   18: * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        -:   19: * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        -:   20: * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+        -:   21: * ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+        -:   22: * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+        -:   23: * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+        -:   24: * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+        -:   25: * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+        -:   26: * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+        -:   27: * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+        -:   28: * POSSIBILITY OF SUCH DAMAGE.
+        -:   29: */
+        -:   30:
+        -:   31:#ifndef PLATFORM_GENERIC_H
+        -:   32:#define PLATFORM_GENERIC_H
+        -:   33:
+        -:   34:/*****************************************************************************/
+        -:   35:
+        -:   36:#ifdef STANDALONE
+        -:   37:extern int printf (const char *, ...);
+        -:   38:#else
+        -:   39:#include <stdio.h>
+        -:   40:#endif
+        -:   41:
+        -:   42:static void
+        1:   43:platform_main_begin(void)
+        -:   44:{
+        -:   45:	/* Nothing to do. */
+        1:   46:}
+        -:   47:
+        -:   48:static void
+        1:   49:platform_main_end(uint32_t crc, int flag)
+        -:   50:{
+        -:   51:#if defined (__FRAMAC)
+        -:   52:    Frama_C_dump_assert_each();
+        -:   53:#endif
+        -:   54:
+        -:   55:#ifndef NOT_PRINT_CHECKSUM
+        1:   56:	printf ("checksum = %X\n", crc);
+        -:   57:#endif
+        -:   58:
+        -:   59:#if defined (LOG_WRAPPERS)
+        -:   60:	{
+        -:   61:		int i, first;
+        -:   62:
+        -:   63:		printf ("executed wrappers: ");
+        -:   64:		first = 1;
+        -:   65:		for (i=1; i<N_WRAP+1; i++) {
+        -:   66:			if (__executed_checks[i]) {
+        -:   67:				if (!first) {
+        -:   68:					printf (",");
+        -:   69:				} else {
+        -:   70:					first = 0;
+        -:   71:				}
+        -:   72:				printf ("%d", i);
+        -:   73:			}
+        -:   74:		}
+        -:   75:		printf ("\n");
+        -:   76:
+        -:   77:		printf ("dead wrappers: ");
+        -:   78:		first = 1;
+        -:   79:		for (i=1; i<N_WRAP+1; i++) {
+        -:   80:			if (!__executed_checks[i]) {
+        -:   81:				if (!first) {
+        -:   82:					printf (",");
+        -:   83:				} else {
+        -:   84:					first = 0;
+        -:   85:				}
+        -:   86:				printf ("%d", i);
+        -:   87:			}
+        -:   88:		}
+        -:   89:		printf ("\n");
+        -:   90:
+        -:   91:		printf ("wrappers that failed at least once: ");
+        -:   92:		first = 1;
+        -:   93:		for (i=1; i<N_WRAP+1; i++) {
+        -:   94:			if (__failed_checks[i]) {
+        -:   95:				if (!first) {
+        -:   96:					printf (",");
+        -:   97:				} else {
+        -:   98:					first = 0;
+        -:   99:				}
+        -:  100:				printf ("%d", i);
+        -:  101:			}
+        -:  102:		}
+        -:  103:		printf ("\n");
+        -:  104:
+        -:  105:		printf ("wrappers that never failed (or never executed): ");
+        -:  106:		first = 1;
+        -:  107:		for (i=1; i<N_WRAP+1; i++) {
+        -:  108:			if (!__failed_checks[i]) {
+        -:  109:				if (!first) {
+        -:  110:					printf (",");
+        -:  111:				} else {
+        -:  112:					first = 0;
+        -:  113:				}
+        -:  114:				printf ("%d", i);
+        -:  115:			}
+        -:  116:		}
+        -:  117:		printf ("\n");
+        -:  118:	}
+        -:  119:#endif
+        1:  120:}
+        -:  121:
+        -:  122:#define MB (1<<20)
+        -:  123:
+        -:  124:/*****************************************************************************/
+        -:  125:
+        -:  126:#endif /* PLATFORM_GENERIC_H */
+        -:  127:
+        -:  128:/*
+        -:  129: * Local Variables:
+        -:  130: * c-basic-offset: 4
+        -:  131: * tab-width: 4
+        -:  132: * End:
+        -:  133: */
+        -:  134:
+        -:  135:/* End of file. */

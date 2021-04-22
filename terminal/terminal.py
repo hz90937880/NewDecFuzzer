@@ -66,15 +66,15 @@ class RunWindow(QtWidgets.QWidget, run_Ui):
         for pid in pids.split('\n')[:-1]:
             os.system("kill -9 " + pid)
         # os.system("kill -9 " + pids)
-        # 杀死进程
+        # kill the process
         print("stopPy_run")
 
     def run_log(self, string):
         self.textBrowser.insertPlainText(string)
         textCursor = self.textBrowser.textCursor()
-        # 滚动到底部
+        # Scroll to the bottom
         textCursor.movePosition(textCursor.End)
-        # 设置光标到text中去
+        # Set the cursor in the text
         self.textBrowser.setTextCursor(textCursor)
 
 
@@ -203,7 +203,8 @@ class Cmder(QThread):
     def run(self):
         try:
             p = subprocess.Popen(
-                self.cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT
+                # self.cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT
+                self.cmd, shell=True, stdout=sys.stdout, stderr=subprocess.STDOUT
             )
             for line in iter(p.stdout.readline, b""):
                 try:

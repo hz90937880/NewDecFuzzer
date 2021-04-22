@@ -837,3 +837,39 @@ class Synthesizer:
 
         return c_type_var, sign_flag
 
+'''
+def test_profile():
+    emi = EMIGenerator('./tmp/src_code/csmith_test_1416_m.c')
+    emi.gen_coverage_file()
+    cov_txt = emi.cov_txt
+    profiler = Profiler(cov_txt=cov_txt, src_txt=emi.source_code_txt)
+    profiler.profile()
+    for env in profiler.env_list:
+        print('line_num', env.line_num)
+        names = list(env.env_var_dict.keys())
+        for var_name in names:
+            print(var_name, env.env_var_dict[var_name])
+        # test gen_pred
+        print('True4', Synthesizer.syn_pred(env, True, 4))
+        print('False3', Synthesizer.syn_pred(env, False, 3))
+        print('True2', Synthesizer.syn_pred(env, True, 2))
+        print('False1', Synthesizer.syn_pred(env, False, 1))
+        syn = Synthesizer()
+        print('Expr 1:', syn.syn_expr(env))
+        print('Expr 2:', syn.syn_expr(env))
+        print('Expr 3:', syn.syn_expr(env))
+
+
+if __name__ == '__main__':
+    bo = True
+    print(bo)
+    print(bool(1-bo))
+    bo = bool(1-bo)
+    print(bool(1 - bo))
+
+    for i in range(30):
+      print(random.randint(-10, 10), end=' ')
+
+    test_profile()
+    pass
+'''
