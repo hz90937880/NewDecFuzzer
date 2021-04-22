@@ -1,6 +1,6 @@
-Decompilation:  The Use of Decompilers and Analysis of Generated Results
+Automated Testing the Correctness and Reliability of C Decompilers
 
-ISSTA'20 Artifact for: `How Far We Have Come: Testing Decompilation Correctness of C Decompilers`
+From ISSTA'20 Artifact for: `How Far We Have Come: Testing Decompilation Correctness of C Decompilers`
 
 
 
