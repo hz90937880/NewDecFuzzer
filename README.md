@@ -18,10 +18,13 @@ ISSTA'20 Artifact for: `How Far We Have Come: Testing Decompilation Correctness 
     * `modifier.py`: to replace custom macros in decompilation results
 * `checker.py`: to compare the output of the two programs for consistency
 * `Config.py`: constant values/strings/paths
+* `fixFile.py`: enter the parameters to add the options of decompilers
+* `terminal.py`: the user interface of DecFuzzer
+
+## 2. Installation of Software and Environment Settings.
 
 For this project I used the 64-bit Ubuntu 18.04 opeartion system to do as recommended from the developer of DecFuzzer.
 
-## 2. Installation of Software and Environment Settings.
 2.4.1 Download the libraries and tools:
 
 sudo apt install gcc-multilib -- GNU Compiler Collection 
