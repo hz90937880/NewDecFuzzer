@@ -803,3 +803,8 @@ Found discrepancy:
 /home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
 /home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
 /home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_r2/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_r2/0_new outputs [b'']
+/home/hz/DecFuzzer/seed_for_r2/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_r2/0_new errors [b'']

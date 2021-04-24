@@ -4433,3 +4433,128 @@ Found discrepancy:
 /home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
 /home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
 /home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+                                                                                                                                                                                                                                                                                      Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+/home/hz/DecFuzzer/seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+/home/hz/DecFuzzer/seed_for_retdec/0     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/104     outputs [b'checksum = 841EAE85\n']
+/home/hz/DecFuzzer/seed_for_retdec/104_new outputs [b'checksum = 25625FC1\n']
+/home/hz/DecFuzzer/seed_for_retdec/104     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/104_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/109     outputs [b'']
+/home/hz/DecFuzzer/seed_for_retdec/109_new outputs [b'checksum = 351AE64B\n']
+/home/hz/DecFuzzer/seed_for_retdec/109     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/109_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/11     outputs [b'checksum = 7A5E525E\n']
+/home/hz/DecFuzzer/seed_for_retdec/11_new outputs [b'checksum = 6287F05\n']
+/home/hz/DecFuzzer/seed_for_retdec/11     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/11_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/111     outputs [b'checksum = C50A1F9E\n']
+/home/hz/DecFuzzer/seed_for_retdec/111_new outputs [b'checksum = 88D52BA7\n']
+/home/hz/DecFuzzer/seed_for_retdec/111     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/111_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/115     outputs [b'']
+/home/hz/DecFuzzer/seed_for_retdec/115_new outputs [b'checksum = 3DE1FF20\n']
+/home/hz/DecFuzzer/seed_for_retdec/115     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/115_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/116     outputs [b'']
+/home/hz/DecFuzzer/seed_for_retdec/116_new outputs [b'checksum = 2C7310D4\n']
+/home/hz/DecFuzzer/seed_for_retdec/116     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/116_new errors [b'']
+Found discrepancy:
+/home/hz/DecFuzzer/seed_for_retdec/120     outputs [b'checksum = C42B678\n']
+/home/hz/DecFuzzer/seed_for_retdec/120_new outputs [b'checksum = 660F27E1\n']
+/home/hz/DecFuzzer/seed_for_retdec/120     errors [b'']
+/home/hz/DecFuzzer/seed_for_retdec/120_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']
+Found discrepancy:
+./seed_for_retdec/0     outputs [b'checksum = F0D4ABEC\n']
+./seed_for_retdec/0_new outputs [b'checksum = D517059\n']
+./seed_for_retdec/0     errors [b'']
+./seed_for_retdec/0_new errors [b'']

@@ -2758,3 +2758,59 @@ seed_for_retdec/108_new.c:29:12: note: declared here
  static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
             ^~~~~~~
 
+./seed_for_retdec/10_new.c: In function ‘func_1’:
+./seed_for_retdec/10_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffb, 0x66f6, -1, 0, 0, 0, 0xfffb);
+     ^~~~~~~
+./seed_for_retdec/10_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
+            ^~~~~~~
+
+./seed_for_retdec/100_new.c: In function ‘func_1’:
+./seed_for_retdec/100_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0xae8c, 0x3a3dbc56, 0x2e64, 1, -0xe78e2f4, 1, 0, -1, 0, 1, 0x2e64, -0x5174);
+     ^~~~~~~
+./seed_for_retdec/100_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(0xfffb, 0x66f6, -1, 0, 0, 0, 0xfffb);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/10_new.c:30:12: note: declared here
+ static int set_var(uint16_t g_2_l, uint16_t g_6_l, int16_t g_23_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(0xae8c, 0x3a3dbc56, 0x2e64, 1, -0xe78e2f4, 1, 0, -1, 0, 1, 0x2e64, -0x5174);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/100_new.c:31:12: note: declared here
+ static int set_var(uint16_t g_5_l, int32_t g_14_l, uint16_t g_15_l, int8_t g_30_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:44:5: error: too many arguments to function ‘set_var’
+     set_var(-1, 0x3371247a, 0, 0x40ed, 0, 0, 0x3371247a, -1);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/106_new.c:30:12: note: declared here
+ static int set_var(uint32_t g_5_l, uint32_t g_6_l, uint8_t g_8_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:43:5: error: too many arguments to function ‘set_var’
+     set_var(0xea75c96, -1, -0x20d0b574);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/108_new.c:29:12: note: declared here
+ static int set_var(int32_t g_2_l, uint32_t g_6_l){
+            ^~~~~~~
+
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c: In function ‘func_1’:
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c:45:5: error: too many arguments to function ‘set_var’
+     set_var(2, 0, 1, 0x2910a83a, 0x21e0bec0, -3, 0, 0, 0x46710139, 4);
+     ^~~~~~~
+/home/hz/DecFuzzer/seed_for_retdec/119_new.c:31:12: note: declared here
+ static int set_var(uint8_t g_23_l, uint16_t g_26_l, int32_t g_27_l){
+            ^~~~~~~
+

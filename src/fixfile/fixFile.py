@@ -108,12 +108,12 @@ if not os.path.exists(fileName):
     fuzzer_file.close()
     print(fileName, ' Created !')
 
-# 读取文件
+# read the file
 fuzzer_file = open(fileName)
 fuzzer_fileData = fuzzer_file.read()
 fuzzer_file.close()
 
-# 对比文件
+# compare the file
 if operator.ne(fuzzer_fileData, fileData):
     print(fileName, ' Updated !')
 
@@ -129,7 +129,7 @@ if operator.ne(fuzzer_fileData, fileData):
     temp2.close()
     os.remove('temp.py')
 
-    # 打印 两者的不同
+    # print the difference
     print('\n==== source file unique ====\n')
     for i in line1:
         if i not in line2:
@@ -148,18 +148,18 @@ else:
 fileName = 'generator.py'
 fileData = generatortemplate.render(input_param = input_param)
 
-# 创建文件
+# create the file
 if not os.path.exists(fileName):
     generator_file = open(fileName, 'w')
     generator_file.close()
     print(fileName, ' Created !')
 
-# 读取文件
+# read the file
 generator_file = open(fileName)
 generator_fileData = generator_file.read()
 generator_file.close()
 
-# 对比文件
+# compare the file
 if operator.ne(generator_fileData, fileData):
     print(fileName, ' Updated !')
 
@@ -175,7 +175,7 @@ if operator.ne(generator_fileData, fileData):
     temp2.close()
     os.remove('temp.py')
 
-    # 打印 两者的不同
+    # print the difference
     print('\n==== source file unique ====\n')
     for i in line1:
         if i not in line2:
@@ -194,18 +194,18 @@ else:
 fileName = 'modifier.py'
 fileData = modifiertemplate.render(input_param = input_param)
 
-# 创建文件
+# create the file
 if not os.path.exists(fileName):
     modifier_file = open(fileName, 'w')
     modifier_file.close()
     print(fileName, ' Created !')
 
-# 读取文件
+# read the file
 modifier_file = open(fileName)
 modifier_fileData = modifier_file.read()
 modifier_file.close()
 
-# 对比文件
+# compare the file
 if operator.ne(modifier_fileData, fileData):
     print(fileName, ' Updated !')
 
@@ -221,7 +221,7 @@ if operator.ne(modifier_fileData, fileData):
     temp2.close()
     os.remove('temp.py')
 
-    # 打印 两者的不同
+    # print the difference
     print('\n==== source file unique ====\n')
     for i in line1:
         if i not in line2:
@@ -240,18 +240,18 @@ else:
 fileName = 'replacer.py'
 fileData = replacertemplate.render(input_param = input_param)
 
-# 创建文件
+# create the file
 if not os.path.exists(fileName):
     replacer_file = open(fileName, 'w')
     replacer_file.close()
     print(fileName, ' Created !')
 
-# 读取文件
+# read the file
 replacer_file = open(fileName)
 replacer_fileData = replacer_file.read()
 replacer_file.close()
 
-# 对比文件
+# compare the file
 if operator.ne(replacer_fileData, fileData):
     print(fileName, ' Updated !')
 
@@ -267,7 +267,7 @@ if operator.ne(replacer_fileData, fileData):
     temp2.close()
     os.remove('temp.py')
 
-    # 打印 两者的不同
+    # print the difference
     print('\n==== source file unique ====\n')
     for i in line1:
         if i not in line2:

@@ -842,7 +842,7 @@ class EMIWrapper:
 
 '''
 def test():
-    file_path = './tmp/src_code/csmith_test_1416_m.c'
+    file_path = './tmp/src_code/csmith_test_1_m.c'
     emi = EMIWrapper(file_path)
     for i in range(10):
         status, variant_txt = emi.gen_a_new_variant()
@@ -870,19 +870,18 @@ def num_test(a=0):
 
 def test_context():
     ct = ContextTable()
-    f = open('./tmp/src_code/csmith_test_1777_m.c')
+    f = open('./tmp/src_code/csmith_test_1_m.c')
     txt = f.read()
     f.close()
     start, end = replacer.find_fun_pos_with_name(txt, func_name='func_1')
     lines = txt[start:end].split('\n')[1:]
-    for line in lines:
         ct.add_context_line(line)
 
     print(len(ct.context_stack))
 
 
 def blank_test():
-    string = '    abcd{\n      efg\n        abc\n    }\n'
+    string = ' '
     print(string)
     string = EMIGenerator.replace_blank_prefix(string, '')
 
@@ -908,3 +907,4 @@ if __name__ == '__main__':
 
      # test()
 '''
+

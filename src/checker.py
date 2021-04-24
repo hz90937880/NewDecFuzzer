@@ -198,7 +198,7 @@ def batch_compare(dir):
 def test():
     result_dir = './tmp/src_code/result/'
     result_log = os.path.join(result_dir, 'result_test.txt')
-    f = open(result_log, 'ZH')
+    f = open(result_log, 'a')
     f.write('\nFound discrepancy:\n')
     f.close()
 

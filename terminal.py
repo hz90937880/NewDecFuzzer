@@ -11,9 +11,9 @@ import subprocess
 import os
 
 
-# 主窗口
+# main window
 class MainWindow(QtWidgets.QWidget, main_Ui):
-    switch_window1 = QtCore.pyqtSignal()    # 跳转信号
+    switch_window1 = QtCore.pyqtSignal()    # signal of change the channle
     switch_window2 = QtCore.pyqtSignal()
     switch_window3 = QtCore.pyqtSignal()
     def __init__(self):
@@ -32,7 +32,7 @@ class MainWindow(QtWidgets.QWidget, main_Ui):
 
 
 
-# run 窗口
+# run window
 class RunWindow(QtWidgets.QWidget, run_Ui):
     back_MainWindow = QtCore.pyqtSignal()
     def __init__(self):
@@ -65,20 +65,20 @@ class RunWindow(QtWidgets.QWidget, run_Ui):
         for pid in pids.split('\n')[:-1]:
             os.system("kill -9 " + pid)
         # os.system("kill -9 " + pids)
-        # 杀死进程
+        # kill the process
         print("stopPy_run")
 
     def run_log(self, string):
         self.textBrowser.insertPlainText(string)
         textCursor = self.textBrowser.textCursor()
-        # 滚动到底部
+        # roll to the bottom
         textCursor.movePosition(textCursor.End)
-        # 设置光标到text中去
+        # set the cursor to the text
         self.textBrowser.setTextCursor(textCursor)
 
 
 
-# reproduce 窗口
+# reproduce window
 class ReproduceWindow(QtWidgets.QWidget, reproduce_Ui):
     back_MainWindow = QtCore.pyqtSignal()
     def __init__(self):
@@ -97,12 +97,12 @@ class ReproduceWindow(QtWidgets.QWidget, reproduce_Ui):
     def goMain(self):
         self.back_MainWindow.emit()
 
-    # 选择 file_dir
+    # select file_dir
     def setFileDir(self):
         outputPath = QFileDialog.getExistingDirectory(self, 'Select Path', '.')
         self.lineEdit_2.setText(outputPath)
 
-    # 选择 emi_dir
+    # select emi_dir
     def setEmi_dir(self):
         emiPath = QFileDialog.getExistingDirectory(self, 'Select Path', '.')
         self.lineEdit_3.setText(emiPath)
@@ -130,7 +130,7 @@ class ReproduceWindow(QtWidgets.QWidget, reproduce_Ui):
         self.cmd_thread.start()
 
     def stopPy_reproduce(self):
-        # 杀死进程
+        # kill the process
         child = subprocess.Popen(["pgrep", "-f", "python3 ./reproduce.py"], stdout=subprocess.PIPE, shell=False)
         pids = str(child.communicate()[0], encoding='utf-8')
         if not pids:
@@ -141,12 +141,12 @@ class ReproduceWindow(QtWidgets.QWidget, reproduce_Ui):
     def reproduce_log(self, string):
         self.textBrowser.insertPlainText(string)
         textCursor = self.textBrowser.textCursor()
-        # 滚动到底部
+        # roll to the bottom
         textCursor.movePosition(textCursor.End)
-        # 设置光标到text中去
+        # set the cursor to the text
         self.textBrowser.setTextCursor(textCursor)
 
-# readme 窗口
+# readme window
 class ReadmeWindow(QtWidgets.QWidget, readme_Ui):
     back_MainWindow = QtCore.pyqtSignal()
     def __init__(self):
@@ -156,12 +156,11 @@ class ReadmeWindow(QtWidgets.QWidget, readme_Ui):
     def goMain(self):
         self.back_MainWindow.emit()
 
-# 利用一个控制器来控制界面跳转
 class Controller():
     def __init__(self):
         pass
 
-    # 跳转到 main
+    # jump to main
     def show_main(self):
         self.main = MainWindow()
         self.run = RunWindow()
