@@ -1,7 +1,6 @@
 Automated Testing the Correctness and Reliability of C Decompilers
 
-Reference from https://github.com/monkbai/DecFuzzer
-
+Reference from ISSTA'20 Artifact for: How Far We Have Come: Testing Decompilation Correctness of C Decompilers
 
 
 ## 1. Code Structure
